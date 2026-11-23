@@ -136,6 +136,25 @@ class LogicTest {
         }
     }
 
+    @Test fun phrasesLevelsAndReview() {
+        val f = listOf("src/main/assets/phrases.json", "app/src/main/assets/phrases.json").map(::File).first { it.exists() }
+        val pr = WordRepository.fromJson(f.readText())
+        assertEquals(279, pr.words.size)
+        assertEquals(11, pr.levelCount("SET"))
+        assertEquals(3, pr.levelCount("IDIOM"))
+        val pp = OptionPicker(pr.words)
+        // повторение — только из своей группы
+        assertTrue(pr.reviewPool("IDIOM", 2).all { it.stage == "IDIOM" })
+        assertEquals(20, pr.reviewPool("IDIOM", 2).size)
+        val s = LearningSession(pr.levelWords("IDIOM", 1), pr.reviewPool("IDIOM", 1), true, pp, Random(4))
+        assertEquals(25, s.total)
+        for (q in s.queue) {
+            assertEquals(4, (0 until 4).map { q.optionText(it).lowercase() }.toSet().size)
+            assertTrue(q.options.all { it.stage == "IDIOM" })
+        }
+        assertEquals(null, pr.nextLevel("SET", 11))
+    }
+
     @Test fun marathonRepeatsWrongWordsUntilClean() {
         val rnd = Random(3)
         var st = MarathonEngine.start(listOf("C2"), repo.words, rnd)

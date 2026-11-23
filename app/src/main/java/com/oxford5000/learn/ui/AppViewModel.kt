@@ -14,6 +14,9 @@ import com.oxford5000.learn.data.WordRepository
 import com.oxford5000.learn.data.levelKey
 import com.oxford5000.learn.data.Lang
 import com.oxford5000.learn.data.slot
+import com.oxford5000.learn.data.PHRASE_STAGES
+import com.oxford5000.learn.data.SET_STAGE
+import com.oxford5000.learn.data.IDIOM_STAGE
 import com.oxford5000.learn.logic.Direction
 import com.oxford5000.learn.logic.LearningSession
 import com.oxford5000.learn.logic.MarathonEngine
@@ -38,6 +41,7 @@ sealed interface Screen {
     data object Marathon : Screen
     data object MarathonQuiz : Screen
     data class MarathonResult(val total: Int, val firstRoundErrors: Int, val rounds: Int) : Screen
+    data object PhraseGroups : Screen
     data object Errors : Screen
     data object ErrorsQuiz : Screen
     data class ErrorsResult(val total: Int, val removed: Int, val left: Int) : Screen
@@ -63,6 +67,21 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     var repo by mutableStateOf<WordRepository?>(null); private set
     private var picker: OptionPicker? = null
+    /** Режим «Выражения»: отдельный набор (устойчивые выражения + идиомы). */
+    var phraseRepo by mutableStateOf<WordRepository?>(null); private set
+    private var phrasePicker: OptionPicker? = null
+
+    fun isPhraseStage(stage: String) = stage in PHRASE_STAGES
+    fun repoFor(stage: String): WordRepository? = if (isPhraseStage(stage)) phraseRepo else repo
+    private fun pickerFor(stage: String): OptionPicker? = if (isPhraseStage(stage)) phrasePicker else picker
+    fun wordById(id: Int): Word? = repo?.byId?.get(id) ?: phraseRepo?.byId?.get(id)
+
+    /** Название этапа для заголовков: A1…C2 как есть, группы выражений — словами. */
+    fun stageLabel(stage: String): String = when (stage) {
+        SET_STAGE -> s.setPhrases
+        IDIOM_STAGE -> s.idioms
+        else -> stage
+    }
 
     var progress by mutableStateOf(Progress()); private set
     val dark: Boolean get() = progress.darkMode
@@ -95,6 +114,12 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             val r = withContext(Dispatchers.Default) { WordRepository.fromJson(text) }
             picker = OptionPicker(r.words)
             repo = r
+            val ptext = withContext(Dispatchers.IO) {
+                getApplication<Application>().assets.open("phrases.json").bufferedReader(Charsets.UTF_8).use { it.readText() }
+            }
+            val pr = withContext(Dispatchers.Default) { WordRepository.fromJson(ptext) }
+            phrasePicker = OptionPicker(pr.words)
+            phraseRepo = pr
         }
         viewModelScope.launch { store.progress.collect { progress = it } }
     }
@@ -142,15 +167,15 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun isPassed(stage: String, level: Int) = levelKey(stage, level) in progress.passed(dark)
 
     fun passedCount(stage: String): Int {
-        val r = repo ?: return 0
+        val r = repoFor(stage) ?: return 0
         return (1..r.levelCount(stage)).count { isPassed(stage, it) }
     }
 
     // ---------- Обучение ----------
 
     fun startLevel(stage: String, level: Int) {
-        val r = repo ?: return
-        val p = picker ?: return
+        val r = repoFor(stage) ?: return
+        val p = pickerFor(stage) ?: return
         session = LearningSession(r.levelWords(stage, level), r.reviewPool(stage, level), dark, p, rnd, lang)
         val target = Screen.LearnQuiz(stage, level)
         if (screen is Screen.Preview || screen is Screen.LearnResult) replace(target) else push(target)
@@ -201,8 +226,9 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     fun openNextLevel(stage: String, level: Int) {
-        val next = repo?.nextLevel(stage, level) ?: return
-        popTo({ it is Screen.Stages }, Screen.Stages)
+        val next = repoFor(stage)?.nextLevel(stage, level) ?: return
+        if (isPhraseStage(stage)) popTo({ it is Screen.PhraseGroups }, Screen.PhraseGroups)
+        else popTo({ it is Screen.Stages }, Screen.Stages)
         push(Screen.Levels(next.first))
         push(Screen.Preview(next.first, next.second))
     }
@@ -309,7 +335,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun startErrors() {
         val r = repo ?: return
         val removed = errRemovedIds[curSlot].orEmpty()
-        errOrder = progress.errors(dark).filter { it in r.byId && it !in removed }.shuffled(rnd)
+        errOrder = progress.errors(dark).filter { wordById(it) != null && it !in removed }.shuffled(rnd)
         if (errOrder.isEmpty()) return
         errPos = 0
         errRemoved = 0
@@ -319,9 +345,9 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     private fun buildErrQuestion() {
-        val w = repo?.byId?.get(errOrder[errPos]) ?: return
+        val w = wordById(errOrder[errPos]) ?: return
         val dir = if (dark && rnd.nextBoolean()) Direction.RU_EN else Direction.EN_RU
-        errQuestion = picker!!.build(w, dir, rnd, lang)
+        errQuestion = pickerFor(w.stage)!!.build(w, dir, rnd, lang)
         errAnswered = false
         errSelected = -1
     }

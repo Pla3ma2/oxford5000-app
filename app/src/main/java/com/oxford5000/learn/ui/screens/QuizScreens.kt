@@ -134,7 +134,7 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                         textAlign = TextAlign.Center,
                         color = onCard,
                     )
-                    Text(
+                    if (q.word.pos.isNotBlank()) Text(
                         if (en) q.word.pos else posLocal(q.word.pos, vm.lang),
                         fontSize = 15.sp,
                         color = onCard.copy(alpha = 0.75f),
@@ -179,7 +179,7 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
             // Перевод → английский: после ошибки показываем правильное слово с озвучкой
             if (wrongAnswered && q.direction == Direction.RU_EN) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("${s.correctIs}: ${q.word.en} — ${q.word.pos}", fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f, fill = false))
+                    Text("${s.correctIs}: ${q.word.en}" + if (q.word.pos.isNotBlank()) " — ${q.word.pos}" else "", fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f, fill = false))
                     SpeakButton(speaker, q.word.en)
                 }
             }
@@ -193,8 +193,8 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
 @Composable
 fun LearnResultScreen(vm: AppViewModel, r: Screen.LearnResult) {
     val s = vm.s
-    val next = vm.repo?.nextLevel(r.stage, r.level)
-    AppScaffold(vm, title = s.levelTitle(r.stage, r.level), onBack = { vm.backToLevels(r.stage) }) { p ->
+    val next = vm.repoFor(r.stage)?.nextLevel(r.stage, r.level)
+    AppScaffold(vm, title = s.levelTitle(vm.stageLabel(r.stage), r.level), onBack = { vm.backToLevels(r.stage) }) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(20.dp).verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -322,7 +322,7 @@ fun MarathonResultScreen(vm: AppViewModel, r: Screen.MarathonResult) {
 fun ErrorsScreen(vm: AppViewModel) {
     val repo = vm.repo ?: return
     val s = vm.s
-    val words = vm.progress.errors(vm.dark).mapNotNull { repo.byId[it] }.sortedBy { it.id }
+    val words = vm.progress.errors(vm.dark).mapNotNull { vm.wordById(it) }.sortedBy { it.id }
     AppScaffold(
         vm,
         title = "${s.errors} · ${words.size}",
@@ -348,7 +348,7 @@ fun ErrorsScreen(vm: AppViewModel) {
                     Row(verticalAlignment = Alignment.Bottom) {
                         Text(w.en, fontWeight = FontWeight.SemiBold, fontSize = 17.sp)
                         Spacer(Modifier.width(6.dp))
-                        Text(w.pos, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        if (w.pos.isNotBlank()) Text(w.pos, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         Spacer(Modifier.width(8.dp))
                         Text("— ${w.tr(vm.lang)}", fontSize = 15.sp, color = MaterialTheme.colorScheme.primary)
                     }

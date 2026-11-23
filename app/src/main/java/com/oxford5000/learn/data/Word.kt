@@ -42,6 +42,11 @@ enum class Lang(val code: String, val flag: String, val title: String) {
 
 val STAGES = listOf("A1", "A2", "B1", "B2", "C1", "C2")
 
+/** Группы режима «Выражения»: устойчивые выражения и идиомы. */
+const val SET_STAGE = "SET"
+const val IDIOM_STAGE = "IDIOM"
+val PHRASE_STAGES = listOf(SET_STAGE, IDIOM_STAGE)
+
 /** Ключ уровня для хранения прогресса: "A1:6". */
 fun levelKey(stage: String, level: Int) = "$stage:$level"
 

@@ -29,6 +29,7 @@ import androidx.compose.material.icons.automirrored.filled.HelpOutline
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.DirectionsRun
 import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.filled.FormatQuote
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -55,6 +56,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.oxford5000.learn.data.STAGES
+import com.oxford5000.learn.data.PHRASE_STAGES
 import com.oxford5000.learn.logic.MarathonState
 import com.oxford5000.learn.tts.Speaker
 import com.oxford5000.learn.ui.AppViewModel
@@ -64,7 +66,7 @@ import com.oxford5000.learn.ui.theme.Marks
 
 // ---------------- Главный ----------------
 
-private enum class HelpTopic { LEARN, MARATHON, ERRORS }
+private enum class HelpTopic { LEARN, MARATHON, ERRORS, PHRASES }
 
 @Composable
 fun HomeScreen(vm: AppViewModel) {
@@ -102,6 +104,15 @@ fun HomeScreen(vm: AppViewModel) {
                     onHelp = { help = HelpTopic.MARATHON },
                     onClick = { vm.push(Screen.Marathon) },
                 )
+                val pr = vm.phraseRepo
+                BigCard(
+                    icon = Icons.Filled.FormatQuote,
+                    title = s.phrases,
+                    subtitle = s.phrasesSub(PHRASE_STAGES.sumOf { vm.passedCount(it) }, PHRASE_STAGES.sumOf { pr?.levelCount(it) ?: 0 }),
+                    helpLabel = s.help,
+                    onHelp = { help = HelpTopic.PHRASES },
+                    onClick = { vm.push(Screen.PhraseGroups) },
+                )
                 BigCard(
                     icon = Icons.Filled.ErrorOutline,
                     title = s.errors,
@@ -128,6 +139,7 @@ fun HomeScreen(vm: AppViewModel) {
             HelpTopic.LEARN -> s.helpLearnTitle to s.helpLearn
             HelpTopic.MARATHON -> s.marathon to s.helpMarathon
             HelpTopic.ERRORS -> s.errors to s.helpErrors
+            HelpTopic.PHRASES -> s.phrases to s.helpPhrases
         }
         InfoDialog(title = title, text = text, button = s.gotIt, onConfirm = { help = null })
     }
@@ -220,13 +232,52 @@ fun StagesScreen(vm: AppViewModel) {
     }
 }
 
+// ---------------- Выражения: выбор группы ----------------
+
+@Composable
+fun PhraseGroupsScreen(vm: AppViewModel) {
+    val repo = vm.phraseRepo ?: return
+    val s = vm.s
+    AppScaffold(vm, title = s.phrases) { p ->
+        LazyColumn(
+            Modifier.fillMaxSize().padding(p),
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            item { Text(s.phrasesChoose, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            items(PHRASE_STAGES) { stage ->
+                val total = repo.levelCount(stage)
+                val done = vm.passedCount(stage)
+                Card(
+                    onClick = { vm.push(Screen.Levels(stage)) },
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(20.dp),
+                ) {
+                    Column(Modifier.padding(20.dp)) {
+                        Text(vm.stageLabel(stage), fontSize = 21.sp, fontWeight = FontWeight.Bold)
+                        Text(s.groupInfo(repo.stageWords(stage).size, total), fontWeight = FontWeight.Medium)
+                        Text(s.passedOf(done, total), color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 14.sp)
+                        Spacer(Modifier.height(8.dp))
+                        LinearProgressIndicator(
+                            progress = { if (total == 0) 0f else done.toFloat() / total },
+                            modifier = Modifier.fillMaxWidth().height(6.dp),
+                            color = Marks.passed(vm.dark),
+                            trackColor = Marks.notPassed(vm.dark),
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
 // ---------------- Уровни этапа ----------------
 
 @Composable
 fun LevelsScreen(vm: AppViewModel, stage: String) {
-    val repo = vm.repo ?: return
+    val repo = vm.repoFor(stage) ?: return
     val n = repo.levelCount(stage)
-    AppScaffold(vm, title = vm.s.stageTitle(stage, vm.passedCount(stage), n)) { p ->
+    AppScaffold(vm, title = vm.s.stageTitle(vm.stageLabel(stage), vm.passedCount(stage), n)) { p ->
         LazyVerticalGrid(
             columns = GridCells.Fixed(5),
             modifier = Modifier.fillMaxSize().padding(p),
@@ -259,13 +310,13 @@ fun LevelsScreen(vm: AppViewModel, stage: String) {
 
 @Composable
 fun PreviewScreen(vm: AppViewModel, speaker: Speaker, stage: String, level: Int) {
-    val repo = vm.repo ?: return
+    val repo = vm.repoFor(stage) ?: return
     val s = vm.s
     val words = repo.levelWords(stage, level)
     val passed = vm.isPassed(stage, level)
     AppScaffold(
         vm,
-        title = s.levelTitle(stage, level) + if (passed) "  ✓" else "",
+        title = s.levelTitle(vm.stageLabel(stage), level) + if (passed) "  ✓" else "",
         bottomBar = {
             Row(
                 Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.background).navigationBarsPadding().padding(16.dp),
@@ -290,7 +341,7 @@ fun PreviewScreen(vm: AppViewModel, speaker: Speaker, stage: String, level: Int)
                         Row(verticalAlignment = Alignment.Bottom) {
                             Text(w.en, fontSize = 19.sp, fontWeight = FontWeight.SemiBold)
                             Spacer(Modifier.width(8.dp))
-                            Text(w.pos, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            if (w.pos.isNotBlank()) Text(w.pos, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         if (w.hint.isNotBlank()) Text("(${w.hint})", fontSize = 13.sp, fontStyle = FontStyle.Italic, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         Text(w.tr(vm.lang), fontSize = 16.sp, color = MaterialTheme.colorScheme.primary)

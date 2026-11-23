@@ -98,6 +98,14 @@ data class S(
     val darkIntroTitle: String,
     val darkIntro: String,
     val darkModeLabel: String,
+    // режим «Выражения»
+    val phrases: String,
+    val phrasesSub: (Int, Int) -> String,
+    val setPhrases: String,
+    val idioms: String,
+    val phrasesChoose: String,
+    val groupInfo: (Int, Int) -> String,
+    val helpPhrases: String,
 )
 
 private val RU = S(
@@ -197,6 +205,15 @@ private val RU = S(
         "• Ошибки: свой список ошибок, вопросы тоже в обе стороны.\n\n" +
         "Переключиться обратно можно в любой момент — прогресс светлого режима никуда не денется.",
     darkModeLabel = "Тёмная тема",
+    phrases = "Выражения",
+    phrasesSub = { p, t -> "Устойчивые выражения и идиомы · пройдено $p из $t" },
+    setPhrases = "Устойчивые выражения",
+    idioms = "Идиомы",
+    phrasesChoose = "Выберите группу:",
+    groupInfo = { w, l -> "$w выражений · $l уровней" },
+    helpPhrases = "Здесь две группы: «Устойчивые выражения» (связки, фразовые глаголы, модальные и разговорные конструкции — at least, give up, be about to) и «Идиомы» (piece of cake, break a leg).\n\n" +
+        "Каждая группа устроена как «Обучение»: уровни по 20 выражений, перед стартом список выражений уровня, 25 вопросов (20 новых + 5 на повторение), 1 ошибка — +5 вопросов, 2 — ещё +5, 3 и больше — уровень не пройден, но вы доходите до конца.\n\n" +
+        "Ошибки отсюда тоже попадают в режим «Ошибки». Тёмный режим работает так же: вопросы в обе стороны и отдельный прогресс.",
 )
 
 private val FR = S(
@@ -296,6 +313,15 @@ private val FR = S(
         "• Erreurs : liste d'erreurs séparée, questions aussi dans les deux sens.\n\n" +
         "Vous pouvez revenir en arrière à tout moment : la progression du mode clair est conservée.",
     darkModeLabel = "Thème sombre",
+    phrases = "Expressions",
+    phrasesSub = { p, t -> "Expressions courantes et idiomes · réussis $p sur $t" },
+    setPhrases = "Expressions courantes",
+    idioms = "Idiomes",
+    phrasesChoose = "Choisissez un groupe :",
+    groupInfo = { w, l -> "$w expressions · $l niveaux" },
+    helpPhrases = "Deux groupes ici : « Expressions courantes » (mots de liaison, verbes à particule, tournures modales et familières — at least, give up, be about to) et « Idiomes » (piece of cake, break a leg).\n\n" +
+        "Chaque groupe fonctionne comme « Apprentissage » : niveaux de 20 expressions, liste du niveau avant de commencer, 25 questions (20 nouvelles + 5 de révision), 1 erreur — +5 questions, 2 — encore +5, 3 ou plus — niveau non réussi, mais vous allez jusqu'au bout.\n\n" +
+        "Les erreurs d'ici vont aussi dans « Erreurs ». Le mode sombre fonctionne de la même façon : questions dans les deux sens et progression séparée.",
 )
 
 private val DE = S(
@@ -395,6 +421,15 @@ private val DE = S(
         "• Fehler: eigene Fehlerliste, Fragen ebenfalls in beide Richtungen.\n\n" +
         "Du kannst jederzeit zurückwechseln — der Fortschritt im hellen Modus bleibt erhalten.",
     darkModeLabel = "Dunkles Design",
+    phrases = "Ausdrücke",
+    phrasesSub = { p, t -> "Feste Wendungen und Redewendungen · bestanden $p von $t" },
+    setPhrases = "Feste Wendungen",
+    idioms = "Redewendungen",
+    phrasesChoose = "Wähle eine Gruppe:",
+    groupInfo = { w, l -> "$w Ausdrücke · $l Level" },
+    helpPhrases = "Hier gibt es zwei Gruppen: „Feste Wendungen“ (Bindewörter, Phrasal Verbs, modale und umgangssprachliche Wendungen — at least, give up, be about to) und „Redewendungen“ (piece of cake, break a leg).\n\n" +
+        "Jede Gruppe funktioniert wie „Lernen“: Level mit 20 Ausdrücken, vor dem Start die Liste des Levels, 25 Fragen (20 neue + 5 zur Wiederholung), 1 Fehler — +5 Fragen, 2 — weitere +5, 3 oder mehr — Level nicht bestanden, aber du spielst bis zum Ende.\n\n" +
+        "Fehler von hier landen auch in „Fehler“. Der dunkle Modus funktioniert genauso: Fragen in beide Richtungen und getrennter Fortschritt.",
 )
 
 private val ID = S(
@@ -494,6 +529,15 @@ private val ID = S(
         "• Kesalahan: daftar kesalahan sendiri, pertanyaan juga dua arah.\n\n" +
         "Anda bisa kembali kapan saja — kemajuan mode terang tetap tersimpan.",
     darkModeLabel = "Tema gelap",
+    phrases = "Ungkapan",
+    phrasesSub = { p, t -> "Frasa umum dan idiom · selesai $p dari $t" },
+    setPhrases = "Frasa umum",
+    idioms = "Idiom",
+    phrasesChoose = "Pilih kelompok:",
+    groupInfo = { w, l -> "$w ungkapan · $l level" },
+    helpPhrases = "Ada dua kelompok: \"Frasa umum\" (kata penghubung, phrasal verb, konstruksi modal dan percakapan — at least, give up, be about to) dan \"Idiom\" (piece of cake, break a leg).\n\n" +
+        "Setiap kelompok bekerja seperti \"Belajar\": level berisi 20 ungkapan, daftar level sebelum mulai, 25 pertanyaan (20 baru + 5 pengulangan), 1 kesalahan — +5 pertanyaan, 2 — tambah +5 lagi, 3 atau lebih — level gagal, tetapi Anda tetap menyelesaikannya.\n\n" +
+        "Kesalahan dari sini juga masuk ke \"Kesalahan\". Mode gelap bekerja sama: pertanyaan dua arah dan kemajuan terpisah.",
 )
 
 fun strings(lang: Lang): S = when (lang) {

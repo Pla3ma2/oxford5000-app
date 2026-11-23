@@ -25,6 +25,7 @@ import com.oxford5000.learn.ui.screens.LevelsScreen
 import com.oxford5000.learn.ui.screens.MarathonResultScreen
 import com.oxford5000.learn.ui.screens.MarathonScreen
 import com.oxford5000.learn.ui.screens.PreviewScreen
+import com.oxford5000.learn.ui.screens.PhraseGroupsScreen
 import com.oxford5000.learn.ui.screens.QuizScreen
 import com.oxford5000.learn.ui.screens.StagesScreen
 import com.oxford5000.learn.ui.screens.InfoDialog
@@ -60,11 +61,12 @@ fun App(vm: AppViewModel, speaker: Speaker) {
                 Screen.Stages -> StagesScreen(vm)
                 is Screen.Levels -> LevelsScreen(vm, screen.stage)
                 is Screen.Preview -> PreviewScreen(vm, speaker, screen.stage, screen.level)
-                is Screen.LearnQuiz -> QuizScreen(vm, speaker, title = t.levelTitle(screen.stage, screen.level), onClose = { confirmExit = true })
+                is Screen.LearnQuiz -> QuizScreen(vm, speaker, title = t.levelTitle(vm.stageLabel(screen.stage), screen.level), onClose = { confirmExit = true })
                 is Screen.LearnResult -> LearnResultScreen(vm, screen)
                 Screen.Marathon -> MarathonScreen(vm)
                 Screen.MarathonQuiz -> QuizScreen(vm, speaker, title = t.marathon, onClose = { vm.back() })
                 is Screen.MarathonResult -> MarathonResultScreen(vm, screen)
+                Screen.PhraseGroups -> PhraseGroupsScreen(vm)
                 Screen.Errors -> ErrorsScreen(vm)
                 Screen.ErrorsQuiz -> QuizScreen(vm, speaker, title = t.errors, onClose = { vm.back() })
                 is Screen.ErrorsResult -> ErrorsResultScreen(vm, screen)

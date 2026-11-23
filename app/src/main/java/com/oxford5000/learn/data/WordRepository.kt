@@ -20,7 +20,9 @@ class WordRepository(val words: List<Word>) {
     /** Пул повторения: все слова, стоящие раньше этого уровня в глобальном порядке. */
     fun reviewPool(stage: String, level: Int): List<Word> {
         val firstId = levelWords(stage, level).minOfOrNull { it.id } ?: return emptyList()
-        return words.filter { it.id < firstId }
+        // Для выражений (свои группы, не A1–C2) повторяем только внутри своей группы.
+        return if (stage in STAGES) words.filter { it.id < firstId }
+        else words.filter { it.stage == stage && it.id < firstId }
     }
 
     /** Следующий уровень (с переходом на следующий этап) или null после последнего уровня C2. */

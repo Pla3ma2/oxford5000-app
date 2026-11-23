@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -50,3 +54,27 @@ jobs:
           body: Скачайте oxford5000.apk на телефон и установите. Новая версия ставится поверх старой, прогресс сохраняется.
           files: oxford5000.apk
           make_latest: true
+
+  # Веб-версия (для iPhone и любых браузеров): публикуется в ветку gh-pages → GitHub Pages
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site
+        run: |
+          mkdir -p site
+          cp -r web/* site/
+          cp app/src/main/assets/words.json app/src/main/assets/phrases.json site/
+          sed -i "s/__VERSION__/${{ github.run_number }}/" site/sw.js
+          touch site/.nojekyll
+
+      - name: Deploy to gh-pages
+        run: |
+          cd site
+          git init -q -b gh-pages
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "Web ${{ github.run_number }}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages

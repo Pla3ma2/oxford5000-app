@@ -7,3 +7,5 @@ local.properties
 captures/
 .kotlin/
 tools/__pycache__/
+web/words.json
+web/phrases.json

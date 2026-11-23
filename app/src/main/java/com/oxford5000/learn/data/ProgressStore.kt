@@ -20,7 +20,10 @@ data class Progress(
     val passedDark: Set<String> = emptySet(),
     val marathonLight: MarathonState? = null,
     val marathonDark: MarathonState? = null,
+    val errorsLight: Set<Int> = emptySet(),
+    val errorsDark: Set<Int> = emptySet(),
 ) {
+    fun errors(dark: Boolean) = if (dark) errorsDark else errorsLight
     fun passed(dark: Boolean) = if (dark) passedDark else passedLight
     fun marathon(dark: Boolean) = if (dark) marathonDark else marathonLight
 }
@@ -34,6 +37,10 @@ class ProgressStore(private val context: Context) {
     private val PASSED_DARK = stringSetPreferencesKey("passed_dark")
     private val MARATHON_LIGHT = stringPreferencesKey("marathon_light")
     private val MARATHON_DARK = stringPreferencesKey("marathon_dark")
+    private val ERRORS_LIGHT = stringSetPreferencesKey("errors_light")
+    private val ERRORS_DARK = stringSetPreferencesKey("errors_dark")
+
+    private fun ids(set: Set<String>?): Set<Int> = set.orEmpty().mapNotNull { it.toIntOrNull() }.toSet()
 
     private fun decode(s: String?): MarathonState? =
         s?.let { runCatching { json.decodeFromString<MarathonState>(it) }.getOrNull() }
@@ -45,6 +52,8 @@ class ProgressStore(private val context: Context) {
             passedDark = p[PASSED_DARK] ?: emptySet(),
             marathonLight = decode(p[MARATHON_LIGHT]),
             marathonDark = decode(p[MARATHON_DARK]),
+            errorsLight = ids(p[ERRORS_LIGHT]),
+            errorsDark = ids(p[ERRORS_DARK]),
         )
     }
 
@@ -62,5 +71,17 @@ class ProgressStore(private val context: Context) {
         context.dataStore.edit {
             if (state == null || state.finished) it.remove(k) else it[k] = json.encodeToString(MarathonState.serializer(), state)
         }
+    }
+
+    /** Добавить слово в режим «Ошибки». */
+    suspend fun addError(dark: Boolean, id: Int) {
+        val k = if (dark) ERRORS_DARK else ERRORS_LIGHT
+        context.dataStore.edit { it[k] = (it[k] ?: emptySet()) + id.toString() }
+    }
+
+    /** Убрать слово из режима «Ошибки» (ответили правильно). */
+    suspend fun removeError(dark: Boolean, id: Int) {
+        val k = if (dark) ERRORS_DARK else ERRORS_LIGHT
+        context.dataStore.edit { it[k] = (it[k] ?: emptySet()) - id.toString() }
     }
 }

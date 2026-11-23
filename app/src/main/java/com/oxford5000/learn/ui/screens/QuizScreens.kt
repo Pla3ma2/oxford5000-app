@@ -323,3 +323,70 @@ fun MarathonResultScreen(vm: AppViewModel, r: Screen.MarathonResult) {
         }
     }
 }
+
+// ---------------- Ошибки ----------------
+
+@Composable
+fun ErrorsScreen(vm: AppViewModel) {
+    val repo = vm.repo ?: return
+    val words = vm.progress.errors(vm.dark).mapNotNull { repo.byId[it] }.sortedBy { it.id }
+    AppScaffold(
+        vm,
+        title = "Ошибки · ${words.size}",
+        bottomBar = {
+            if (words.isNotEmpty()) Button(
+                onClick = { vm.startErrors() },
+                modifier = Modifier.fillMaxWidth().navigationBarsPadding().padding(16.dp).height(56.dp),
+                shape = RoundedCornerShape(16.dp),
+            ) { Text("Начать", fontSize = 18.sp) }
+        },
+    ) { p ->
+        Column(
+            Modifier.fillMaxSize().padding(p).padding(horizontal = 20.dp).verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Text(
+                "Сюда попадают слова, в которых вы ошиблись в «Обучении» и «Марафоне». " +
+                    "Правильный ответ убирает слово отсюда, неправильный оставляет." +
+                    if (vm.dark) " Тёмный режим: свой список и смешанные вопросы." else "",
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            if (words.isEmpty()) {
+                Spacer(Modifier.height(40.dp))
+                Text("🎉", fontSize = 56.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
+                Text("Ошибок нет", fontSize = 22.sp, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.CenterHorizontally))
+            } else {
+                words.forEach { w ->
+                    Row(verticalAlignment = Alignment.Bottom) {
+                        Text(w.en, fontWeight = FontWeight.SemiBold, fontSize = 17.sp)
+                        Spacer(Modifier.width(6.dp))
+                        Text(w.pos, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Spacer(Modifier.width(8.dp))
+                        Text("— ${w.ru}", fontSize = 15.sp, color = MaterialTheme.colorScheme.primary)
+                    }
+                }
+                Spacer(Modifier.height(12.dp))
+            }
+        }
+    }
+}
+
+@Composable
+fun ErrorsResultScreen(vm: AppViewModel, r: Screen.ErrorsResult) {
+    AppScaffold(vm, title = "Ошибки", onBack = { vm.openErrorsHome() }) { p ->
+        Column(
+            Modifier.fillMaxSize().padding(p).padding(20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            Spacer(Modifier.height(24.dp))
+            Text(if (r.left == 0) "🎉" else "💪", fontSize = 64.sp)
+            Text(if (r.left == 0) "Все ошибки исправлены!" else "Круг пройден", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+            Text("Убрано слов: ${r.removed} из ${r.total}")
+            Text("Осталось: ${r.left}", color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Spacer(Modifier.height(8.dp))
+            if (r.left > 0) Button(onClick = { vm.startErrors() }, Modifier.fillMaxWidth().height(52.dp)) { Text("Ещё круг") }
+            OutlinedButton(onClick = { vm.goHome() }, Modifier.fillMaxWidth().height(52.dp)) { Text("На главную") }
+        }
+    }
+}

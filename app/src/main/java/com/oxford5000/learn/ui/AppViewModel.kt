@@ -36,6 +36,9 @@ sealed interface Screen {
     data object Marathon : Screen
     data object MarathonQuiz : Screen
     data class MarathonResult(val total: Int, val firstRoundErrors: Int, val rounds: Int) : Screen
+    data object Errors : Screen
+    data object ErrorsQuiz : Screen
+    data class ErrorsResult(val total: Int, val removed: Int, val left: Int) : Screen
 }
 
 /** Всё, что нужно экрану вопроса, в одном снимке. */
@@ -93,7 +96,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun back() {
         autoNextJob?.cancel()
         if (stack.size > 1) stack.removeAt(stack.lastIndex)
-        if (screen !is Screen.LearnQuiz && screen !is Screen.MarathonQuiz) quiz = null
+        if (screen !is Screen.LearnQuiz && screen !is Screen.MarathonQuiz && screen !is Screen.ErrorsQuiz) quiz = null
     }
 
     /** Вернуться к ближайшему экрану нужного типа (или добавить его поверх главного). */
@@ -141,6 +144,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         val s = session ?: return
         if (s.answered || s.status != SessionStatus.IN_PROGRESS) return
         val correct = s.answer(i)
+        if (!correct) recordError(s.current.word.id)
         refreshLearnUi()
         if (correct) scheduleAutoNext()
     }
@@ -230,6 +234,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         marathonAnswered = true
         marathonSelected = i
         val correct = i == q.correctIndex
+        if (!correct) recordError(q.word.id)
         val newState = MarathonEngine.answer(st, correct, rnd)
         marathonAfter = newState
         val d = dark
@@ -252,12 +257,87 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         refreshMarathonUi()
     }
 
+    // ---------- Ошибки ----------
+
+    /** Слова, убранные в этом запуске (DataStore пишет асинхронно — чтобы они не всплыли в «Ещё круг»). */
+    private val errRemovedIds = mutableSetOf<Int>()
+
+    private fun recordError(id: Int) {
+        errRemovedIds -= id
+        val d = dark
+        viewModelScope.launch { store.addError(d, id) }
+    }
+
+    private var errOrder: List<Int> = emptyList()
+    private var errPos = 0
+    private var errRemoved = 0
+    private var errQuestion: Question? = null
+    private var errAnswered = false
+    private var errSelected = -1
+
+    fun startErrors() {
+        val r = repo ?: return
+        errOrder = progress.errors(dark).filter { it in r.byId && it !in errRemovedIds }.shuffled(rnd)
+        if (errOrder.isEmpty()) return
+        errPos = 0
+        errRemoved = 0
+        buildErrQuestion()
+        if (screen is Screen.ErrorsResult) replace(Screen.ErrorsQuiz) else push(Screen.ErrorsQuiz)
+        refreshErrUi()
+    }
+
+    private fun buildErrQuestion() {
+        val w = repo?.byId?.get(errOrder[errPos]) ?: return
+        val dir = if (dark && rnd.nextBoolean()) Direction.RU_EN else Direction.EN_RU
+        errQuestion = picker!!.build(w, dir, rnd)
+        errAnswered = false
+        errSelected = -1
+    }
+
+    private fun refreshErrUi() {
+        val q = errQuestion ?: return
+        quiz = QuizUi(
+            question = q, answered = errAnswered, selected = errSelected,
+            header = "Вопрос ${errPos + 1} / ${errOrder.size} · убрано: $errRemoved",
+            progress = (errPos + if (errAnswered) 1 else 0).toFloat() / errOrder.size, livesLeft = null,
+        )
+    }
+
+    private fun answerErrors(i: Int) {
+        val q = errQuestion ?: return
+        if (errAnswered) return
+        errAnswered = true
+        errSelected = i
+        val correct = i == q.correctIndex
+        val d = dark
+        if (correct) {
+            errRemoved++
+            errRemovedIds += q.word.id
+            viewModelScope.launch { store.removeError(d, q.word.id) }
+            scheduleAutoNext()
+        }
+        refreshErrUi()
+    }
+
+    private fun nextErrors() {
+        if (!errAnswered) return
+        if (errPos + 1 >= errOrder.size) {
+            quiz = null
+            replace(Screen.ErrorsResult(errOrder.size, errRemoved, errOrder.size - errRemoved))
+            return
+        }
+        errPos++
+        buildErrQuestion()
+        refreshErrUi()
+    }
+
     // ---------- общее для экрана вопроса ----------
 
     fun answer(i: Int) {
         when (screen) {
             is Screen.LearnQuiz -> answerLearn(i)
             is Screen.MarathonQuiz -> answerMarathon(i)
+            is Screen.ErrorsQuiz -> answerErrors(i)
             else -> {}
         }
     }
@@ -267,6 +347,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         when (screen) {
             is Screen.LearnQuiz -> nextLearn()
             is Screen.MarathonQuiz -> nextMarathon()
+            is Screen.ErrorsQuiz -> nextErrors()
             else -> {}
         }
     }
@@ -282,4 +363,6 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun goHome() = popTo({ it is Screen.Home }, Screen.Home)
 
     fun openMarathonSetup() = popTo({ it is Screen.Marathon }, Screen.Marathon)
+
+    fun openErrorsHome() = popTo({ it is Screen.Errors }, Screen.Errors)
 }

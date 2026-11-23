@@ -17,6 +17,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
@@ -26,6 +28,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.DirectionsRun
+import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -61,7 +64,7 @@ fun HomeScreen(vm: AppViewModel) {
     val m = vm.progress.marathon(vm.dark)
     AppScaffold(vm, title = "", showBack = false) { p ->
         Column(
-            Modifier.fillMaxSize().padding(p).padding(horizontal = 20.dp),
+            Modifier.fillMaxSize().padding(p).padding(horizontal = 20.dp).verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
             Spacer(Modifier.height(8.dp))
@@ -82,6 +85,13 @@ fun HomeScreen(vm: AppViewModel) {
                 title = "Марафон",
                 subtitle = if (m != null) "Продолжить: ${marathonPosition(m)}" else "Все слова выбранных этапов подряд",
                 onClick = { vm.push(Screen.Marathon) },
+            )
+            val errCount = vm.progress.errors(vm.dark).size
+            BigCard(
+                icon = Icons.Filled.ErrorOutline,
+                title = "Ошибки",
+                subtitle = if (errCount > 0) "Слов на повторение: $errCount" else "Пока ошибок нет",
+                onClick = { vm.push(Screen.Errors) },
             )
         }
     }

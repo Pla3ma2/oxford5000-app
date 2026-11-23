@@ -17,6 +17,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.oxford5000.learn.tts.Speaker
+import com.oxford5000.learn.ui.screens.ErrorsResultScreen
+import com.oxford5000.learn.ui.screens.ErrorsScreen
 import com.oxford5000.learn.ui.screens.HomeScreen
 import com.oxford5000.learn.ui.screens.LearnResultScreen
 import com.oxford5000.learn.ui.screens.LevelsScreen
@@ -54,6 +56,9 @@ fun App(vm: AppViewModel, speaker: Speaker) {
                 Screen.Marathon -> MarathonScreen(vm)
                 Screen.MarathonQuiz -> QuizScreen(vm, speaker, title = "Марафон", onClose = { vm.back() })
                 is Screen.MarathonResult -> MarathonResultScreen(vm, screen)
+                Screen.Errors -> ErrorsScreen(vm)
+                Screen.ErrorsQuiz -> QuizScreen(vm, speaker, title = "Ошибки", onClose = { vm.back() })
+                is Screen.ErrorsResult -> ErrorsResultScreen(vm, screen)
             }
 
             if (confirmExit) {

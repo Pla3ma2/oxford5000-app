@@ -1,0 +1,800 @@
+3101|concours; contester|Wettbewerb; anfechten|kontes; menentang
+3102|mettre en œuvre|umsetzen|menerapkan
+3103|somme; résumer|Summe; zusammenfassen|jumlah; merangkum
+3104|considérablement|erheblich|secara signifikan
+3105|temporaire|vorübergehend|sementara
+3106|suffisant|ausreichend|cukup
+3107|sensibilisation|Bewusstsein|kesadaran
+3108|gouverneur|Gouverneur|gubernur
+3109|contribution|Beitrag|kontribusi
+3110|mesure|Messung|pengukuran
+3111|solaire|Sonnen-|surya
+3112|prise; piège|Fang; Haken|tangkapan; jebakan
+3113|démocratie|Demokratie|demokrasi
+3114|insérer|einfügen|menyisipkan
+3115|biologique|biologisch|biologis
+3116|transition|Übergang|transisi
+3117|histoire d'amour|Romanze|romansa
+3118|diviser; scission|teilen; Spaltung|membelah; perpecahan
+3119|paradis|Himmel|surga
+3120|enceinte|schwanger|hamil
+3121|bonne affaire|Schnäppchen|barang murah
+3122|spirituel|spirituell|spiritual
+3123|chasse|Jagd|perburuan
+3124|déplacer|verschieben|menggeser
+3125|flexible|flexibel|fleksibel
+3126|nombreux|zahlreich|banyak
+3127|relativement|relativ|relatif
+3128|satisfaction|Zufriedenheit|kepuasan
+3129|intellectuel|intellektuell|intelektual
+3130|carbone|Kohlenstoff|karbon
+3131|interaction|Wechselwirkung|interaksi
+3132|crise|Krise|krisis
+3133|massif|massiv|masif
+3134|révolution|Revolution|revolusi
+3135|paysage|Landschaft|bentang alam
+3136|dépendant|abhängig|bergantung
+3137|mécanique|mechanisch|mekanis
+3138|candidat|Bewerber|pelamar
+3139|rapide|schnell|cepat
+3140|diversité|Vielfalt|keberagaman
+3141|dépôt, caution|Kaution|deposit
+3142|séminaire|Seminar|seminar
+3143|préciser|angeben|menentukan
+3144|sensible|empfindlich|sensitif
+3145|concret; béton|konkret; Beton|konkret; beton
+3146|achèvement|Fertigstellung|penyelesaian
+3147|vote|Abstimmung|pemungutan suara
+3148|calculer|berechnen|menghitung
+3149|diffuser; émission|senden; Sendung|menyiarkan; siaran
+3150|anniversaire (événement)|Jahrestag|hari jadi
+3151|habitant|Bewohner|penduduk
+3152|comploter|planen, plotten|merencanakan
+3153|considérer; égard|betrachten; Hinsicht|menganggap; hormat
+3154|frapper; grève|schlagen; Streik|memukul; mogok
+3155|consommation|Verbrauch|konsumsi
+3156|rétrécir|verengen|mempersempit
+3157|menace|Bedrohung|ancaman
+3158|consultant|Berater|konsultan
+3159|propriété|Eigentum|kepemilikan
+3160|disposé|bereit|bersedia
+3161|durable|nachhaltig|berkelanjutan
+3162|innovation|Innovation|inovasi
+3163|parallèle|parallel|paralel
+3164|faire fonctionner|betreiben|mengoperasikan
+3165|audacieux|mutig|berani
+3166|stable|stabil|stabil
+3167|opéra|Oper|opera
+3168|atout|Vermögenswert|aset
+3169|grave, sévère|schwer|parah
+3170|générer|erzeugen|menghasilkan
+3171|exception|Ausnahme|pengecualian
+3172|durée|Dauer|durasi
+3173|tissu|Stoff|kain
+3174|principalement|hauptsächlich|terutama
+3175|recrutement|Rekrutierung|perekrutan
+3176|mignon|süß|imut
+3177|capturer; capture|erfassen; Gefangennahme|menangkap; penangkapan
+3178|désir; désirer|Wunsch; wünschen|keinginan; menginginkan
+3179|expertise|Fachwissen|keahlian
+3180|mécanisme|Mechanismus|mekanisme
+3181|bien-être social|Wohlfahrt|kesejahteraan
+3182|pair, collègue|Gleichaltriger|sebaya
+3183|innovant|innovativ|inovatif
+3184|caoutchouc|Gummi|karet
+3185|légende|Legende|legenda
+3186|monstre|Monster|monster
+3187|intérieur|inner|batin, dalam
+3188|formation|Bildung|pembentukan
+3189|ton|Ton|nada
+3190|rail; rampe|Schiene; Geländer|rel; pagar
+3191|détermination|Entschlossenheit|tekad
+3192|animation|Animation|animasi
+3193|alarmer|beunruhigen|mengkhawatirkan
+3194|angle|Winkel|sudut
+3195|voler, cambrioler|ausrauben|merampok
+3196|en cours|laufend|sedang berlangsung
+3197|pire (le)|Schlimmste|yang terburuk
+3198|ère|Ära|era
+3199|convertir|umwandeln|mengubah
+3200|analyste|Analyst|analis
+3201|pièce jointe; attachement|Anhang; Bindung|lampiran; keterikatan
+3202|comique; BD|komisch; Comic|lucu; komik
+3203|avion à réaction|Jet|jet
+3204|fissurer; fissure|knacken; Riss|retak; retakan
+3205|principe|Prinzip|prinsip
+3206|gang|Bande|geng
+3207|artisanat|Handwerk|kerajinan
+3208|compagnon (de)|Mit-|sesama
+3209|aveugle|blind|buta
+3210|capable|fähig|mampu
+3211|victoire|Sieg|kemenangan
+3212|terrorisme|Terrorismus|terorisme
+3213|joie|Freude|sukacita
+3214|ethnique|ethnisch|etnis
+3215|parlement|Parlament|parlemen
+3216|citoyen|Bürger|warga negara
+3217|vertical|senkrecht|vertikal
+3218|absolu|absolut|mutlak
+3219|concentration|Konzentration|konsentrasi
+3220|interprétation|Deutung|interpretasi
+3221|pont (bateau); jeu de cartes|Deck; Kartenspiel|dek; setumpuk kartu
+3222|temple|Tempel|kuil
+3223|génétique|genetisch|genetik
+3224|évaluer|bewerten|mengevaluasi
+3225|tropical|tropisch|tropis
+3226|parier; pari|wetten; Wette|bertaruh; taruhan
+3227|existence|Existenz|keberadaan
+3228|immigration|Einwanderung|imigrasi
+3229|apparemment|anscheinend|tampaknya
+3230|environnant|umliegend|sekitar
+3231|popularité|Beliebtheit|popularitas
+3232|exposer; objet exposé|ausstellen; Exponat|memamerkan; pameran
+3233|visible|sichtbar|terlihat
+3234|abandonner|verlassen|meninggalkan
+3235|pire (le)|Schlimmeres|yang lebih buruk
+3236|fondamental|grundlegend|mendasar
+3237|quelque peu|etwas|agak
+3238|récepteur; combiné|Empfänger; Hörer|penerima; gagang
+3239|progressiste|fortschrittlich|progresif
+3240|championnat|Meisterschaft|kejuaraan
+3241|dépression|Depression|depresi
+3242|tissu; mouchoir|Gewebe; Taschentuch|jaringan; tisu
+3243|fraude|Betrug|penipuan
+3244|accent, insistance|Betonung|penekanan
+3245|aspect|Aspekt|aspek
+3246|lieu de travail|Arbeitsplatz|tempat kerja
+3247|accident; s'écraser|Unfall; abstürzen|tabrakan; jatuh
+3248|ombre|Schatten|bayangan
+3249|infection|Infektion|infeksi
+3250|dépense|Ausgabe|biaya
+3251|clinique|Klinik|klinik
+3252|paquet|Päckchen|bungkus
+3253|placement; stage|Platzierung; Praktikum|penempatan; magang
+3254|prolonger|verlängern|memperpanjang
+3255|ultérieur|nachfolgend|berikutnya
+3256|maire|Bürgermeister|wali kota
+3257|adéquat|angemessen|memadai
+3258|d'où|daher|oleh karena itu
+3259|entièrement|völlig|sepenuhnya
+3260|sauver; sauvetage|retten; Rettung|menyelamatkan; penyelamatan
+3261|profession|Beruf|pekerjaan
+3262|étroitement|eng|dengan cermat
+3263|rayonnement|Strahlung|radiasi
+3264|fusillade|Schießerei|penembakan
+3265|ailleurs|anderswo|di tempat lain
+3266|conservateur|konservativ|konservatif
+3267|choc; choquer|Schock; schockieren|kejutan; mengejutkan
+3268|démontrer|zeigen|menunjukkan
+3269|à l'étranger|im Ausland; Übersee-|di luar negeri
+3270|se précipiter; hâte|eilen; Eile|bergegas; terburu-buru
+3271|alors que|während|sedangkan
+3272|acceptable|annehmbar|dapat diterima
+3273|satisfait|zufrieden|puas
+3274|globe|Globus|bola dunia
+3275|médicament|Medikament|obat-obatan
+3276|fierté|Stolz|kebanggaan
+3277|indépendance|Unabhängigkeit|kemerdekaan
+3278|condamner|verurteilen|menjatuhkan hukuman
+3279|richesse|Reichtum|kekayaan
+3280|survie|Überleben|kelangsungan hidup
+3281|projection; dépistage|Vorführung; Screening|pemutaran; skrining
+3282|vie entière|Lebenszeit|seumur hidup
+3283|lieu (d'événement)|Veranstaltungsort|tempat acara
+3284|vital|lebenswichtig|vital
+3285|obligation|Verpflichtung|kewajiban
+3286|casse-tête|Rätsel|teka-teki
+3287|aperçu, compréhension|Einblick|wawasan
+3288|pénalité|Strafe|penalti
+3289|résultat|Ergebnis|hasil
+3290|décontracté|lässig|santai
+3291|armé|bewaffnet|bersenjata
+3292|divorce; divorcer|Scheidung; sich scheiden|perceraian; bercerai
+3293|en partie|teilweise|sebagian
+3294|chasse|Jagd|perburuan
+3295|stimuler; coup de pouce|ankurbeln; Schub|meningkatkan; dorongan
+3296|bourse d'études|Stipendium|beasiswa
+3297|moral; morale|moralisch; Moral|moral
+3298|brûlure|Verbrennung|luka bakar
+3299|dur|hart|sulit
+3300|incident|Vorfall|insiden
+3301|diminuer; baisse|abnehmen; Rückgang|menurun; penurunan
+3302|pension, retraite|Rente|pensiun
+3303|minorité|Minderheit|minoritas
+3304|divers|vielfältig|beragam
+3305|défense|Verteidigung|pertahanan
+3306|sage|weise|bijak
+3307|vitamine|Vitamin|vitamin
+3308|largement|weit|secara luas
+3309|authentique|echt|asli
+3310|émotionnel|emotional|emosional
+3311|du jour au lendemain|über Nacht|dalam semalam
+3312|dépasser|überschreiten|melampaui
+3313|faute; défaut|Schuld; Fehler|kesalahan; cacat
+3314|soie|Seide|sutra
+3315|blessure, douleur|Kränkung|rasa sakit
+3316|probabilité|Wahrscheinlichkeit|probabilitas
+3317|glisser|ausrutschen|tergelincir
+3318|littéraire|literarisch|sastra
+3319|pilule|Pille|pil
+3320|vol (larcin)|Diebstahl|pencurian
+3321|chercheur (de)|Suchender|pencari
+3322|sagesse|Weisheit|kebijaksanaan
+3323|date limite|Frist|tenggat waktu
+3324|témoin; témoigner|Zeuge; bezeugen|saksi; menyaksikan
+3325|évaluer|beurteilen|menilai
+3326|rivage|Ufer|pantai
+3327|lâche, ample|locker|longgar
+3328|destruction|Zerstörung|kehancuran
+3329|de plus en plus|zunehmend|semakin
+3330|trouble; désordre|Störung; Unordnung|gangguan; kekacauan
+3331|routinier|routinemäßig|rutin
+3332|en gros, au fond|im Grunde|pada dasarnya
+3333|conventionnel|herkömmlich|konvensional
+3334|habitat|Lebensraum|habitat
+3335|punk|Punk|punk
+3336|rythme; arpenter|Tempo; schreiten|kecepatan; mondar-mandir
+3337|en outre; à part|außerdem; neben|selain itu; selain
+3338|salaire|Lohn|upah
+3339|collectionneur|Sammler|kolektor
+3340|observation|Beobachtung|pengamatan
+3341|commodité|Bequemlichkeit|kenyamanan
+3342|opposition|Opposition|oposisi
+3343|se rappeler|sich erinnern|mengingat
+3344|terreur|Terror|teror
+3345|rapidement|schnell|dengan cepat
+3346|employé de bureau|Angestellter|petugas
+3347|vaste|riesig|luas
+3348|plan; décrire|Umriss; umreißen|garis besar; menguraikan
+3349|envelopper|einwickeln|membungkus
+3350|orchestre|Orchester|orkestra
+3351|de plus|außerdem|lagi pula
+3352|loterie|Lotterie|lotre
+3353|de côté|beiseite|ke samping
+3354|permis, licence|Lizenz|lisensi
+3355|discipline|Disziplin|disiplin
+3356|retracer|verfolgen|melacak
+3357|volontaire|freiwillig|sukarela
+3358|consulter|konsultieren|berkonsultasi
+3359|grandement|sehr|sangat
+3360|couramment|häufig|umumnya
+3361|informer|informieren|memberi tahu
+3362|cri|Schrei|teriakan
+3363|en grande partie|größtenteils|sebagian besar
+3364|flèche|Pfeil|panah
+3365|bizarre|seltsam|aneh
+3366|oxygène|Sauerstoff|oksigen
+3367|étirer|dehnen|meregangkan
+3368|de plus|darüber hinaus|selanjutnya
+3369|AVC; coup (de pinceau)|Schlaganfall; Strich|stroke; goresan
+3370|siège social|Hauptsitz|kantor pusat
+3371|crochet|Haken|kait
+3372|baisser; décliner|sinken; ablehnen|menurun; menolak
+3373|procéder|fortfahren|melanjutkan
+3374|timing|Timing|waktu
+3375|adopter|annehmen; adoptieren|mengadopsi
+3376|don|Spende|sumbangan
+3377|extérieur|äußer|luar
+3378|récolte|Ernte|panen
+3379|main-d'œuvre|Belegschaft|tenaga kerja
+3380|fondateur|Gründer|pendiri
+3381|vapeur|Dampf|uap
+3382|restaurer|wiederherstellen|memulihkan
+3383|réputation|Ruf|reputasi
+3384|courbe; courber|Kurve; biegen|kurva; melengkung
+3385|variation|Variation|variasi
+3386|passage|Durchgang; Passage|lorong; kutipan
+3387|poursuivre; poursuite|jagen; Verfolgung|mengejar; pengejaran
+3388|logique|logisch|logis
+3389|célébrité, renommée|Ruhm|ketenaran
+3390|extrait|Auszug|kutipan
+3391|critique|Kritik|kritik
+3392|initialement|anfangs|awalnya
+3393|pointu|spitz|runcing
+3394|confondre|verwechseln|salah mengira
+3395|éliminer|beseitigen|menghilangkan
+3396|minéral|Mineral|mineral
+3397|fortune; chance|Vermögen; Glück|kekayaan; keberuntungan
+3398|préférence|Vorliebe|preferensi
+3399|exploration|Erkundung|eksplorasi
+3400|air, mélodie|Melodie|nada
+3401|en forme de|-förmig|berbentuk
+3402|esclave|Sklave|budak
+3403|instantanément|sofort|seketika
+3404|œuvre d'art|Kunstwerk|karya seni
+3405|terroriste|Terrorist|teroris
+3406|éthique|ethisch|etis
+3407|lutter; lutte|kämpfen; Kampf|berjuang; perjuangan
+3408|souffrance|Leiden|penderitaan
+3409|neutre|neutral|netral
+3410|rat|Ratte|tikus
+3411|en fin de compte|letztendlich|pada akhirnya
+3412|artificiel|künstlich|buatan
+3413|spectaculaire|spektakulär|spektakuler
+3414|jury|Geschworene|juri
+3415|potentiellement|möglicherweise|berpotensi
+3416|considérable|beträchtlich|cukup besar
+3417|extraterrestre; étranger|Außerirdischer; Ausländer|alien; orang asing
+3418|constamment|ständig|terus-menerus
+3419|résoudre|lösen|menyelesaikan
+3420|thèse|Doktorarbeit|tesis
+3421|fréquent|häufig|sering
+3422|bouquet, groupe|Bündel|seikat
+3423|distinct|deutlich|berbeda
+3424|poumon|Lunge|paru-paru
+3425|avec un peu de chance|hoffentlich|semoga
+3426|différer|sich unterscheiden|berbeda
+3427|bougie|Kerze|lilin
+3428|conte|Erzählung|dongeng
+3429|autrefois|früher|dahulu
+3430|comparatif|vergleichend|komparatif
+3431|strictement|streng|dengan ketat
+3432|psychologique|psychologisch|psikologis
+3433|élégant|elegant|elegan
+3434|opposé à|dagegen|menentang
+3435|marge|Rand; Spanne|margin
+3436|faux|gefälscht|palsu
+3437|guérir; remède|heilen; Heilmittel|menyembuhkan; obat
+3438|commandant|Kommandant|komandan
+3439|mal; nuire|Schaden; schaden|bahaya; merugikan
+3440|intervalle|Intervall|interval
+3441|de rechange|Ersatz-|cadangan
+3442|proportion|Anteil|proporsi
+3443|importance|Bedeutung|arti penting
+3444|scénario|Szenario|skenario
+3445|engager|beschäftigen|melibatkan
+3446|soupçonner; suspect|verdächtigen; Verdächtiger|mencurigai; tersangka
+3447|crucial|entscheidend|krusial
+3448|exotique|exotisch|eksotis
+3449|terrain; hauteur (son)|Spielfeld; Tonhöhe|lapangan; nada
+3450|offensant|beleidigend|menyinggung
+3451|douzaine|Dutzend|lusin
+3452|pote|Kumpel|sobat
+3453|épicerie|Lebensmittelgeschäft|toko kelontong
+3454|de temps en temps|gelegentlich|kadang-kadang
+3455|émission|Emission|emisi
+3456|apparent|offensichtlich|nyata
+3457|se rétablir|sich erholen|pulih
+3458|équilibré|ausgewogen|seimbang
+3459|exclure|ausschließen|mengecualikan
+3460|anxiété|Angst|kecemasan
+3461|inciter|veranlassen|mendorong
+3462|précieux|kostbar|berharga
+3463|annuellement|jährlich|setiap tahun
+3464|pli|Falte|lipatan
+3465|essentiellement|im Wesentlichen|pada dasarnya
+3466|isolé|isoliert|terisolasi
+3467|approuver|genehmigen|menyetujui
+3468|composé|Verbindung|senyawa
+3469|technologique|technologisch|teknologis
+3470|désespéré|verzweifelt|putus asa
+3471|manifestation; démonstration|Demonstration|demonstrasi
+3472|dépendance|Sucht|kecanduan
+3473|identique|identisch|identik
+3474|participant|Teilnehmer|peserta
+3475|observateur|Beobachter|pengamat
+3476|traîner|ziehen|menyeret
+3477|d'une manière ou d'une autre|irgendwie|entah bagaimana
+3478|compter sur|sich verlassen|mengandalkan
+3479|ajuster|anpassen|menyesuaikan
+3480|sophistiqué|anspruchsvoll|canggih
+3481|silence|Stille|keheningan
+3482|organe|Organ|organ
+3483|obscurité|Dunkelheit|kegelapan
+3484|satisfaire|befriedigen|memuaskan
+3485|abri; abriter|Unterkunft; schützen|tempat berlindung; melindungi
+3486|fabriquer|herstellen|memproduksi
+3487|stimulant, difficile|herausfordernd|menantang
+3488|préserver|bewahren|melestarikan
+3489|éloge; louer|Lob; loben|pujian; memuji
+3490|atterrissage; palier|Landung; Treppenabsatz|pendaratan; bordes
+3491|réaliste|realistisch|realistis
+3492|compositeur|Komponist|komponis
+3493|flotter|schwimmen, treiben|mengapung
+3494|biais|Voreingenommenheit|bias
+3495|acquérir|erwerben|memperoleh
+3496|laitier|Milch-|susu
+3497|tapoter; robinet|klopfen; Wasserhahn|mengetuk; keran
+3498|en outre|zusätzlich|selain itu
+3499|martial|Kampf-|bela diri
+3500|retenir|behalten|mempertahankan
+3501|tunnel|Tunnel|terowongan
+3502|blé|Weizen|gandum
+3503|distribuer|verteilen|mendistribusikan
+3504|unité|Einheit|persatuan
+3505|défilé|Parade|parade
+3506|déclencher|auslösen|memicu
+3507|dramatique|dramatisch|dramatis
+3508|néanmoins|dennoch|namun demikian
+3509|fièvre|Fieber|demam
+3510|inflation|Inflation|inflasi
+3511|raisonnablement|vernünftig|cukup
+3512|trésor|Schatz|harta karun
+3513|flamme|Flamme|nyala api
+3514|âgé|älter|lanjut usia
+3515|extraordinaire|außergewöhnlich|luar biasa
+3516|limitation|Einschränkung|keterbatasan
+3517|illustration|Illustration|ilustrasi
+3518|construire|konstruieren|membangun
+3519|curieux|neugierig|penasaran
+3520|époustouflant|atemberaubend|memukau
+3521|détecter|erkennen|mendeteksi
+3522|compliqué|kompliziert|rumit
+3523|tonne|Tonne|ton
+3524|s'effondrer; effondrement|einstürzen; Zusammenbruch|runtuh; keruntuhan
+3525|immunisé|immun|kebal
+3526|barrière|Barriere|penghalang
+3527|incorrect|falsch|salah
+3528|survenir|entstehen|timbul
+3529|perception|Wahrnehmung|persepsi
+3530|révéler|enthüllen|mengungkapkan
+3531|canal|Kanal|kanal
+3532|strict|streng|ketat
+3533|plonger; plongeon|tauchen; Tauchgang|menyelam; penyelaman
+3534|hypothèse|Annahme|asumsi
+3535|demande de renseignements|Anfrage|pertanyaan
+3536|intense|intensiv|intens
+3537|régulier, stable|stetig|stabil
+3538|blâmer; faute|beschuldigen; Schuld|menyalahkan; kesalahan
+3539|incitation|Anreiz|insentif
+3540|assurer|versichern|meyakinkan
+3541|brique|Ziegel|batu bata
+3542|correct, décent|anständig|layak
+3543|bientôt|in Kürze|segera
+3544|cabane; cabine|Hütte; Kabine|kabin
+3545|journalisme|Journalismus|jurnalisme
+3546|colère|Wut|kemarahan
+3547|interagir|interagieren|berinteraksi
+3548|magnifique|wunderschön|sangat cantik
+3549|tribu|Stamm|suku
+3550|se débarrasser|loswerden|menyingkirkan
+3551|modifier|ändern|mengubah
+3552|qualifié|qualifiziert|terampil
+3553|récompense; récompenser|Belohnung; belohnen|hadiah; menghargai
+3554|confusion|Verwirrung|kebingungan
+3555|médaille|Medaille|medali
+3556|port|Hafen|pelabuhan
+3557|artistique|künstlerisch|artistik
+3558|chauve-souris; batte|Fledermaus; Schläger|kelelawar; pemukul
+3559|précis|präzise|tepat
+3560|grotte|Höhle|gua
+3561|léger|leicht|sedikit
+3562|profondément|zutiefst|sangat
+3563|créativité|Kreativität|kreativitas
+3564|poursuivre|verfolgen|mengejar
+3565|surmonter|überwinden|mengatasi
+3566|saisir|greifen|meraih
+3567|inspecteur|Inspektor|inspektur
+3568|piège; piéger|Falle; fangen|perangkap; menjebak
+3569|imbécile|Narr|orang bodoh
+3570|observer|beobachten|mengamati
+3571|racial|rassisch|rasial
+3572|intégrer|integrieren|mengintegrasikan
+3573|bactéries|Bakterien|bakteri
+3574|prison; emprisonner|Gefängnis; einsperren|penjara; memenjarakan
+3575|transformer|verwandeln|mengubah
+3576|gratter; égratignure|kratzen; Kratzer|menggaruk; goresan
+3577|fusée|Rakete|roket
+3578|balle (d'arme)|Kugel|peluru
+3579|méchant, désagréable|fies|jahat
+3580|rencontrer; rencontre|begegnen; Begegnung|menjumpai; pertemuan
+3581|invasion|Invasion|invasi
+3582|notion|Vorstellung|gagasan
+3583|renforcer|stärken|memperkuat
+3584|défendre|verteidigen|membela
+3585|agressif|aggressiv|agresif
+3586|motivation|Motivation|motivasi
+3587|systématiquement|beständig|secara konsisten
+3588|creuser|graben|menggali
+3589|par la suite|anschließend|selanjutnya
+3590|pouce (doigt)|Daumen|ibu jari
+3591|restriction|Einschränkung|pembatasan
+3592|incorporer|einbeziehen|memasukkan
+3593|dominant|dominant|dominan
+3594|nier|leugnen|menyangkal
+3595|parrainage|Sponsoring|sponsor
+3596|fraction|Bruchteil|pecahan
+3597|incertitude|Unsicherheit|ketidakpastian
+3598|marqueur|Marker|penanda
+3599|pliant|klappbar|lipat
+3600|bénéfique|nützlich|bermanfaat
+3601|fabuleux|fabelhaft|luar biasa
+3602|littéralement|buchstäblich|secara harfiah
+3603|épice|Gewürz|rempah
+3604|perspective|Aussicht|prospek
+3605|tension|Spannung|ketegangan
+3606|enveloppe|Umschlag|amplop
+3607|citer|zitieren|mengutip
+3608|remarquable|bemerkenswert|luar biasa
+3609|imagination|Vorstellungskraft|imajinasi
+3610|assigner|zuweisen|menugaskan
+3611|loger|unterbringen|menampung
+3612|ombre; nuance|Schatten; Farbton|naungan; corak
+3613|rythme|Rhythmus|ritme
+3614|paroles (chanson)|Liedtext|lirik
+3615|jeter|abladen|membuang
+3616|réchauffement|Erwärmung|pemanasan
+3617|entrepreneur|Unternehmer|pengusaha
+3618|excessif|übermäßig|berlebihan
+3619|inattendu|unerwartet|tak terduga
+3620|caractéristique|Merkmal; charakteristisch|ciri; khas
+3621|par conséquent|folglich|akibatnya
+3622|vaincre; défaite|besiegen; Niederlage|mengalahkan; kekalahan
+3623|librement|frei|dengan bebas
+3624|honte; dommage|Schande; schade|malu; sayang
+3625|brièvement|kurz|secara singkat
+3626|génie|Genie|jenius
+3627|à peine|kaum|nyaris tidak
+3628|où que|wo auch immer|di mana pun
+3629|ballon|Ballon|balon
+3630|urgent|dringend|mendesak
+3631|indication|Hinweis|indikasi
+3632|entourer|umgeben|mengelilingi
+3633|environ|ungefähr|kira-kira
+3634|fossé|Kluft|kesenjangan
+3635|mériter|verdienen|layak
+3636|avec précision|genau|dengan akurat
+3637|nerf|Nerv|saraf
+3638|reconnaître|anerkennen|mengakui
+3639|minutieusement|gründlich|secara menyeluruh
+3640|questionnaire|Fragebogen|kuesioner
+3641|oser|wagen|berani
+3642|impressionné|beeindruckt|terkesan
+3643|pente|Hang|lereng
+3644|complot|Verschwörung|konspirasi
+3645|évident|offensichtlich|jelas
+3646|s'attaquer à|angehen|menangani
+3647|se pencher|sich lehnen|bersandar
+3648|panique|Panik|kepanikan
+3649|excuse; excuser|Ausrede; entschuldigen|alasan; memaafkan
+3650|sous-sol|Keller|ruang bawah tanah
+3651|courage|Mut|keberanian
+3652|efficacement|effizient|secara efisien
+3653|manuel scolaire|Lehrbuch|buku pelajaran
+3654|divertissant|unterhaltsam|menghibur
+3655|régler; s'installer|regeln; sich niederlassen|menyelesaikan; menetap
+3656|hypothèse|Hypothese|hipotesis
+3657|proposer|vorschlagen|mengusulkan
+3658|précisément|genau|tepatnya
+3659|répandu|weit verbreitet|tersebar luas
+3660|sans-abri|obdachlos|tunawisma
+3661|publicité, médiatisation|Publicity|publisitas
+3662|marathon|Marathon|maraton
+3663|critère|Kriterium|kriteria
+3664|badge|Abzeichen|lencana
+3665|poignet|Handgelenk|pergelangan tangan
+3666|civilisation|Zivilisation|peradaban
+3667|casque|Helm|helm
+3668|tsunami|Tsunami|tsunami
+3669|érudit|Gelehrter|cendekiawan
+3670|accomplir|vollbringen|menyelesaikan
+3671|mythe|Mythos|mitos
+3672|concert (petit)|Auftritt|pertunjukan
+3673|phénomène|Phänomen|fenomena
+3674|conscient|bewusst|sadar
+3675|accent|Akzent|aksen
+3676|remarque; remarquer|Bemerkung; bemerken|komentar; berkomentar
+3677|convaincu|überzeugt|yakin
+3678|tarif|Fahrpreis|ongkos
+3679|herbe aromatique|Kraut|herba
+3680|progressivement|allmählich|secara bertahap
+3681|falaise|Klippe|tebing
+3682|ballet|Ballett|balet
+3683|ensuite|danach|sesudahnya
+3684|adversaire|Gegner|lawan
+3685|lointain|fern|jauh
+3686|blessure; blesser|Wunde; verwunden|luka; melukai
+3687|ver|Wurm|cacing
+3688|élire|wählen|memilih
+3689|mortel|tödlich|mematikan
+3690|collant|klebrig|lengket
+3691|nécessité|Notwendigkeit|kebutuhan
+3692|obésité|Fettleibigkeit|obesitas
+3693|ravir; joie|erfreuen; Freude|menyenangkan; kegembiraan
+3694|survivant|Überlebender|penyintas
+3695|entreprendre|unternehmen|melakukan
+3696|déclarer|erklären|menyatakan
+3697|déchirer; déchirure|reißen; Riss|merobek; robekan
+3698|larme|Träne|air mata
+3699|tragédie|Tragödie|tragedi
+3700|dernièrement|in letzter Zeit|akhir-akhir ini
+3701|de même|ebenso|demikian juga
+3702|charmant|charmant|menawan
+3703|affaire; liaison|Angelegenheit; Affäre|urusan; perselingkuhan
+3704|restreindre|beschränken|membatasi
+3705|à côté de|neben|di samping
+3706|échelle|Leiter|tangga
+3707|considérablement|dramatisch|secara drastis
+3708|négociation|Verhandlung|negosiasi
+3709|talon|Ferse; Absatz|tumit
+3710|controversé|umstritten|kontroversial
+3711|couverture|Decke|selimut
+3712|justifier|rechtfertigen|membenarkan
+3713|posséder|besitzen|memiliki
+3714|creux|hohl|berongga
+3715|poursuite, quête|Streben|pengejaran
+3716|serre|Gewächshaus|rumah kaca
+3717|colonie|Kolonie|koloni
+3718|temporairement|vorübergehend|untuk sementara
+3719|transmettre|übertragen|mentransmisikan
+3720|faim|Hunger|kelaparan
+3721|chirurgien|Chirurg|ahli bedah
+3722|magnifique|großartig|megah
+3723|nocif|schädlich|berbahaya
+3724|norme|Norm|norma
+3725|fossile|Fossil|fosil
+3726|mystérieux|geheimnisvoll|misterius
+3727|poser|posieren; darstellen|berpose; menimbulkan
+3728|thérapeute|Therapeut|terapis
+3729|prometteur|vielversprechend|menjanjikan
+3730|cauchemar|Albtraum|mimpi buruk
+3731|imposer|auferlegen|memaksakan
+3732|favoriser|bevorzugen|lebih menyukai
+3733|exhorter|drängen|mendesak
+3734|minutieux|gründlich|teliti
+3735|créature|Geschöpf|makhluk
+3736|faire face|zurechtkommen|mengatasi
+3737|controverse|Kontroverse|kontroversi
+3738|sympathie, compassion|Mitgefühl|simpati
+3739|chorale|Chor|paduan suara
+3740|porte-parole|Sprecher|juru bicara
+3741|suffisamment|ausreichend|cukup
+3742|résister|widerstehen|menolak
+3743|plié, tordu|gebogen|bengkok
+3744|racisme|Rassismus|rasisme
+3745|interpréter|interpretieren|menafsirkan
+3746|modeste|bescheiden|sederhana
+3747|clarifier|klären|mengklarifikasi
+3748|activer|aktivieren|mengaktifkan
+3749|amer|bitter|pahit
+3750|partir|abfahren|berangkat
+3751|considérablement|erheblich|secara signifikan
+3752|honneur; honorer|Ehre; ehren|kehormatan; menghormati
+3753|inutile|nutzlos|tidak berguna
+3754|agréable|angenehm|menyenangkan
+3755|négocier|verhandeln|bernegosiasi
+3756|exploiter|ausnutzen|mengeksploitasi
+3757|définitivement|dauerhaft|secara permanen
+3758|distinguer|unterscheiden|membedakan
+3759|illustrer|veranschaulichen|mengilustrasikan
+3760|patience|Geduld|kesabaran
+3761|peu profond|flach|dangkal
+3762|pile; empiler|Stapel; stapeln|tumpukan; menumpuk
+3763|humour|Humor|humor
+3764|un jour|irgendwann|suatu saat
+3765|infraction; offense|Vergehen; Kränkung|pelanggaran; tersinggung
+3766|à côté de|neben|di samping
+3767|probable|wahrscheinlich|mungkin
+3768|décoration|Dekoration|hiasan
+3769|de manière appropriée|angemessen|dengan tepat
+3770|s'adapter|anpassen|beradaptasi
+3771|retirer; se retirer|abheben; zurückziehen|menarik; mundur
+3772|soigné, net|ordentlich|rapi
+3773|faire une pause; pause|pausieren; Pause|berhenti sejenak; jeda
+3774|mondialisation|Globalisierung|globalisasi
+3775|couloir|Korridor|koridor
+3776|reconstruire|wiederaufbauen|membangun kembali
+3777|mémorable|unvergesslich|berkesan
+3778|monument|Denkmal|monumen
+3779|loyal|treu|setia
+3780|dépit (malgré)|Trotz (trotz)|dendam (meskipun)
+3781|directive|Richtlinie|pedoman
+3782|impliquer, sous-entendre|andeuten|menyiratkan
+3783|tendance|Tendenz|kecenderungan
+3784|embrasser; adopter|umarmen; annehmen|memeluk; menerima
+3785|purement|rein|murni
+3786|crâne|Schädel|tengkorak
+3787|critique (personne)|Kritiker|kritikus
+3788|adéquatement|angemessen|secara memadai
+3789|fragment|Bruchstück|fragmen
+3790|recruter; recrue|anwerben; Rekrut|merekrut; rekrutan
+3791|enthousiasme|Begeisterung|antusiasme
+3792|déroutant|verwirrend|membingungkan
+3793|faiblesse|Schwäche|kelemahan
+3794|ambulance|Krankenwagen|ambulans
+3795|scandale|Skandal|skandal
+3796|hurler; hurlement|schreien; Schrei|menjerit; jeritan
+3797|rival|Rivale|saingan
+3798|comptable|Buchhalter|akuntan
+3799|délinquant|Täter|pelanggar
+3800|émerger|auftauchen|muncul
+3801|réfugié|Flüchtling|pengungsi
+3802|mécanicien|Mechaniker|montir
+3803|élève; pupille|Schüler; Pupille|murid; pupil
+3804|fermement|fest|dengan tegas
+3805|tenue|Outfit|pakaian
+3806|entièrement|insgesamt|sama sekali
+3807|équiper|ausrüsten|melengkapi
+3808|obligatoire|verpflichtend|wajib
+3809|attente|Erwartung|harapan
+3810|sévèrement|schwer|dengan parah
+3811|interrompre|unterbrechen|menyela
+3812|quiconque|wer auch immer|siapa pun
+3813|choqué|schockiert|terkejut
+3814|réguler|regulieren|mengatur
+3815|pénurie|Mangel|kekurangan
+3816|renverser|verschütten|menumpahkan
+3817|bonté|Güte|kebaikan
+3818|bombardement|Bombenanschlag|pengeboman
+3819|inévitable|unvermeidlich|tak terelakkan
+3820|avaler|schlucken|menelan
+3821|ravi|erfreut|senang sekali
+3822|signal|Stichwort|isyarat
+3823|sécheresse|Dürre|kekeringan
+3824|guérir|heilen|menyembuhkan
+3825|passionné|leidenschaftlich|bersemangat
+3826|jugement|Urteil|penilaian
+3827|économiste|Ökonom|ekonom
+3828|regretter; regret|bereuen; Bedauern|menyesal; penyesalan
+3829|déchets (par terre)|Abfall|sampah
+3830|point de vue|Standpunkt|sudut pandang
+3831|s'opposer à|ablehnen|menentang
+3832|encourager; acclamation|anfeuern; Jubel|bersorak; sorakan
+3833|animé|lebhaft|meriah
+3834|balayer|fegen|menyapu
+3835|exposer|aussetzen; enthüllen|membuka; mengungkap
+3836|inspirer|inspirieren|menginspirasi
+3837|largement|ausgiebig|secara luas
+3838|raide|steif|kaku
+3839|ridicule|lächerlich|konyol
+3840|coude|Ellbogen|siku
+3841|accompagner|begleiten|menemani
+3842|hésiter|zögern|ragu-ragu
+3843|se spécialiser|sich spezialisieren|mengkhususkan diri
+3844|frotter|reiben|menggosok
+3845|stimuler|anregen|merangsang
+3846|souligner|betonen|menekankan
+3847|hilarant|urkomisch|sangat lucu
+3848|raide (pente)|steil|curam
+3849|malheureux|unglücklich|malang
+3850|pardonner|vergeben|memaafkan
+3851|déprimé|deprimiert|tertekan
+3852|riche|wohlhabend|kaya
+3853|défenseur|Verteidiger|pembela
+3854|raciste|rassistisch; Rassist|rasis
+3855|transmettre|vermitteln|menyampaikan
+3856|gouverner|regieren|memerintah
+3857|plume|Feder|bulu
+3858|affectueux; qui aime|zugetan|sayang
+3859|interdire|verbieten|melarang
+3860|suspendre|aussetzen|menangguhkan
+3861|illusion|Illusion|ilusi
+3862|tragique|tragisch|tragis
+3863|position|Haltung|sikap
+3864|dériver|ableiten|berasal
+3865|terne, ennuyeux|langweilig, trüb|membosankan
+3866|de manière critique|kritisch|secara kritis
+3867|devoir (argent)|schulden|berutang
+3868|fondre|schmelzen|mencair
+3869|chanceux|glücklich|beruntung
+3870|inacceptable|inakzeptabel|tidak dapat diterima
+3871|courbé|gebogen|melengkung
+3872|jurer|schwören; fluchen|bersumpah; mengumpat
+3873|honnêteté|Ehrlichkeit|kejujuran
+3874|menacer|drohen|mengancam
+3875|banlieue|Vorort|pinggiran kota
+3876|soulager|lindern|meringankan
+3877|enthousiaste|begeistert|antusias
+3878|anxieux|ängstlich|cemas
+3879|évoluer|sich entwickeln|berkembang
+3880|effrayer; frayeur|erschrecken; Schreck|menakuti; ketakutan
+3881|historien|Historiker|sejarawan
+3882|comprendre (inclure)|umfassen|terdiri dari
+3883|arbitre|Schiedsrichter|wasit
+3884|globalement|weitgehend|secara umum
+3885|insister|bestehen|bersikeras
+3886|spéculation|Spekulation|spekulasi
+3887|choquant|schockierend|mengejutkan
+3888|anticiper|vorhersehen|mengantisipasi
+3889|unir|vereinen|menyatukan
+3890|ruiner; ruines|ruinieren; Ruine|merusak; reruntuhan
+3891|délibérément|absichtlich|dengan sengaja
+3892|ouvertement|offen|secara terbuka
+3893|convaincant|überzeugend|meyakinkan
+3894|obéir|gehorchen|mematuhi
+3895|multiplier|multiplizieren|mengalikan
+3896|humoristique|humorvoll|lucu
+3897|optimiste|optimistisch|optimis
+3898|dominer|dominieren|mendominasi
+3899|abandonner|aufgeben|meninggalkan
+3900|certitude|Gewissheit|kepastian

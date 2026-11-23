@@ -1,0 +1,671 @@
+4651|mérite|Verdienst|jasa
+4652|matériel; tacle|Ausrüstung; Tackling|perlengkapan; tekel
+4653|arbitraire|willkürlich|sewenang-wenang
+4654|éminent|prominent|terkemuka
+4655|récupérer|abrufen|mengambil kembali
+4656|occasionnel|gelegentlich|sesekali
+4657|vider, égoutter|abtropfen|mengeringkan
+4658|explicitement|ausdrücklich|secara eksplisit
+4659|citoyenneté|Staatsbürgerschaft|kewarganegaraan
+4660|brin|Strähne|untaian
+4661|procès|Klage|gugatan
+4662|hiérarchie|Hierarchie|hierarki
+4663|compléter|ergänzen|melengkapi
+4664|culte; culte (adj.)|Kult; Kult-|kultus
+4665|passif|passiv|pasif
+4666|genoux; tour (de piste)|Schoß; Runde|pangkuan; putaran
+4667|doctrine|Lehre|doktrin
+4668|cohérence|Beständigkeit|konsistensi
+4669|rage|Wut|kemarahan
+4670|incidence|Häufigkeit|insiden
+4671|de même; semblable|gleich; ähnlich|sama
+4672|ingérence; interférence|Einmischung; Störung|campur tangan; gangguan
+4673|parental|elterlich|orang tua
+4674|moindre|geringer|lebih kecil
+4675|proposition|Vorschlag|proposisi
+4676|allocation; argent de poche|Zuschuss; Taschengeld|tunjangan; uang saku
+4677|déni|Leugnung|penyangkalan
+4678|énorme|gewaltig|luar biasa besar
+4679|bulletin de vote|Stimmzettel|surat suara
+4680|validité|Gültigkeit|validitas
+4681|administrateur (fiduciaire)|Treuhänder|wali amanat
+4682|royaume, domaine|Reich|alam, ranah
+4683|ambassadeur|Botschafter|duta besar
+4684|frappant|auffallend|mencolok
+4685|mauvaise herbe|Unkraut|gulma
+4686|utiliser|nutzen|memanfaatkan
+4687|promettre; engagement|versprechen; Zusage|berjanji; ikrar
+4688|fusion|Fusion|merger
+4689|allusion; laisser entendre|Hinweis; andeuten|petunjuk; mengisyaratkan
+4690|raisonnement|Argumentation|penalaran
+4691|fusionner|zusammenführen|menggabungkan
+4692|privilège|Privileg|hak istimewa
+4693|violation; enfreindre|Verstoß; verletzen|pelanggaran; melanggar
+4694|référence|Maßstab|tolok ukur
+4695|compétent|kompetent|kompeten
+4696|élan|Schwung|momentum
+4697|pasteur|Pastor|pendeta
+4698|contributeur|Beitragender|kontributor
+4699|souhaitable|wünschenswert|diinginkan
+4700|tremper|eintauchen|mencelupkan
+4701|magique|magisch|ajaib
+4702|miracle|Wunder|keajaiban
+4703|conviction; condamnation|Überzeugung; Verurteilung|keyakinan; vonis
+4704|appareil|Apparat|peralatan
+4705|terrain|Gelände|medan
+4706|nomination|Nominierung|nominasi
+4707|empirique|empirisch|empiris
+4708|dépendance|Abhängigkeit|ketergantungan
+4709|sexualité|Sexualität|seksualitas
+4710|reste|Rest|sisa
+4711|intime|intim|intim
+4712|exclusion|Ausschluss|pengucilan
+4713|brutal|brutal|brutal
+4714|sélectif|selektiv|selektif
+4715|sacrifice; sacrifier|Opfer; opfern|pengorbanan; mengorbankan
+4716|de banlieue|vorstädtisch|pinggiran kota
+4717|humanitaire|humanitär|kemanusiaan
+4718|nid|Nest|sarang
+4719|tribunal|Tribunal|pengadilan
+4720|flic|Bulle|polisi
+4721|adolescent|Jugendlicher|remaja
+4722|occurrence|Vorkommen|kejadian
+4723|divulguer|offenlegen|mengungkapkan
+4724|mentor|Mentor|mentor
+4725|sphère|Sphäre|bidang
+4726|maximiser|maximieren|memaksimalkan
+4727|séance d'entraînement|Training|latihan
+4728|probabilité|Wahrscheinlichkeit|kemungkinan
+4729|compromis|Kompromiss|kompromi
+4730|aligner|ausrichten|menyelaraskan
+4731|bénir|segnen|memberkati
+4732|captivant|fesselnd|memikat
+4733|triomphe|Triumph|kemenangan
+4734|électoral|Wahl-|pemilihan
+4735|vague; déferler|Anstieg; ansteigen|lonjakan; melonjak
+4736|traumatisme|Trauma|trauma
+4737|défensif|defensiv|defensif
+4738|praticien|Praktiker|praktisi
+4739|bête, stupide|dumm|bodoh
+4740|révélation|Offenbarung|wahyu, pengungkapan
+4741|délégation|Delegation|delegasi
+4742|soutien|Unterstützung|dukungan
+4743|transparence|Transparenz|transparansi
+4744|interminable|endlos|tak berujung
+4745|colonne vertébrale|Wirbelsäule|tulang belakang
+4746|exploit|Leistung|prestasi
+4747|soutien, approbation|Billigung|dukungan
+4748|missile|Rakete|rudal
+4749|persistant|beharrlich|gigih
+4750|adaptation|Anpassung|adaptasi
+4751|continuellement|ständig|terus-menerus
+4752|communiste|kommunistisch|komunis
+4753|verbal|verbal|verbal
+4754|actuellement|derzeit|saat ini
+4755|rendre|machen; leisten|membuat; memberikan
+4756|par la suite|danach|setelah itu
+4757|forger; contrefaire|schmieden; fälschen|menempa; memalsukan
+4758|dense|dicht|padat
+4759|harcèlement|Belästigung|pelecehan
+4760|aluminium|Aluminium|aluminium
+4761|subtil|subtil|halus
+4762|légendaire|legendär|legendaris
+4763|esprit (humour)|Witz|kecerdasan
+4764|vertu|Tugend|kebajikan
+4765|éclater|platzen|meledak
+4766|mandat|Mandat|mandat
+4767|fibre|Faser|serat
+4768|reproduire|reproduzieren|mereproduksi
+4769|brut, grossier|roh|kasar, mentah
+4770|calculer|berechnen|menghitung
+4771|insertion|Einfügung|penyisipan
+4772|contrainte|Einschränkung|kendala
+4773|asile|Asyl|suaka
+4774|enjeu; participation|Einsatz; Anteil|taruhan; saham
+4775|cocktail|Cocktail|koktail
+4776|coûteux|kostspielig|mahal
+4777|fusil|Gewehr|senapan
+4778|notable|bemerkenswert|penting
+4779|guerre (conduite)|Kriegsführung|peperangan
+4780|à venir|bevorstehend|akan datang
+4781|détention|Haft|penahanan
+4782|gallon|Gallone|galon
+4783|psychiatrique|psychiatrisch|kejiwaan
+4784|distinctif|unverwechselbar|khas
+4785|bienveillant, solidaire|unterstützend|mendukung
+4786|faire respecter|durchsetzen|menegakkan
+4787|propriétaire (bailleur)|Vermieter|pemilik sewa
+4788|fuir; fuite|lecken; Leck|bocor; kebocoran
+4789|convaincant|überzeugend|meyakinkan
+4790|chiffre d'affaires|Umsatz|omzet
+4791|imagerie|Bildsprache|citra
+4792|compétence|Kompetenz|kompetensi
+4793|inadéquat|unzureichend|tidak memadai
+4794|dispersé|verstreut|tersebar
+4795|abondance|Fülle|kelimpahan
+4796|insuffisant|unzureichend|tidak cukup
+4797|déclencher|auslösen|memicu
+4798|voie|Pfad|jalur
+4799|remuer|umrühren|mengaduk
+4800|tactique|taktisch|taktis
+4801|accusation (parquet)|Anklage|penuntutan
+4802|viable|tragfähig|layak
+4803|défaut|Defekt|cacat
+4804|loyauté|Treue|kesetiaan
+4805|bien-aimé|geliebt|tercinta
+4806|du tout|überhaupt|sama sekali
+4807|bondir; bond|springen; Sprung|melompat; lompatan
+4808|manipulation|Manipulation|manipulasi
+4809|trophée|Trophäe|piala
+4810|rentable|rentabel|menguntungkan
+4811|préjugé|Vorurteil|prasangka
+4812|évolutif|evolutionär|evolusioner
+4813|mandat (durée)|Amtszeit|masa jabatan
+4814|régulateur|Regulierungsbehörde|regulator
+4815|voiture (train); calèche|Waggon; Kutsche|gerbong; kereta kuda
+4816|terminer|beenden|mengakhiri
+4817|monument, repère|Wahrzeichen|tengara
+4818|idiot|Idiot|orang bodoh
+4819|symbolique|symbolisch|simbolis
+4820|démon|Dämon|setan
+4821|réputé|renommiert|terkenal
+4822|philosophique|philosophisch|filosofis
+4823|justification|Rechtfertigung|pembenaran
+4824|manuscrit|Manuskript|naskah
+4825|inhérent|innewohnend|melekat
+4826|chagrin|Trauer|kesedihan
+4827|contribuable|Steuerzahler|pembayar pajak
+4828|carence|Mangel|kekurangan
+4829|entièrement|völlig|sepenuhnya
+4830|initier|einleiten|memulai
+4831|critique (analyse)|Kritik|kritik
+4832|prévalence|Verbreitung|prevalensi
+4833|autoriser|genehmigen|memberi wewenang
+4834|rebondir|abprallen|memantul
+4835|dévouement|Hingabe|dedikasi
+4836|marginal|marginal|marginal
+4837|collision|Zusammenstoß|tabrakan
+4838|pirate|Pirat|bajak laut
+4839|propagande|Propaganda|propaganda
+4840|mélodie|Melodie|melodi
+4841|enterrement|Begräbnis|penguburan
+4842|négliger|vernachlässigen|mengabaikan
+4843|discours|Diskurs|wacana
+4844|socialiste|sozialistisch|sosialis
+4845|esclavage|Sklaverei|perbudakan
+4846|crédibilité|Glaubwürdigkeit|kredibilitas
+4847|acte|Tat|perbuatan
+4848|soutenir, maintenir|aufrechterhalten|menopang
+4849|rejet|Ablehnung|penolakan
+4850|actionnaire|Aktionär|pemegang saham
+4851|désireux|eifrig|bersemangat
+4852|conseil (psychologique)|Beratung|konseling
+4853|profond|tiefgreifend|mendalam
+4854|s'efforcer|streben|berusaha
+4855|croquis|Skizze|sketsa
+4856|dur, sévère|hart|keras
+4857|substitution|Ersetzung|substitusi
+4858|cesser|aufhören|berhenti
+4859|écrasant|überwältigend|luar biasa
+4860|dignité|Würde|martabat
+4861|accumulation|Anhäufung|akumulasi
+4862|militant|Aktivist|aktivis
+4863|exploitation|Ausbeutung|eksploitasi
+4864|se rendre|sich ergeben|menyerah
+4865|doubler; surnommer|synchronisieren; nennen|menyulih; menjuluki
+4866|niche|Nische|ceruk
+4867|néanmoins|nichtsdestotrotz|meskipun begitu
+4868|libération|Befreiung|pembebasan
+4869|bénédiction|Segen|berkat
+4870|présidence|Präsidentschaft|kepresidenan
+4871|délicat|empfindlich|halus, rapuh
+4872|intact|unversehrt|utuh
+4873|délégué|Delegierter|delegasi
+4874|refuge|Zuflucht|tempat berlindung
+4875|prestigieux|angesehen|bergengsi
+4876|déployer|einsetzen|mengerahkan
+4877|dériver|treiben|hanyut
+4878|incapacité|Unfähigkeit|ketidakmampuan
+4879|théâtral|theatralisch|teatrikal
+4880|rituel|Ritual|ritual
+4881|claquer|zuschlagen|membanting
+4882|correspondre|entsprechen; korrespondieren|sesuai; berkorespondensi
+4883|simple|unkompliziert|sederhana
+4884|monopole|Monopol|monopoli
+4885|débris|Trümmer|puing
+4886|veuve|Witwe|janda
+4887|troublé|unruhig|bermasalah
+4888|vibrant, animé|lebendig|semarak
+4889|corrompu|korrupt|korup
+4890|correspondant|Korrespondent|koresponden
+4891|ignorance|Unwissenheit|ketidaktahuan
+4892|explosif|explosiv; Sprengstoff|eksplosif; bahan peledak
+4893|prospérité|Wohlstand|kemakmuran
+4894|apparemment|scheinbar|tampaknya
+4895|percée|Durchbruch|terobosan
+4896|administrer|verwalten; verabreichen|mengelola; memberikan
+4897|glorieux|herrlich|gemilang
+4898|caution|Kaution|jaminan
+4899|approuver|befürworten|mendukung
+4900|objection|Einwand|keberatan
+4901|nommer|ernennen|menunjuk
+4902|humble|bescheiden|rendah hati
+4903|hostile|feindselig|bermusuhan
+4904|diplomatique|diplomatisch|diplomatik
+4905|ego|Ego|ego
+4906|conception|Empfängnis; Vorstellung|pembuahan; konsep
+4907|volonté|Bereitschaft|kesediaan
+4908|formidable|großartig|hebat
+4909|congrégation|Gemeinde|jemaat
+4910|trompeur|irreführend|menyesatkan
+4911|prédateur|Raubtier|pemangsa
+4912|par lequel|wodurch|dengan mana
+4913|capitalisme|Kapitalismus|kapitalisme
+4914|inégalité|Ungleichheit|ketimpangan
+4915|éducateur|Pädagoge|pendidik
+4916|interférer|sich einmischen|ikut campur
+4917|culpabilité|Schuld|rasa bersalah
+4918|s'estomper|verblassen|memudar
+4919|examen minutieux|Prüfung|pengawasan ketat
+4920|absurdités|Unsinn|omong kosong
+4921|foule (en colère)|Mob|gerombolan
+4922|moine|Mönch|biksu
+4923|conscience (morale)|Gewissen|hati nurani
+4924|écraser|zerquetschen|menghancurkan
+4925|passionné|Enthusiast|penggemar
+4926|entre-temps|Zwischenzeit|sementara itu
+4927|renouveau|Wiederbelebung|kebangkitan
+4928|spécimen|Exemplar|spesimen
+4929|conseiller municipal|Stadtrat|anggota dewan
+4930|influent|einflussreich|berpengaruh
+4931|bénéficiaire|Begünstigter|penerima manfaat
+4932|progéniture|Nachkommen|keturunan
+4933|affrontement|Zusammenstoß|bentrokan
+4934|émergence|Entstehung|kemunculan
+4935|féministe|feministisch; Feministin|feminis
+4936|compassion|Mitgefühl|belas kasih
+4937|prononcé, marqué|ausgeprägt|jelas
+4938|règne; régner|Herrschaft; herrschen|pemerintahan; memerintah
+4939|responsable|rechenschaftspflichtig|bertanggung jawab
+4940|attrayant|ansprechend|menarik
+4941|austère; frappant|krass|mencolok
+4942|consolider|festigen|mengonsolidasikan
+4943|refus|Weigerung|penolakan
+4944|laïque|weltlich|sekuler
+4945|détresse; affliger|Not; bedrücken|kesusahan; menyusahkan
+4946|notamment|insbesondere|terutama
+4947|vraisemblablement|vermutlich|mungkin
+4948|plaidoyer, appel|Bitte|permohonan
+4949|proie|Beute|mangsa
+4950|violer, enfreindre|verletzen|melanggar
+4951|fouetter|peitschen|mencambuk
+4952|de toute une vie|lebenslang|seumur hidup
+4953|poignée|Handvoll|segelintir
+4954|expirer|ablaufen|kedaluwarsa
+4955|milieu|Mitte|tengah-tengah
+4956|appétit|Appetit|nafsu makan
+4957|sensation|Empfindung|sensasi
+4958|moralité|Moral|moralitas
+4959|successeur|Nachfolger|penerus
+4960|procureur|Staatsanwalt|jaksa
+4961|assistant, collaborateur|Berater|ajudan
+4962|chroniqueur|Kolumnist|kolumnis
+4963|élaboré|aufwendig|rumit
+4964|descente; ascendance|Abstieg; Abstammung|penurunan; keturunan
+4965|troublant|beunruhigend|meresahkan
+4966|notoire|berüchtigt|terkenal buruk
+4967|résidu|Rückstand|residu
+4968|affirmer|behaupten|menegaskan
+4969|inspecter|inspizieren|memeriksa
+4970|victime|Opfer|korban
+4971|désigner|bestimmen|menunjuk
+4972|saisir; compréhension|ergreifen; Verständnis|memahami; pemahaman
+4973|sans rapport|irrelevant|tidak relevan
+4974|rétrécir|schrumpfen|menyusut
+4975|équité|Fairness|keadilan
+4976|quota|Quote|kuota
+4977|sans précédent|beispiellos|belum pernah terjadi
+4978|frustration|Frust|frustrasi
+4979|allié|Verbündeter|sekutu
+4980|solidarité|Solidarität|solidaritas
+4981|frustré|frustriert|frustrasi
+4982|verdict|Urteil|vonis
+4983|candidat désigné|Kandidat|calon
+4984|prétendument|angeblich|konon
+4985|rhétorique|Rhetorik|retorika
+4986|accélérer|beschleunigen|mempercepat
+4987|haine|Hass|kebencian
+4988|manifester|zeigen|mewujudkan
+4989|fracasser|zertrümmern|menghancurkan
+4990|destructeur|zerstörerisch|merusak
+4991|innombrable|unzählig|tak terhitung
+4992|soupirer; soupir|seufzen; Seufzer|mendesah; desahan
+4993|franchement|offen gesagt|terus terang
+4994|encouragement|Ermutigung|dorongan
+4995|coopérer|zusammenarbeiten|bekerja sama
+4996|prémisse|Prämisse|premis
+4997|épidémie|Epidemie|wabah
+4998|prise de conscience|Erkenntnis|kesadaran
+4999|selon les rapports|angeblich|kabarnya
+5000|dilemme|Dilemma|dilema
+5001|esthétique|ästhetisch|estetis
+5002|épidémie, éruption|Ausbruch|wabah
+5003|veine|Vene|vena
+5004|mortel|tödlich|mematikan
+5005|succession|Nachfolge|suksesi
+5006|allouer|zuweisen|mengalokasikan
+5007|suites|Nachwirkungen|akibat
+5008|presser|drücken|memeras
+5009|au milieu de|inmitten|di tengah
+5010|qui en vaut la peine|lohnend|berharga
+5011|idéologie|Ideologie|ideologi
+5012|intestin; instinct|Darm; Bauchgefühl|usus; naluri
+5013|suspect, méfiant|verdächtig|mencurigakan
+5014|emprisonnement|Haft|penjara
+5015|arrêter; arrêt|anhalten; Halt|menghentikan; penghentian
+5016|autonomie|Autonomie|otonomi
+5017|taillader; réduire|aufschlitzen; kürzen|menebas; memangkas
+5018|affirmation|Behauptung|penegasan
+5019|licenciement|Entlassung|pemecatan
+5020|soi-disant|angeblich|katanya
+5021|mécène; client|Gönner; Kunde|pelindung; pelanggan
+5022|provoquer, induire|herbeiführen|memicu
+5023|souveraineté|Souveränität|kedaulatan
+5024|crédible|glaubwürdig|kredibel
+5025|ramper|kriechen|merangkak
+5026|tourner|drehen|memutar
+5027|fragile|zerbrechlich|rapuh
+5028|essuyer|abwischen|menyeka
+5029|référendum|Volksabstimmung|referendum
+5030|subvention|Subvention|subsidi
+5031|exil|Exil|pengasingan
+5032|résider|wohnen|bertempat tinggal
+5033|saluer; grêle|bejubeln; Hagel|memuji; hujan es
+5034|génocide|Völkermord|genosida
+5035|rarement|selten|jarang
+5036|vague|vage|samar
+5037|diagnostiquer|diagnostizieren|mendiagnosis
+5038|curiosité|Neugier|rasa ingin tahu
+5039|pensif; attentionné|nachdenklich; aufmerksam|bijaksana; perhatian
+5040|préjudiciable|schädlich|merusak
+5041|successif|aufeinanderfolgend|berturut-turut
+5042|philosophe|Philosoph|filsuf
+5043|long|langwierig|panjang lebar
+5044|sans aucun doute|zweifellos|tidak diragukan
+5045|réticent|widerwillig|enggan
+5046|enclin|geneigt|cenderung
+5047|complètement|völlig|benar-benar
+5048|avocat (conseil)|Anwalt|pengacara
+5049|aperçu|flüchtiger Blick|sekilas
+5050|atteindre|erreichen|mencapai
+5051|émeute|Aufruhr|kerusuhan
+5052|adhérer|festhalten|mematuhi
+5053|se renseigner|sich erkundigen|menanyakan
+5054|lancer|werfen|melempar
+5055|aspirer|streben|bercita-cita
+5056|installation fixe; match|Einbau; Spiel|perlengkapan tetap; pertandingan
+5057|massacre|Massaker|pembantaian
+5058|problématique|problematisch|bermasalah
+5059|assembler|zusammenbauen|merakit
+5060|majoritairement|überwiegend|sebagian besar
+5061|retenue|Zurückhaltung|pengekangan
+5062|perturbation|Störung|gangguan
+5063|manipuler|manipulieren|memanipulasi
+5064|collaborer|zusammenarbeiten|berkolaborasi
+5065|féroce|heftig|ganas
+5066|démission|Rücktritt|pengunduran diri
+5067|virer|feuern|memecat
+5068|agression|Aggression|agresi
+5069|à mi-chemin|auf halbem Weg|setengah jalan
+5070|compenser|ausgleichen|mengompensasi
+5071|soupçon|Verdacht|kecurigaan
+5072|privatisation|Privatisierung|privatisasi
+5073|particulier, étrange|eigenartig|aneh
+5074|commencer|beginnen|dimulai
+5075|obsession|Besessenheit|obsesi
+5076|moudre|mahlen|menggiling
+5077|bien que|wenn auch|meskipun
+5078|rébellion|Rebellion|pemberontakan
+5079|misère|Elend|kesengsaraan
+5080|sentiment|Gefühl|sentimen
+5081|frustrant|frustrierend|membuat frustrasi
+5082|coup d'État|Putsch|kudeta
+5083|domination|Vorherrschaft|dominasi
+5084|trop|übermäßig|terlalu
+5085|gros morceau|Brocken|potongan besar
+5086|membre (corps)|Gliedmaße|anggota tubuh
+5087|immense|riesig|sangat besar
+5088|capitaliste|kapitalistisch|kapitalis
+5089|affection|Zuneigung|kasih sayang
+5090|vicieux|bösartig|ganas
+5091|stimulus|Reiz|rangsangan
+5092|circonscription|Wahlkreis|daerah pemilihan
+5093|invoquer|berufen auf|merujuk
+5094|mémoires|Memoiren|memoar
+5095|se débarrasser|entsorgen|membuang
+5096|intrigant|faszinierend|menarik
+5097|défaut|Fehler|cacat
+5098|conquérir|erobern|menaklukkan
+5099|témoigner|aussagen|bersaksi
+5100|analogie|Analogie|analogi
+5101|ironie|Ironie|ironi
+5102|concession|Zugeständnis|konsesi
+5103|hocher la tête|nicken|mengangguk
+5104|réprimer|unterdrücken|menekan
+5105|précédent|Präzedenzfall|preseden
+5106|diriger|lenken|mengemudikan
+5107|aveu|Geständnis|pengakuan
+5108|absurde|absurd|absurd
+5109|motif|Motiv|motif
+5110|tristement célèbre|berüchtigt|terkenal buruk
+5111|regard; contempler|Blick; starren|tatapan; menatap
+5112|assassinat|Attentat|pembunuhan
+5113|gars|Bursche|anak muda
+5114|caractériser|charakterisieren|mencirikan
+5115|otage|Geisel|sandera
+5116|désaccord; affirmation|Streit; Behauptung|perselisihan; pendapat
+5117|répondre aux besoins|bedienen|melayani
+5118|simuler|simulieren|mensimulasikan
+5119|sourire (large)|grinsen; Grinsen|menyeringai; seringai
+5120|mépris|Verachtung|penghinaan
+5121|ériger|errichten|mendirikan
+5122|affronter|konfrontieren|menghadapi
+5123|détenu|Häftling|narapidana
+5124|ravi|begeistert|sangat senang
+5125|inculpation|Anklage|dakwaan
+5126|imparfait|fehlerhaft|cacat
+5127|imminent|bevorstehend|akan segera terjadi
+5128|injustice|Ungerechtigkeit|ketidakadilan
+5129|gifler|ohrfeigen|menampar
+5130|prescrire|verschreiben|meresepkan
+5131|nommer, nominer|nominieren|mencalonkan
+5132|arme à feu|Schusswaffe|senjata api
+5133|idéologique|ideologisch|ideologis
+5134|saigner|bluten|berdarah
+5135|encourir|verursachen|menanggung
+5136|plein d'espoir|hoffnungsvoll|penuh harapan
+5137|prédécesseur|Vorgänger|pendahulu
+5138|jeter|wegwerfen|membuang
+5139|tisser|weben|menenun
+5140|insulte; insulter|Beleidigung; beleidigen|hinaan; menghina
+5141|différencier|unterscheiden|membedakan
+5142|instinct|Instinkt|naluri
+5143|autonomiser|befähigen|memberdayakan
+5144|prévaloir|sich durchsetzen|menang
+5145|saper|untergraben|melemahkan
+5146|endurer|ertragen|bertahan
+5147|inhiber|hemmen|menghambat
+5148|superviser|beaufsichtigen|mengawasi
+5149|contradiction|Widerspruch|kontradiksi
+5150|tolérer|tolerieren|menoleransi
+5151|voisin|benachbart|tetangga
+5152|saisir|ergreifen|merebut
+5153|décisif|entscheidend|menentukan
+5154|réalisation|Leistung|pencapaian
+5155|prudent|vorsichtig|berhati-hati
+5156|homologue|Gegenstück|mitra
+5157|milice|Miliz|milisi
+5158|formuler|formulieren|merumuskan
+5159|sans doute|wohl|bisa dibilang
+5160|effort, entreprise|Bemühung|upaya
+5161|prospérer|gedeihen|berkembang
+5162|participation (électorale)|Wahlbeteiligung|jumlah pemilih
+5163|persister|bestehen bleiben|bertahan
+5164|ramper, se glisser|schleichen|merayap
+5165|superviser|beaufsichtigen|mengawasi
+5166|confrontation|Konfrontation|konfrontasi
+5167|toile de fond|Hintergrund|latar belakang
+5168|exprimer clairement|artikulieren|mengartikulasikan
+5169|ironique|ironisch|ironis
+5170|attendre|erwarten|menunggu
+5171|s'envoler|steigen|melambung
+5172|fuir|fliehen|melarikan diri
+5173|favorable|günstig|menguntungkan
+5174|optimisme|Optimismus|optimisme
+5175|accumuler|anhäufen|mengumpulkan
+5176|ironiquement|ironischerweise|ironisnya
+5177|regagner|wiedererlangen|mendapatkan kembali
+5178|tremper|einweichen|merendam
+5179|infecter|infizieren|menginfeksi
+5180|sortie (excursion)|Ausflug|tamasya
+5181|instruire|anweisen|menginstruksikan
+5182|plonger|eintauchen; stürzen|terjun
+5183|ressembler|ähneln|menyerupai
+5184|hurler|brüllen|berteriak
+5185|intervenir|eingreifen|campur tangan
+5186|tactique|Taktik|taktik
+5187|poignarder|erstechen|menikam
+5188|sanction|Sanktion|sanksi
+5189|magistrat|Richter|hakim
+5190|faction|Fraktion|faksi
+5191|bureaucratie|Bürokratie|birokrasi
+5192|conserver|bewahren|melestarikan
+5193|négliger; donner sur|übersehen; überblicken|mengabaikan; menghadap
+5194|militant|Militanter; militant|militan
+5195|indignation; indigner|Empörung; empören|kemarahan; membuat marah
+5196|englober|umfassen|mencakup
+5197|soutenir; lutter|behaupten; kämpfen|berpendapat; bersaing
+5198|se faire plaisir|sich gönnen|memanjakan
+5199|coïncider|zusammenfallen|bertepatan
+5200|enrichir|bereichern|memperkaya
+5201|prêcher|predigen|berkhotbah
+5202|heureusement|zum Glück|untungnya
+5203|représenter|darstellen|menggambarkan
+5204|conférer|verleihen|menganugerahkan
+5205|dicter|diktieren|mendikte
+5206|condamner|verurteilen|mengutuk
+5207|cynique|zynisch|sinis
+5208|qui fait réfléchir|zum Nachdenken anregend|menggugah pikiran
+5209|diminuer|verringern|berkurang
+5210|provenir|entstehen|berasal
+5211|paysan|Bauer|petani
+5212|spectacle|Spektakel|tontonan
+5213|hostilité|Feindseligkeit|permusuhan
+5214|resserrer|festziehen|mengencangkan
+5215|dictateur|Diktator|diktator
+5216|perturber|stören|mengganggu
+5217|juger, estimer|erachten|menganggap
+5218|guérillero|Guerillakämpfer|gerilyawan
+5219|diplomate|Diplomat|diplomat
+5220|se profiler|drohen|membayangi
+5221|concevoir|ausdenken|merancang
+5222|maintenir, défendre|aufrechterhalten|menegakkan
+5223|dissoudre|auflösen|melarutkan
+5224|allégation|Vorwurf|tuduhan
+5225|concevoir|ersinnen; empfangen|menyusun; mengandung
+5226|désastreux|katastrophal|membawa bencana
+5227|présumer|vermuten|menduga
+5228|promulguer|erlassen|memberlakukan
+5229|raviver|wiederbeleben|menghidupkan kembali
+5230|embarras|Verlegenheit|rasa malu
+5231|se vanter|prahlen|membual
+5232|intégrer|einbetten|menanamkan
+5233|s'épanouir|gedeihen|berkembang
+5234|stabiliser|stabilisieren|menstabilkan
+5235|injecter|injizieren|menyuntikkan
+5236|élargir|verbreitern|melebarkan
+5237|étranger (au groupe)|Außenseiter|orang luar
+5238|se noyer|ertrinken|tenggelam
+5239|aspiration|Bestrebung|aspirasi
+5240|cultiver|kultivieren|membudidayakan
+5241|plaider|plädieren|memohon
+5242|jurer|geloben|bersumpah
+5243|commentateur|Kommentator|komentator
+5244|dissimuler|verbergen|menyembunyikan
+5245|féliciter|gratulieren|mengucapkan selamat
+5246|trébucher|stolpern|tersandung
+5247|exercer|ausüben|mengerahkan
+5248|dépeindre|darstellen|menggambarkan
+5249|poursuivre (en justice)|strafrechtlich verfolgen|menuntut
+5250|se lancer; embarquer|beginnen; an Bord gehen|memulai; naik kapal
+5251|descendre|hinabsteigen|turun
+5252|prétendant|Anwärter|pesaing
+5253|corréler|korrelieren|berkorelasi
+5254|affaiblir|schwächen|melemahkan
+5255|complication|Komplikation|komplikasi
+5256|stupéfier|betäuben|mengejutkan
+5257|contraindre|zwingen|memaksa
+5258|détourner|umleiten|mengalihkan
+5259|proclamer|verkünden|memproklamasikan
+5260|hanter|heimsuchen|menghantui
+5261|circuler|zirkulieren|beredar
+5262|provoquer|provozieren|memprovokasi
+5263|sculpter|schnitzen|mengukir
+5264|s'accrocher|sich klammern|berpegangan
+5265|rumeur|Gerücht|desas-desus
+5266|étranger|Ausländer|orang asing
+5267|extrémiste|Extremist|ekstremis
+5268|envisager|erwägen|merenungkan
+5269|applaudir|applaudieren|bertepuk tangan
+5270|abolir|abschaffen|menghapuskan
+5271|conseiller (psy)|Berater|konselor
+5272|disparaître|verschwinden|lenyap
+5273|reporter|verschieben|menunda
+5274|s'inscrire|sich einschreiben|mendaftar
+5275|mobiliser|mobilisieren|memobilisasi
+5276|stéréotype|Klischee|stereotip
+5277|accusation|Anschuldigung|tuduhan
+5278|condamner (au tribunal)|verurteilen|menghukum
+5279|raconter|erzählen|menceritakan
+5280|évoquer|hervorrufen|membangkitkan
+5281|élever|erhöhen|mengangkat
+5282|défier|trotzen|menentang
+5283|dévoiler|enthüllen|meluncurkan
+5284|concéder|einräumen|mengakui
+5285|intensifier|verstärken|mengintensifkan
+5286|hausser les épaules|mit den Schultern zucken|mengangkat bahu
+5287|priver|berauben|merampas
+5288|évacuer|evakuieren|mengevakuasi
+5289|s'attarder|verweilen|berlama-lama
+5290|déformer|verzerren|mendistorsi
+5291|infliger|zufügen|menimbulkan
+5292|alléguer|behaupten|menuduh
+5293|unifier|vereinigen|menyatukan
+5294|automobiliste|Autofahrer|pengendara
+5295|renverser; annuler|umkippen; aufheben|membalikkan; membatalkan
+5296|rassurer|beruhigen|meyakinkan
+5297|incarner|verkörpern|mewujudkan
+5298|confiner|beschränken|membatasi
+5299|trahir|verraten|mengkhianati
+5300|villageois|Dorfbewohner|penduduk desa
+5301|se détériorer|sich verschlechtern|memburuk
+5302|jeune|Jugendlicher|anak muda
+5303|kidnapper|entführen|menculik
+5304|s'intensifier|eskalieren|meningkat
+5305|briser|zerschmettern|menghancurkan
+5306|submerger|überwältigen|membanjiri
+5307|présider|vorsitzen|memimpin
+5308|tenter|verführen|menggoda
+5309|déplacer|vertreiben|memindahkan
+5310|détenir|festhalten|menahan
+5311|dénoncer|anprangern|mengecam
+5312|donner droit|berechtigen|memberi hak
+5313|sceptique|skeptisch|skeptis
+5314|obliger|verpflichten|mewajibkan
+5315|accroître|erhöhen|meningkatkan
+5316|s'ensuivre|folgen|menyusul
+5317|atrocité|Gräueltat|kekejaman
+5318|exagérer|übertreiben|melebih-lebihkan
+5319|emprisonner|einsperren|memenjarakan
+5320|dévaster|verwüsten|menghancurkan
+5321|obséder|besessen sein|terobsesi

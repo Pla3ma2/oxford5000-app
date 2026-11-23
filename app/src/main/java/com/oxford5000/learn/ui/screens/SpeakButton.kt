@@ -23,6 +23,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.oxford5000.learn.tts.Speaker
 import com.oxford5000.learn.tts.TtsStatus
+import com.oxford5000.learn.ui.LocalS
 
 /**
  * Кнопка озвучки. Видна всегда: если синтезатор речи недоступен,
@@ -31,6 +32,7 @@ import com.oxford5000.learn.tts.TtsStatus
 @Composable
 fun SpeakButton(speaker: Speaker, text: String, tint: Color = LocalContentColor.current) {
     val context = LocalContext.current
+    val t = LocalS.current
     var showHelp by remember { mutableStateOf(false) }
 
     IconButton(onClick = {
@@ -39,7 +41,7 @@ fun SpeakButton(speaker: Speaker, text: String, tint: Color = LocalContentColor.
         Icon(
             if (speaker.isReady || speaker.status == TtsStatus.INITIALIZING) Icons.AutoMirrored.Filled.VolumeUp
             else Icons.AutoMirrored.Filled.VolumeOff,
-            contentDescription = "Произнести",
+            contentDescription = t.speak,
             tint = tint,
         )
     }
@@ -48,23 +50,18 @@ fun SpeakButton(speaker: Speaker, text: String, tint: Color = LocalContentColor.
         val noEngine = speaker.status == TtsStatus.NO_ENGINE
         AlertDialog(
             onDismissRequest = { showHelp = false },
-            title = { Text("Озвучка недоступна") },
+            title = { Text(t.ttsTitle) },
             text = {
-                Text(
-                    if (noEngine)
-                        "На телефоне не найден синтезатор речи. Установите «Синтезатор речи Google» (Speech Services by Google) из Play Маркета и выберите его в настройках: Настройки → Специальные возможности (или Язык и ввод) → Синтез речи."
-                    else
-                        "В синтезаторе речи нет английского голоса. Нажмите «Установить голос» и скачайте English (United States), либо выберите «Синтезатор речи Google» в настройках синтеза речи. Затем перезапустите приложение."
-                )
+                Text(if (noEngine) t.ttsNoEngine else t.ttsNoEnglish)
             },
             confirmButton = {
                 TextButton(onClick = {
                     showHelp = false
                     if (noEngine) openPlayStore(context) else installVoice(context)
-                }) { Text(if (noEngine) "Открыть Play Маркет" else "Установить голос") }
+                }) { Text(if (noEngine) t.openPlay else t.installVoice) }
             },
             dismissButton = {
-                TextButton(onClick = { showHelp = false; openTtsSettings(context) }) { Text("Настройки речи") }
+                TextButton(onClick = { showHelp = false; openTtsSettings(context) }) { Text(t.ttsSettings) }
             },
         )
     }

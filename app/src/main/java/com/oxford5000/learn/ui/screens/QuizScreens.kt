@@ -19,7 +19,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.AlertDialog
@@ -28,7 +27,6 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -50,7 +48,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.oxford5000.learn.data.STAGES
-import com.oxford5000.learn.data.posRu
+import com.oxford5000.learn.data.posLocal
 import com.oxford5000.learn.logic.Direction
 import com.oxford5000.learn.tts.Speaker
 import com.oxford5000.learn.ui.AppViewModel
@@ -62,6 +60,7 @@ import com.oxford5000.learn.ui.theme.Marks
 @Composable
 fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () -> Unit) {
     val ui = vm.quiz ?: return
+    val s = vm.s
     val q = ui.question
     val dark = vm.dark
     val wrongAnswered = ui.answered && ui.selected != q.correctIndex
@@ -91,7 +90,7 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                     onClick = { vm.next() },
                     modifier = Modifier.fillMaxWidth().navigationBarsPadding().padding(16.dp).height(56.dp),
                     shape = RoundedCornerShape(16.dp),
-                ) { Text("Дальше", fontSize = 18.sp) }
+                ) { Text(s.next, fontSize = 18.sp) }
             }
         },
     ) { p ->
@@ -104,6 +103,9 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                 progress = { ui.progress },
                 modifier = Modifier.fillMaxWidth().height(6.dp),
             )
+            ui.note?.let {
+                Text(it, fontSize = 13.sp, color = Marks.wrongBorder(dark))
+            }
             Spacer(Modifier.height(4.dp))
 
             // Карточка с заданием
@@ -117,30 +119,30 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     val en = q.direction == Direction.EN_RU
+                    val onCard = MaterialTheme.colorScheme.onPrimaryContainer
                     Text(
-                        if (en) "Выберите перевод" else "Выберите английское слово",
+                        if (en) s.chooseTranslation else s.chooseEnglish,
                         fontSize = 13.sp,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f),
+                        color = onCard.copy(alpha = 0.7f),
                     )
                     Spacer(Modifier.height(10.dp))
+                    val prompt = q.promptText
                     Text(
-                        if (en) q.word.en else q.word.ru,
-                        fontSize = if ((if (en) q.word.en else q.word.ru).length > 18) 26.sp else 34.sp,
+                        prompt,
+                        fontSize = if (prompt.length > 18) 26.sp else 34.sp,
                         fontWeight = FontWeight.Bold,
                         textAlign = TextAlign.Center,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer,
+                        color = onCard,
                     )
                     Text(
-                        if (en) q.word.pos else posRu(q.word.pos),
+                        if (en) q.word.pos else posLocal(q.word.pos, vm.lang),
                         fontSize = 15.sp,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.75f),
+                        color = onCard.copy(alpha = 0.75f),
                     )
                     if (en && q.word.hint.isNotBlank()) {
-                        Text("(${q.word.hint})", fontStyle = FontStyle.Italic, fontSize = 14.sp, color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.75f))
+                        Text("(${q.word.hint})", fontStyle = FontStyle.Italic, fontSize = 14.sp, color = onCard.copy(alpha = 0.75f))
                     }
-                    if (en) {
-                        SpeakButton(speaker, q.word.en, tint = MaterialTheme.colorScheme.onPrimaryContainer)
-                    }
+                    if (en) SpeakButton(speaker, q.word.en, tint = onCard)
                 }
             }
 
@@ -160,7 +162,6 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                     isSelected -> Marks.wrongBorder(dark)
                     else -> MaterialTheme.colorScheme.outlineVariant
                 }
-                // Правильный ответ подсвечиваем всегда, неправильный — только выбранный.
                 Surface(
                     onClick = { vm.answer(i) },
                     enabled = !ui.answered,
@@ -170,20 +171,15 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                     border = BorderStroke(2.dp, border),
                 ) {
                     Row(Modifier.padding(horizontal = 18.dp, vertical = 14.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Text(
-                            q.optionText(i),
-                            fontSize = 18.sp,
-                            modifier = Modifier.weight(1f),
-                            color = MaterialTheme.colorScheme.onSurface,
-                        )
+                        Text(q.optionText(i), fontSize = 18.sp, modifier = Modifier.weight(1f), color = MaterialTheme.colorScheme.onSurface)
                     }
                 }
             }
 
-            // RU→EN: после ошибки показываем правильное слово с озвучкой
+            // Перевод → английский: после ошибки показываем правильное слово с озвучкой
             if (wrongAnswered && q.direction == Direction.RU_EN) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Правильно: ${q.word.en} — ${q.word.pos}", fontWeight = FontWeight.Medium)
+                    Text("${s.correctIs}: ${q.word.en} — ${q.word.pos}", fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f, fill = false))
                     SpeakButton(speaker, q.word.en)
                 }
             }
@@ -196,8 +192,9 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
 
 @Composable
 fun LearnResultScreen(vm: AppViewModel, r: Screen.LearnResult) {
+    val s = vm.s
     val next = vm.repo?.nextLevel(r.stage, r.level)
-    AppScaffold(vm, title = "${r.stage} · Уровень ${r.level}", onBack = { vm.backToLevels(r.stage) }) { p ->
+    AppScaffold(vm, title = s.levelTitle(r.stage, r.level), onBack = { vm.backToLevels(r.stage) }) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(20.dp).verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -205,29 +202,26 @@ fun LearnResultScreen(vm: AppViewModel, r: Screen.LearnResult) {
         ) {
             Spacer(Modifier.height(12.dp))
             Text(if (r.passed) "🎉" else "😕", fontSize = 64.sp)
-            Text(
-                if (r.passed) "Уровень пройден!" else "Уровень не пройден",
-                fontSize = 28.sp, fontWeight = FontWeight.Bold,
-            )
-            Text("Ошибок: ${r.errors}", color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(if (r.passed) s.levelPassed else s.levelFailed, fontSize = 28.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+            Text(s.errorsCount(r.errors), color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (r.wrong.isNotEmpty()) {
                 Card(Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text("Слова с ошибками:", fontWeight = FontWeight.SemiBold)
-                        r.wrong.forEach { w -> Text("${w.en} — ${w.ru}") }
+                        Text(s.wrongWordsTitle, fontWeight = FontWeight.SemiBold)
+                        r.wrong.forEach { w -> Text("${w.en} — ${w.tr(vm.lang)}") }
                     }
                 }
             }
             Spacer(Modifier.height(8.dp))
             if (r.passed && next != null) {
-                Button(onClick = { vm.openNextLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text("Следующий уровень") }
+                Button(onClick = { vm.openNextLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.nextLevel) }
             }
             if (r.passed) {
-                OutlinedButton(onClick = { vm.startLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text("Пройти ещё раз") }
+                OutlinedButton(onClick = { vm.startLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.playAgain) }
             } else {
-                Button(onClick = { vm.startLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text("Ещё раз") }
+                Button(onClick = { vm.startLevel(r.stage, r.level) }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.tryAgain) }
             }
-            OutlinedButton(onClick = { vm.backToLevels(r.stage) }, Modifier.fillMaxWidth().height(52.dp)) { Text("К уровням") }
+            OutlinedButton(onClick = { vm.backToLevels(r.stage) }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.toLevels) }
         }
     }
 }
@@ -238,20 +232,17 @@ fun LearnResultScreen(vm: AppViewModel, r: Screen.LearnResult) {
 @Composable
 fun MarathonScreen(vm: AppViewModel) {
     val repo = vm.repo ?: return
+    val s = vm.s
     val saved = vm.progress.marathon(vm.dark)
     val selected = remember { mutableStateListOf<String>() }
     var confirmReset by remember { mutableStateOf(false) }
 
-    AppScaffold(vm, title = "Марафон") { p ->
+    AppScaffold(vm, title = s.marathon) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(20.dp).verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Text(
-                "Все слова выбранных этапов в случайном порядке. В конце повторяются слова с ошибками, пока не ответите на все верно." +
-                    if (vm.dark) " Тёмный режим: направление вопросов смешанное." else "",
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            Text(s.marathonDesc + if (vm.dark) s.marathonDarkNote else "", color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (saved != null) {
                 Card(
                     Modifier.fillMaxWidth(),
@@ -259,16 +250,16 @@ fun MarathonScreen(vm: AppViewModel) {
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
                 ) {
                     Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("Сохранённый марафон", fontWeight = FontWeight.Bold, fontSize = 20.sp)
-                        Text("Этапы: ${saved.stages.joinToString(", ")}")
-                        Text(marathonPosition(saved).replaceFirstChar { it.uppercase() })
+                        Text(s.savedMarathon, fontWeight = FontWeight.Bold, fontSize = 20.sp)
+                        Text(s.stagesLabel(saved.stages.joinToString(", ")))
+                        Text(marathonPosition(s, saved).replaceFirstChar { it.uppercase() })
                         Spacer(Modifier.height(4.dp))
-                        Button(onClick = { vm.continueMarathon() }, Modifier.fillMaxWidth().height(52.dp)) { Text("Продолжить") }
-                        OutlinedButton(onClick = { confirmReset = true }, Modifier.fillMaxWidth().height(52.dp)) { Text("Сбросить прогресс") }
+                        Button(onClick = { vm.continueMarathon() }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.continueBtn) }
+                        OutlinedButton(onClick = { confirmReset = true }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.resetProgress) }
                     }
                 }
             } else {
-                Text("Выберите этапы:", fontWeight = FontWeight.SemiBold)
+                Text(s.chooseStages, fontWeight = FontWeight.SemiBold)
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     STAGES.forEach { st ->
                         val on = st in selected
@@ -280,12 +271,12 @@ fun MarathonScreen(vm: AppViewModel) {
                     }
                 }
                 val count = selected.sumOf { repo.stageWords(it).size }
-                Text("Слов в марафоне: $count", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(s.wordsInMarathon(count), color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Button(
                     onClick = { vm.startMarathon(STAGES.filter { it in selected }) },
                     enabled = selected.isNotEmpty(),
                     modifier = Modifier.fillMaxWidth().height(52.dp),
-                ) { Text("Начать") }
+                ) { Text(s.start) }
             }
         }
     }
@@ -293,10 +284,10 @@ fun MarathonScreen(vm: AppViewModel) {
     if (confirmReset) {
         AlertDialog(
             onDismissRequest = { confirmReset = false },
-            title = { Text("Сбросить прогресс марафона?") },
-            text = { Text("Сохранённая позиция будет удалена, можно будет начать заново.") },
-            confirmButton = { TextButton(onClick = { confirmReset = false; vm.resetMarathon() }) { Text("Сбросить") } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text("Отмена") } },
+            title = { Text(s.resetTitle) },
+            text = { Text(s.resetText) },
+            confirmButton = { TextButton(onClick = { confirmReset = false; vm.resetMarathon() }) { Text(s.resetConfirm) } },
+            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(s.cancel) } },
         )
     }
 }
@@ -305,7 +296,8 @@ fun MarathonScreen(vm: AppViewModel) {
 
 @Composable
 fun MarathonResultScreen(vm: AppViewModel, r: Screen.MarathonResult) {
-    AppScaffold(vm, title = "Марафон", onBack = { vm.goHome() }) { p ->
+    val s = vm.s
+    AppScaffold(vm, title = s.marathon, onBack = { vm.goHome() }) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(20.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -313,13 +305,13 @@ fun MarathonResultScreen(vm: AppViewModel, r: Screen.MarathonResult) {
         ) {
             Spacer(Modifier.height(24.dp))
             Text("🏁", fontSize = 64.sp)
-            Text("Марафон завершён!", fontSize = 28.sp, fontWeight = FontWeight.Bold)
-            Text("Слов пройдено: ${r.total}")
-            Text("Ошибок в первом круге: ${r.firstRoundErrors}")
-            Text("Кругов работы над ошибками: ${r.rounds - 1}", color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(s.marathonDone, fontSize = 28.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+            Text(s.wordsDone(r.total))
+            Text(s.firstRoundErrors(r.firstRoundErrors))
+            Text(s.reviewRounds(r.rounds - 1), color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.width(8.dp))
-            Button(onClick = { vm.openMarathonSetup() }, Modifier.fillMaxWidth().height(52.dp)) { Text("Начать заново") }
-            OutlinedButton(onClick = { vm.goHome() }, Modifier.fillMaxWidth().height(52.dp)) { Text("На главную") }
+            Button(onClick = { vm.openMarathonSetup() }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.restart) }
+            OutlinedButton(onClick = { vm.goHome() }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.home) }
         }
     }
 }
@@ -329,32 +321,28 @@ fun MarathonResultScreen(vm: AppViewModel, r: Screen.MarathonResult) {
 @Composable
 fun ErrorsScreen(vm: AppViewModel) {
     val repo = vm.repo ?: return
+    val s = vm.s
     val words = vm.progress.errors(vm.dark).mapNotNull { repo.byId[it] }.sortedBy { it.id }
     AppScaffold(
         vm,
-        title = "Ошибки · ${words.size}",
+        title = "${s.errors} · ${words.size}",
         bottomBar = {
             if (words.isNotEmpty()) Button(
                 onClick = { vm.startErrors() },
                 modifier = Modifier.fillMaxWidth().navigationBarsPadding().padding(16.dp).height(56.dp),
                 shape = RoundedCornerShape(16.dp),
-            ) { Text("Начать", fontSize = 18.sp) }
+            ) { Text(s.start, fontSize = 18.sp) }
         },
     ) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(horizontal = 20.dp).verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            Text(
-                "Сюда попадают слова, в которых вы ошиблись в «Обучении» и «Марафоне». " +
-                    "Правильный ответ убирает слово отсюда, неправильный оставляет." +
-                    if (vm.dark) " Тёмный режим: свой список и смешанные вопросы." else "",
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            Text(s.errorsDesc + if (vm.dark) s.errorsDarkNote else "", color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (words.isEmpty()) {
                 Spacer(Modifier.height(40.dp))
                 Text("🎉", fontSize = 56.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
-                Text("Ошибок нет", fontSize = 22.sp, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.CenterHorizontally))
+                Text(s.noErrors, fontSize = 22.sp, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.CenterHorizontally))
             } else {
                 words.forEach { w ->
                     Row(verticalAlignment = Alignment.Bottom) {
@@ -362,7 +350,7 @@ fun ErrorsScreen(vm: AppViewModel) {
                         Spacer(Modifier.width(6.dp))
                         Text(w.pos, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         Spacer(Modifier.width(8.dp))
-                        Text("— ${w.ru}", fontSize = 15.sp, color = MaterialTheme.colorScheme.primary)
+                        Text("— ${w.tr(vm.lang)}", fontSize = 15.sp, color = MaterialTheme.colorScheme.primary)
                     }
                 }
                 Spacer(Modifier.height(12.dp))
@@ -373,7 +361,8 @@ fun ErrorsScreen(vm: AppViewModel) {
 
 @Composable
 fun ErrorsResultScreen(vm: AppViewModel, r: Screen.ErrorsResult) {
-    AppScaffold(vm, title = "Ошибки", onBack = { vm.openErrorsHome() }) { p ->
+    val s = vm.s
+    AppScaffold(vm, title = s.errors, onBack = { vm.openErrorsHome() }) { p ->
         Column(
             Modifier.fillMaxSize().padding(p).padding(20.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -381,12 +370,12 @@ fun ErrorsResultScreen(vm: AppViewModel, r: Screen.ErrorsResult) {
         ) {
             Spacer(Modifier.height(24.dp))
             Text(if (r.left == 0) "🎉" else "💪", fontSize = 64.sp)
-            Text(if (r.left == 0) "Все ошибки исправлены!" else "Круг пройден", fontSize = 28.sp, fontWeight = FontWeight.Bold)
-            Text("Убрано слов: ${r.removed} из ${r.total}")
-            Text("Осталось: ${r.left}", color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(if (r.left == 0) s.allFixed else s.roundDone, fontSize = 28.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+            Text(s.removedOf(r.removed, r.total))
+            Text(s.left(r.left), color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(8.dp))
-            if (r.left > 0) Button(onClick = { vm.startErrors() }, Modifier.fillMaxWidth().height(52.dp)) { Text("Ещё круг") }
-            OutlinedButton(onClick = { vm.goHome() }, Modifier.fillMaxWidth().height(52.dp)) { Text("На главную") }
+            if (r.left > 0) Button(onClick = { vm.startErrors() }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.anotherRound) }
+            OutlinedButton(onClick = { vm.goHome() }, Modifier.fillMaxWidth().height(52.dp)) { Text(s.home) }
         }
     }
 }

@@ -1,0 +1,800 @@
+2301|mentir; mensonge|lügen; Lüge|berbohong; kebohongan
+2302|poitrine; coffre|Brust; Truhe|dada; peti
+2303|passion|Leidenschaft|gairah
+2304|vue (sens)|Sehvermögen; Anblick|penglihatan
+2305|inquiétude|Sorge|kekhawatiran
+2306|feuille|Blatt|daun
+2307|combiner|kombinieren|menggabungkan
+2308|romantique|romantisch|romantis
+2309|examiner|untersuchen|memeriksa
+2310|rugby|Rugby|rugbi
+2311|donner un coup de pied|treten; Tritt|menendang; tendangan
+2312|contrairement à|im Gegensatz zu|tidak seperti
+2313|pot, marmite|Topf|panci
+2314|réussite|Leistung|pencapaian
+2315|pratique, commode|günstig, bequem|praktis
+2316|silencieux|still|diam
+2317|enfance|Kindheit|masa kecil
+2318|talent|Talent|bakat
+2319|tirer; tourner (film)|schießen; drehen|menembak; syuting
+2320|robot|Roboter|robot
+2321|poudre|Pulver|bubuk
+2322|entrée|Eingang|pintu masuk
+2323|attitude|Einstellung|sikap
+2324|fiancé; occupé|verlobt; besetzt|bertunangan; sibuk
+2325|difficulté|Schwierigkeit|kesulitan
+2326|récipient|Behälter|wadah
+2327|départ|Abfahrt|keberangkatan
+2328|croyance|Glaube|kepercayaan
+2329|meurtre|Tötung|pembunuhan
+2330|attraction|Attraktion|daya tarik
+2331|interdire; interdiction|verbieten; Verbot|melarang; larangan
+2332|bizarre; impair|seltsam; ungerade|aneh; ganjil
+2333|humeur|Stimmung|suasana hati
+2334|occasion|Anlass|kesempatan
+2335|victime|Opfer|korban
+2336|photographe|Fotograf|fotografer
+2337|charbon|Kohle|batu bara
+2338|agréable|angenehm|menyenangkan
+2339|annoncer|ankündigen|mengumumkan
+2340|rugueux|rau|kasar
+2341|étagère|Regal|rak
+2342|décennie|Jahrzehnt|dekade
+2343|honnête|ehrlich|jujur
+2344|accrocher, pendre|hängen|menggantung
+2345|retraité|im Ruhestand|pensiunan
+2346|stade|Stadion|stadion
+2347|traduire|übersetzen|menerjemahkan
+2348|costume (déguisement)|Kostüm|kostum
+2349|parfaitement|perfekt|dengan sempurna
+2350|boîte de conserve|Dose|kaleng
+2351|portrait|Porträt|potret
+2352|également|gleichermaßen|sama
+2353|coupable|schuldig|bersalah
+2354|naturellement|natürlich|secara alami
+2355|queue|Schwanz|ekor
+2356|violent|gewalttätig|kejam
+2357|sous-vêtements|Unterwäsche|pakaian dalam
+2358|chaumière|Häuschen|pondok
+2359|ivre|betrunken|mabuk
+2360|documentaire|Dokumentarfilm|film dokumenter
+2361|plafond|Decke|langit-langit
+2362|se permettre|sich leisten|mampu membeli
+2363|quitter, arrêter|aufhören|berhenti
+2364|surligner; temps fort|hervorheben; Höhepunkt|menyoroti; sorotan
+2365|parlé|gesprochen|lisan
+2366|grain|Korn|biji-bijian
+2367|souffle|Atem|napas
+2368|de même|ähnlich|demikian pula
+2369|pièce de monnaie|Münze|koin
+2370|bombe; bombarder|Bombe; bombardieren|bom; mengebom
+2371|enquêter|untersuchen|menyelidiki
+2372|répété|wiederholt|berulang
+2373|langue (organe)|Zunge|lidah
+2374|investir|investieren|berinvestasi
+2375|tricher; tricheur|schummeln; Betrüger|curang; penipu
+2376|célébration|Feier|perayaan
+2377|téléspectateur|Zuschauer|pemirsa
+2378|tissu|Stoff|kain
+2379|arme|Waffe|senjata
+2380|plier|falten|melipat
+2381|se qualifier|sich qualifizieren|memenuhi syarat
+2382|schéma|Diagramm|diagram
+2383|attacher|befestigen|melampirkan
+2384|plier; courbe|biegen; Kurve|membengkokkan; tikungan
+2385|chômage|Arbeitslosigkeit|pengangguran
+2386|profession|Beruf|profesi
+2387|amitié|Freundschaft|persahabatan
+2388|gelé|gefroren|beku
+2389|cérémonie|Zeremonie|upacara
+2390|clou; ongle|Nagel|paku; kuku
+2391|mélange|Mischung|campuran
+2392|impressionnant|beeindruckend|mengesankan
+2393|poème|Gedicht|puisi
+2394|à peine|kaum|hampir tidak
+2395|bulle|Blase|gelembung
+2396|admettre|zugeben|mengakui
+2397|avoir envie; chic|Lust haben; schick|ingin; mewah
+2398|se rapporter à|sich beziehen|berhubungan
+2399|baignade|Schwimmen|berenang
+2400|souffrir|leiden|menderita
+2401|confus|verwirrt|bingung
+2402|abeille|Biene|lebah
+2403|mariée|Braut|pengantin wanita
+2404|sûrement|sicherlich|tentu
+2405|prier|beten|berdoa
+2406|blessé|verletzt|terluka
+2407|improbable|unwahrscheinlich|tidak mungkin
+2408|rarement|selten|jarang
+2409|conseiller|beraten|menasihati
+2410|survivre|überleben|bertahan hidup
+2411|protestation; protester|Protest; protestieren|protes
+2412|tour; tromper|Trick; austricksen|trik; menipu
+2413|saleté|Schmutz|kotoran
+2414|lourdement|stark|dengan berat
+2415|couler; évier|sinken; Spüle|tenggelam; wastafel
+2416|pendant ce temps|inzwischen|sementara itu
+2417|innocent|unschuldig|tidak bersalah
+2418|intention|Absicht|niat
+2419|bonheur|Glück|kebahagiaan
+2420|impression|Eindruck|kesan
+2421|calme; calmer|ruhig; beruhigen|tenang; menenangkan
+2422|lèvre|Lippe|bibir
+2423|rassembler|sammeln|mengumpulkan
+2424|indirect|indirekt|tidak langsung
+2425|laine|Wolle|wol
+2426|arrêter; arrestation|verhaften; Festnahme|menangkap; penangkapan
+2427|attirer|anziehen|menarik
+2428|seul, solitaire|einsam|kesepian
+2429|confiant|selbstbewusst|percaya diri
+2430|devrait (ought)|sollte|seharusnya
+2431|laid|hässlich|jelek
+2432|prêtre|Priester|pendeta
+2433|file d'attente; faire la queue|Schlange; anstehen|antrean; mengantre
+2434|sculpture|Skulptur|patung
+2435|punition|Strafe|hukuman
+2436|prédiction|Vorhersage|prediksi
+2437|désordre|Unordnung|berantakan
+2438|soudain|plötzlich|mendadak
+2439|corde|Seil|tali
+2440|doux|sanft|lembut
+2441|gros titre|Schlagzeile|judul berita
+2442|récit|Erzählung|narasi
+2443|consister|bestehen|terdiri
+2444|secousse; milk-shake|Schütteln; Shake|guncangan; minuman kocok
+2445|bête, idiot|albern|konyol
+2446|doux (climat)|mild|sejuk
+2447|fourrure|Fell|bulu
+2448|clôture|Zaun|pagar
+2449|respiration|Atmung|pernapasan
+2450|diviser|teilen|membagi
+2451|tente|Zelt|tenda
+2452|qualification|Qualifikation|kualifikasi
+2453|conséquence|Folge|konsekuensi
+2454|tremblement de terre|Erdbeben|gempa bumi
+2455|poète|Dichter|penyair
+2456|organisateur|Organisator|penyelenggara
+2457|rejeter|ablehnen|menolak
+2458|paisible|friedlich|damai
+2459|conclure|schließen|menyimpulkan
+2460|talentueux|talentiert|berbakat
+2461|horrible|schrecklich|mengerikan
+2462|habillé|angezogen|berpakaian
+2463|avoir l'intention|beabsichtigen|bermaksud
+2464|mordre; morsure|beißen; Biss|menggigit; gigitan
+2465|boue|Schlamm|lumpur
+2466|reconnaissant|dankbar|bersyukur
+2467|briller|scheinen|bersinar
+2468|explosion|Explosion|ledakan
+2469|se concentrer|sich konzentrieren|berkonsentrasi
+2470|passionné|begeistert|antusias
+2471|aiguille|Nadel|jarum
+2472|généreux|großzügig|murah hati
+2473|ascension|Aufstieg|pendakian
+2474|fascinant|faszinierend|mempesona
+2475|instruit|gebildet|terpelajar
+2476|pâle|blass|pucat
+2477|inconnu (personne)|Fremder|orang asing
+2478|douloureux|schmerzhaft|menyakitkan
+2479|rappeler|erinnern|mengingatkan
+2480|agaçant|nervig|menjengkelkan
+2481|bouleversé; contrarier|aufgebracht; aufregen|kesal; membuat kesal
+2482|hélicoptère|Hubschrauber|helikopter
+2483|geler|frieren|membeku
+2484|inutile|unnötig|tidak perlu
+2485|déçu|enttäuscht|kecewa
+2486|excitation|Aufregung|kegembiraan
+2487|voile|Segel|layar
+2488|courageux|mutig|berani
+2489|faveur, service|Gefallen|bantuan
+2490|coup (à la porte)|Klopfen|ketukan
+2491|le nôtre|unserer|milik kami
+2492|farine|Mehl|tepung
+2493|gentleman|Gentleman|pria terhormat
+2494|prisonnier|Gefangener|tahanan
+2495|déranger|stören|mengganggu
+2496|poison; empoisonner|Gift; vergiften|racun; meracuni
+2497|campagne|Landschaft|pedesaan
+2498|incroyablement|unglaublich|sangat
+2499|similitude|Ähnlichkeit|kesamaan
+2500|ingrédient|Zutat|bahan
+2501|rideau|Vorhang|tirai
+2502|expédition|Expedition|ekspedisi
+2503|marin|Seemann|pelaut
+2504|statue|Statue|patung
+2505|citation|Zitat|kutipan
+2506|relaxant|entspannend|santai
+2507|émotion|Gefühl|emosi
+2508|éduquer|erziehen|mendidik
+2509|gant|Handschuh|sarung tangan
+2510|tranche; trancher|Scheibe; schneiden|irisan; mengiris
+2511|détendu|entspannt|santai
+2512|injuste|unfair|tidak adil
+2513|frire|braten|menggoreng
+2514|serviteur|Diener|pelayan
+2515|indice|Hinweis|petunjuk
+2516|timide|schüchtern|pemalu
+2517|cruel|grausam|kejam
+2518|avertir|warnen|memperingatkan
+2519|convaincre|überzeugen|meyakinkan
+2520|alcoolisé|alkoholisch|beralkohol
+2521|respirer|atmen|bernapas
+2522|coloré|farbig|berwarna
+2523|cuire au four|backen|memanggang
+2524|symptôme|Symptom|gejala
+2525|démodé|altmodisch|kuno
+2526|au chômage|arbeitslos|menganggur
+2527|définitif|bestimmt|pasti
+2528|immigrant|Einwanderer|imigran
+2529|quartier|Nachbarschaft|lingkungan
+2530|peser|wiegen|menimbang
+2531|hâte; se dépêcher|Eile; sich beeilen|terburu-buru
+2532|prendre sa retraite|in Rente gehen|pensiun
+2533|raisonnable|vernünftig|masuk akal
+2534|réviser|wiederholen|mengulang pelajaran
+2535|en arrière|rückwärts|mundur
+2536|concurrent|Konkurrent|pesaing
+2537|analyser|analysieren|menganalisis
+2538|ambitieux|ehrgeizig|ambisius
+2539|faire semblant|so tun als ob|berpura-pura
+2540|brillant|glänzend|mengilap
+2541|épicé|scharf|pedas
+2542|consommer|verbrauchen|mengonsumsi
+2543|stupéfait|erstaunt|takjub
+2544|inconfortable|unbequem|tidak nyaman
+2545|enterrer|begraben|mengubur
+2546|divertir|unterhalten|menghibur
+2547|supporter|Anhänger|pendukung
+2548|ambition|Ehrgeiz|ambisi
+2549|s'excuser|sich entschuldigen|meminta maaf
+2550|homme politique|Politiker|politikus
+2551|inconvénient|Nachteil|kerugian
+2552|à l'intérieur|drinnen|di dalam ruangan
+2553|décevant|enttäuschend|mengecewakan
+2554|statistique|Statistik|statistik
+2555|imaginaire|imaginär|khayalan
+2556|à la mode|modisch|modis
+2557|admirer|bewundern|mengagumi
+2558|résumer|zusammenfassen|meringkas
+2559|le leur|ihrer|milik mereka
+2560|décorer|dekorieren|menghias
+2561|ne pas aimer; aversion|nicht mögen; Abneigung|tidak suka
+2562|punir|bestrafen|menghukum
+2563|persuader|überreden|membujuk
+2564|pneu|Reifen|ban
+2565|exploser|explodieren|meledak
+2566|désagréable|unangenehm|tidak menyenangkan
+2567|joyeux|fröhlich|ceria
+2568|embarrassant|peinlich|memalukan
+2569|agacé|genervt|kesal
+2570|embrouiller|verwirren|membingungkan
+2571|effrayé|verängstigt|ketakutan
+2572|gêné|verlegen|malu
+2573|effrayant|beängstigend|menakutkan
+2574|agacer|nerven|menjengkelkan
+2575|toxique, vénéneux|giftig|beracun
+2576|négligent|nachlässig|ceroboh
+2577|blesser|verletzen|melukai
+2578|attacher|befestigen|mengencangkan
+2579|effrayer|erschrecken|menakut-nakuti
+2580|libérer|befreien|membebaskan
+2581|sauf|außer|kecuali
+2582|chronométrer|messen (Zeit)|mengatur waktu
+2583|fixer le prix|bepreisen|memberi harga
+2584|dater; sortir avec|datieren; ausgehen mit|berkencan
+2585|soutenir|unterstützen|mendukung
+2586|marque|Marke|merek
+2587|maquillage|Make-up|riasan
+2588|info|Info|info
+2589|sommet, record|Höchststand|puncak
+2590|même (le)|genau|tepat
+2591|vie privée|Privatsphäre|privasi
+2592|à plein temps|Vollzeit|penuh waktu
+2593|cartographier|kartieren|memetakan
+2594|bien, beaucoup|weit, viel|jauh
+2595|à temps partiel|Teilzeit|paruh waktu
+2596|border|säumen|berjajar
+2597|conditions|Bedingungen|syarat
+2598|ressortissant|Staatsangehöriger|warga negara
+2599|s'adresser à|ansprechen|menyapa
+2600|soumis à|unterliegend|tunduk pada
+2601|forum|Forum|forum
+2602|plat; pair|eben; gerade|rata; genap
+2603|index|Verzeichnis|indeks
+2604|être (un)|Wesen|makhluk
+2605|classer|ablegen|mengarsipkan
+2606|projeter|projizieren|memproyeksikan
+2607|fonder|gründen|mendirikan
+2608|loger|unterbringen|menampung
+2609|comté|Grafschaft|kabupaten
+2610|alimenter|antreiben|menggerakkan
+2611|après|nach|setelah
+2612|courant|Strömung, Strom|arus
+2613|note, classement|Bewertung|peringkat
+2614|évaluer|bewerten|menilai
+2615|représenter (part)|ausmachen|merupakan
+2616|niveler|ebnen|meratakan
+2617|intituler|betiteln|memberi judul
+2618|assurance|Versicherung|asuransi
+2619|point bas|Tiefpunkt|titik terendah
+2620|apprécier, évaluer|schätzen|menghargai
+2621|empreinte|Abdruck|cetakan
+2622|traiter|verarbeiten|memproses
+2623|stock|Vorrat; Aktien|stok
+2624|créditer|gutschreiben|mengkredit
+2625|domaine, propriété|Anwesen|tanah milik
+2626|sélectionner|auswählen|memilih
+2627|gay|schwul|gay
+2628|s'inscrire|registrieren|mendaftar
+2629|modéliser|modellieren|memodelkan
+2630|retour, avis|Rückmeldung|umpan balik
+2631|supplémentaire|zusätzlich|tambahan
+2632|mot de passe|Passwort|kata sandi
+2633|dernière nouveauté|Neueste|terbaru
+2634|statut|Status|status
+2635|délivrer|ausstellen|mengeluarkan
+2636|varier entre|reichen von|berkisar
+2637|audio|Audio-|audio
+2638|fabrication|Herstellung|pembuatan
+2639|imaginer|sich vorstellen|membayangkan
+2640|professionnel (un)|Fachmann|profesional
+2641|pourtant|doch|namun
+2642|comité|Ausschuss|komite
+2643|pièce d'identité|Ausweis|kartu identitas
+2644|livraison|Lieferung|pengiriman
+2645|à long terme|langfristig|jangka panjang
+2646|appeler, nommer|bezeichnen|menyebut
+2647|essai|Versuch|percobaan
+2648|cellule|Zelle|sel
+2649|soi|Selbst|diri
+2650|conseil (municipal)|Rat|dewan
+2651|suivre (à la trace)|verfolgen|melacak
+2652|format|Format|format
+2653|édition|Ausgabe|edisi
+2654|association|Verband|asosiasi
+2655|fin, clôture|Abschluss|penutupan
+2656|soi-disant|sogenannt|yang disebut
+2657|à court terme|kurzfristig|jangka pendek
+2658|afficher; écran|anzeigen; Anzeige|menampilkan; layar
+2659|limité|begrenzt|terbatas
+2660|moyen|Mittel|sarana
+2661|électronique (la)|Elektronik|elektronika
+2662|base de données|Datenbank|basis data
+2663|fonctionnaire|Beamter|pejabat
+2664|district|Bezirk|distrik
+2665|documenter|dokumentieren|mendokumentasikan
+2666|matériel|materiell|material
+2667|facturer|in Rechnung stellen|menagih
+2668|fédéral|Bundes-|federal
+2669|via|über|melalui
+2670|finance; financer|Finanzen; finanzieren|keuangan; membiayai
+2671|en plus; plus|Plus; zusätzlich|plus; tambahan
+2672|modifier|bearbeiten|menyunting
+2673|fonctionner|funktionieren|berfungsi
+2674|soumettre|einreichen|mengajukan
+2675|s'élever à|betragen|berjumlah
+2676|sensation|Gefühl|rasa
+2677|construction|Bau|konstruksi
+2678|protection|Schutz|perlindungan
+2679|prêt|Darlehen|pinjaman
+2680|positionner|positionieren|menempatkan
+2681|marcher|treten|melangkah
+2682|annuel|jährlich|tahunan
+2683|d'entreprise|Unternehmens-|perusahaan
+2684|achat; acheter|Kauf; kaufen|pembelian; membeli
+2685|penser, figurer|meinen, vorkommen|mengira; muncul
+2686|aller vite|rasen|ngebut
+2687|réduire le prix|rabattieren|mendiskon
+2688|remplir, farcir|stopfen|mengisi
+2689|agence|Agentur|agensi
+2690|revenu|Einkommen|pendapatan
+2691|global; dans l'ensemble|gesamt; insgesamt|keseluruhan
+2692|commission|Provision; Auftrag|komisi
+2693|emballer|verpacken|mengemas
+2694|régional|regional|regional
+2695|administration|Verwaltung|administrasi
+2696|interdire|verbieten|melarang
+2697|institut|Institut|institut
+2698|projeter; dépister|zeigen; untersuchen|menayangkan; menyaring
+2699|sélection|Auswahl|pilihan
+2700|volume|Volumen; Lautstärke|volume
+2701|prêt immobilier|Hypothek|hipotek
+2702|société|Konzern|korporasi
+2703|cadre; exécutif|Führungskraft|eksekutif
+2704|baisser|senken|menurunkan
+2705|buisson|Busch|semak
+2706|militaire|militärisch|militer
+2707|congé|Urlaub|cuti
+2708|adolescence|Teenagerjahre|usia belasan
+2709|offre; enchérir|Gebot; bieten|tawaran; menawar
+2710|câble|Kabel|kabel
+2711|division|Abteilung|divisi
+2712|s'opposer|widersprechen|keberatan
+2713|approprié|angemessen|tepat
+2714|logo|Logo|logo
+2715|goûter (échantillon)|probieren|mencicipi
+2716|investissement|Investition|investasi
+2717|flash; clignoter|Blitz; blinken|kilat; berkedip
+2718|inscription|Anmeldung|pendaftaran
+2719|mode|Modus|mode
+2720|structurer|strukturieren|menyusun
+2721|fonds; financer|Fonds; finanzieren|dana; mendanai
+2722|contrat|Vertrag|kontrak
+2723|super|super|super
+2724|multiple|mehrfach|banyak
+2725|distribution|Verteilung|distribusi
+2726|industriel|industriell|industri
+2727|potentiel|potenziell; Potenzial|potensial; potensi
+2728|associé|verbunden|terkait
+2729|cancer|Krebs|kanker
+2730|fondation|Fundament; Stiftung|fondasi; yayasan
+2731|programmer|planen|menjadwalkan
+2732|approche; approcher|Ansatz; sich nähern|pendekatan; mendekati
+2733|prise|Griff|pegangan
+2734|unique|einzigartig|unik
+2735|examiner, sonder|untersuchen|mensurvei
+2736|préalable|vorherig|sebelumnya
+2737|nourriture; fil d'actualité|Futter; Feed|pakan; umpan
+2738|sécuriser; sûr|sichern; sicher|mengamankan; aman
+2739|navigation|Navigation|navigasi
+2740|tour, manche|Runde|babak
+2741|maître; maîtriser|Meister; beherrschen|ahli; menguasai
+2742|transférer; virement|übertragen; Überweisung|mentransfer; transfer
+2743|expédier|versenden|mengirim
+2744|kit|Bausatz|perlengkapan
+2745|classique|klassisch; Klassiker|klasik
+2746|commande; commander|Befehl; befehlen|perintah; memerintah
+2747|évaluation|Bewertung|penilaian
+2748|assurer|sicherstellen|memastikan
+2749|ainsi|somit|dengan demikian
+2750|budget|Budget|anggaran
+2751|maximum|maximal; Maximum|maksimum
+2752|avant; direct|vorwärts|ke depan
+2753|important, significatif|bedeutend|signifikan
+2754|commerce de détail|Einzelhandel|eceran
+2755|logement|Wohnungswesen|perumahan
+2756|entrée, apport|Eingabe|masukan
+2757|valide|gültig|sah
+2758|aîné; supérieur|älter; leitend|senior
+2759|sexy|sexy|seksi
+2760|grandiose|großartig|megah
+2761|test (action)|Testen|pengujian
+2762|essai; procès|Versuch; Prozess|uji coba; persidangan
+2763|entier|ganz|seluruh
+2764|point positif|Positive|hal positif
+2765|abstrait|abstrakt|abstrak
+2766|production, sortie|Leistung, Ausgabe|keluaran
+2767|résolution|Auflösung; Beschluss|resolusi
+2768|publication|Veröffentlichung|publikasi
+2769|confiance; faire confiance|Vertrauen; vertrauen|kepercayaan; percaya
+2770|séance|Sitzung|sesi
+2771|universitaire (un)|Akademiker|akademisi
+2772|aide|Hilfe|bantuan
+2773|graphismes|Grafik|grafis
+2774|noter, classer|benoten|menilai
+2775|panneau; jury|Tafel; Gremium|panel
+2776|sinon|sonst|jika tidak
+2777|protéine|Eiweiß|protein
+2778|transport|Transport|transportasi
+2779|adhésion|Mitgliedschaft|keanggotaan
+2780|mission|Mission|misi
+2781|sentir, percevoir|spüren|merasakan
+2782|mettre en scène|inszenieren|mementaskan
+2783|interne|intern|internal
+2784|détaillé|detailliert|terperinci
+2785|cibler|anvisieren|menargetkan
+2786|émouvant; mobile|bewegend|mengharukan; bergerak
+2787|dette|Schulden|utang
+2788|moyen, support|Medium|media
+2789|noyau; essentiel|Kern; Kern-|inti
+2790|frais|Gebühr|biaya
+2791|virtuel|virtuell|virtual
+2792|programmation|Programmierung|pemrograman
+2793|externe|extern|eksternal
+2794|aide; aider|Hilfe; helfen|bantuan; membantu
+2795|minimum|minimal; Minimum|minimum
+2796|visuel|visuell|visual
+2797|accueillir|veranstalten|menjadi tuan rumah
+2798|civil|zivil|sipil
+2799|acier|Stahl|baja
+2800|mal (le)|Unrecht|kesalahan
+2801|secteur|Sektor|sektor
+2802|capacité|Kapazität|kapasitas
+2803|entièrement|völlig|sepenuhnya
+2804|inconnu|unbekannt|tidak dikenal
+2805|trébucher|stolpern|tersandung
+2806|valeur|Wert|nilai
+2807|progresser|vorankommen|maju
+2808|financement|Finanzierung|pendanaan
+2809|seigneur|Herr, Lord|tuan
+2810|accorder; subvention|gewähren; Zuschuss|memberikan; hibah
+2811|au-delà|jenseits|di luar
+2812|évaluation|Bewertung|evaluasi
+2813|ancien|ehemalig|mantan
+2814|zone|Zone|zona
+2815|complexe (un)|Komplex|kompleks
+2816|échelle|Maßstab, Skala|skala
+2817|stand|Stand|stan
+2818|mensuel|monatlich|bulanan
+2819|critique|kritisch|kritis
+2820|principal; chef|Haupt-; Chef|utama; kepala
+2821|détailler|detaillieren|merinci
+2822|interrupteur|Schalter|sakelar
+2823|pertinent|relevant|relevan
+2824|justice|Gerechtigkeit|keadilan
+2825|panier|Korb|keranjang
+2826|hebdomadaire|wöchentlich|mingguan
+2827|installation|Installation|instalasi
+2828|demande; exiger|Nachfrage; verlangen|permintaan; menuntut
+2829|progrès; avancer|Fortschritt; vorrücken|kemajuan; maju
+2830|vente aux enchères|Auktion|lelang
+2831|entreprise, firme|Firma|firma
+2832|ferme, solide|fest|kokoh
+2833|espèce|Art|spesies
+2834|station (de vacances)|Ferienort|resor
+2835|installation|Einrichtung|fasilitas
+2836|aléatoire|zufällig|acak
+2837|certificat|Zertifikat|sertifikat
+2838|ministre|Minister|menteri
+2839|mouvement|Bewegung|gerak
+2840|moniteur; surveiller|Monitor; überwachen|monitor; memantau
+2841|négoce|Handel|perdagangan
+2842|couverture (médiatique)|Berichterstattung|liputan
+2843|vision|Sehkraft; Vision|penglihatan; visi
+2844|nu|nackt|telanjang
+2845|remonter; serpenter|aufziehen; sich winden|memutar; berkelok
+2846|édition (secteur)|Verlagswesen|penerbitan
+2847|paume; palmier|Handfläche; Palme|telapak; palem
+2848|patient|geduldig|sabar
+2849|réel, effectif|tatsächlich|sebenarnya
+2850|satellite|Satellit|satelit
+2851|racine|Wurzel|akar
+2852|tir; prise de vue|Schuss; Aufnahme|tembakan; jepretan
+2853|initial|anfänglich|awal
+2854|ligue|Liga|liga
+2855|fabrication|Fertigung|manufaktur
+2856|présider|leiten|memimpin rapat
+2857|phase|Phase|fase
+2858|fantaisie|Fantasie|fantasi
+2859|moteur|Motor|motor
+2860|installer|installieren|memasang
+2861|masse; de masse|Masse; Massen-|massa; massal
+2862|sein|Brust|payudara
+2863|chirurgie|Operation|operasi
+2864|composant|Bestandteil|komponen
+2865|permettre|ermöglichen|memungkinkan
+2866|insecte; bug|Käfer; Fehler|serangga; bug
+2867|garantir; garantie|garantieren; Garantie|menjamin; jaminan
+2868|alimenter|antreiben|mengisi bahan bakar
+2869|rose|Rose|mawar
+2870|liberté|Freiheit|kebebasan
+2871|commun; articulation|gemeinsam; Gelenk|bersama; sendi
+2872|ruisseau, flux|Bach, Strom|aliran
+2873|choix|Wahl|pilihan
+2874|ouïe; audience|Gehör; Anhörung|pendengaran; sidang
+2875|thérapie|Therapie|terapi
+2876|supérieur|ober|atas
+2877|premier, principal|Haupt-|utama
+2878|urbain|städtisch|perkotaan
+2879|reportage|Berichterstattung|pelaporan
+2880|charge; charger|Last; laden|muatan; memuat
+2881|infirmier (adj.)|Pflege-|keperawatan
+2882|rétablissement|Genesung|pemulihan
+2883|complet|umfassend|komprehensif
+2884|universel|universell|universal
+2885|conclusion, découverte|Befund|temuan
+2886|défier|herausfordern|menantang
+2887|voulu|beabsichtigt|dimaksudkan
+2888|location|Miete|sewa
+2889|monter; installer|besteigen; montieren|menaiki; memasang
+2890|rang; classer|Rang; einstufen|peringkat
+2891|procédure|Verfahren|prosedur
+2892|leadership|Führung|kepemimpinan
+2893|foi|Glaube|iman
+2894|enchaîner|anketten|merantai
+2895|domestique|häuslich; inländisch|domestik
+2896|portée|Reichweite|jangkauan
+2897|séquence|Abfolge|urutan
+2898|pouce (mesure)|Zoll|inci
+2899|ouverture|Öffnung; Eröffnung|pembukaan
+2900|réserve; réserver|Reserve; reservieren|cadangan; memesan
+2901|produits (agricoles)|Erzeugnisse|hasil bumi
+2902|comptoir|Theke|meja konter
+2903|échec|Versagen|kegagalan
+2904|automatiquement|automatisch|secara otomatis
+2905|approbation|Zustimmung|persetujuan
+2906|brouillon; rédiger|Entwurf; entwerfen|draf; menyusun
+2907|tracer (graphique)|aufzeichnen|memetakan
+2908|égal (un)|Gleichgestellter|setara
+2909|assorti|passend|serasi
+2910|atelier|Werkstatt; Workshop|lokakarya
+2911|extension|Erweiterung|perluasan
+2912|doré|golden|keemasan
+2913|éclairage|Beleuchtung|pencahayaan
+2914|gène|Gen|gen
+2915|disque|Scheibe|cakram
+2916|parrainer; sponsor|sponsern; Sponsor|mensponsori; sponsor
+2917|icône|Symbol, Ikone|ikon
+2918|supprimer|löschen|menghapus
+2919|distribution; lancer|Besetzung; werfen|pemeran; melempar
+2920|âme|Seele|jiwa
+2921|sida|AIDS|AIDS
+2922|maintenir|aufrechterhalten|mempertahankan
+2923|priorité|Priorität|prioritas
+2924|graphique|grafisch|grafis
+2925|bref|kurz|singkat
+2926|étiquette, tag|Etikett, Tag|label, tag
+2927|cadre|Rahmen|kerangka
+2928|solution rapide|Lösung|perbaikan
+2929|gérer; poignée|handhaben; Griff|menangani; gagang
+2930|associer|verbinden|mengaitkan
+2931|recettes|Einnahmen|pendapatan
+2932|supporter|ertragen|menanggung
+2933|gagner; gain|gewinnen; Gewinn|memperoleh; keuntungan
+2934|profondeur|Tiefe|kedalaman
+2935|concept|Konzept|konsep
+2936|origine|Ursprung|asal
+2937|jeux vidéo|Gaming|permainan video
+2938|coup|Schlag|pukulan
+2939|lutter|kämpfen|bertarung
+2940|clip; pince|Clip; Klammer|klip; penjepit
+2941|partenariat|Partnerschaft|kemitraan
+2942|éditorial|redaktionell|editorial
+2943|fil|Draht|kawat
+2944|rural|ländlich|pedesaan
+2945|économie (science)|Wirtschaftswissenschaft|ilmu ekonomi
+2946|acide|Säure|asam
+2947|obtenir|erhalten|memperoleh
+2948|raté|gescheitert|gagal
+2949|négatif (le)|Negative|hal negatif
+2950|proposition|Vorschlag|usulan
+2951|mener; conduite|durchführen; Verhalten|melakukan; perilaku
+2952|ultime|ultimativ|terbaik, puncak
+2953|représentant|Vertreter|perwakilan
+2954|fréquence|Frequenz|frekuensi
+2955|mineur|gering|kecil
+2956|extrême (un)|Extrem|ekstrem
+2957|prévision; prévoir|Prognose; vorhersagen|ramalan; meramalkan
+2958|précision|Genauigkeit|akurasi
+2959|création|Schöpfung|penciptaan
+2960|président (d'un conseil)|Vorsitzender|ketua
+2961|violence|Gewalt|kekerasan
+2962|dynamique|dynamisch|dinamis
+2963|genre (sexe)|Geschlecht|gender
+2964|permanent|dauerhaft|permanen
+2965|agriculture|Landwirtschaft|pertanian
+2966|infrastructure|Infrastruktur|infrastruktur
+2967|placer, asseoir|setzen|mendudukkan
+2968|philosophie|Philosophie|filsafat
+2969|réglementation|Vorschrift|regulasi
+2970|réduction|Verringerung|pengurangan
+2971|nutrition|Ernährung|gizi
+2972|cadet; junior|jünger; Junior-|junior
+2973|qui (complément)|wen, wem|siapa (objek)
+2974|présence|Anwesenheit|kehadiran
+2975|instantané|sofortig|instan
+2976|automatique|automatisch|otomatis
+2977|soins de santé|Gesundheitswesen|layanan kesehatan
+2978|majorité|Mehrheit|mayoritas
+2979|participation|Teilnahme|partisipasi
+2980|programme, plan|Programm, Plan|skema
+2981|combinaison|Kombination|kombinasi
+2982|congrès; convention|Kongress; Konvention|konvensi
+2983|principal|hauptsächlich|utama
+2984|confort; réconforter|Komfort; trösten|kenyamanan; menghibur
+2985|appel; faire appel|Aufruf; appellieren|banding; memohon
+2986|croisière|Kreuzfahrt|pesiar
+2987|rythme; battement|Rhythmus; Schlag|ketukan; irama
+2988|foyer, ménage|Haushalt|rumah tangga
+2989|armes|Waffen|senjata
+2990|revendeur|Händler|pedagang
+2991|contemporain|zeitgenössisch|kontemporer
+2992|voisin; à proximité|nahe gelegen; in der Nähe|terdekat; di dekat
+2993|exposition|Belastung|paparan
+2994|signature|Unterschrift|tanda tangan
+2995|circuit|Schaltkreis; Rennstrecke|sirkuit
+2996|hanche|Hüfte|pinggul
+2997|repérer|entdecken|melihat
+2998|promotion|Beförderung; Werbung|promosi
+2999|point|Punkt|titik
+3000|caché|versteckt|tersembunyi
+3001|raisonnable|vernünftig|masuk akal
+3002|soulagement|Erleichterung|kelegaan
+3003|révision|Überarbeitung|revisi
+3004|permettre; permis|erlauben; Genehmigung|mengizinkan; izin
+3005|preuve|Beweis|bukti
+3006|exemple, cas|Fall|contoh
+3007|conservation|Naturschutz|konservasi
+3008|idéal (un)|Ideal|cita-cita
+3009|mauvais; mal|böse; Böse|jahat; kejahatan
+3010|façonner|formen|membentuk
+3011|évolution|Evolution|evolusi
+3012|inquiet|besorgt|khawatir
+3013|opérateur|Betreiber|operator
+3014|usage|Gebrauch|penggunaan
+3015|encre|Tinte|tinta
+3016|mixte|gemischt|campuran
+3017|préparation|Vorbereitung|persiapan
+3018|tentative; tenter|Versuch; versuchen|upaya; mencoba
+3019|précis|genau|akurat
+3020|cru|roh|mentah
+3021|établir|gründen|mendirikan
+3022|étendue|Ausmaß|sejauh mana
+3023|voie; ruelle|Gasse; Spur|lajur; lorong
+3024|aéronef|Flugzeug|pesawat terbang
+3025|conflit|Konflikt|konflik
+3026|souci; concerner|Sorge; betreffen|kekhawatiran; menyangkut
+3027|inquiéter|beunruhigen|menyusahkan
+3028|propagation|Verbreitung|penyebaran
+3029|spécialiste|Spezialist|spesialis
+3030|enquête|Untersuchung|penyelidikan
+3031|institution|Institution|lembaga
+3032|sportif|sportlich|olahraga
+3033|biologique|biologisch|organik
+3034|chercher|suchen|mencari
+3035|équivalent|Entsprechung|setara
+3036|ordre du jour|Tagesordnung|agenda
+3037|programme scolaire|Lehrplan|kurikulum
+3038|psychologie|Psychologie|psikologi
+3039|investisseur|Investor|investor
+3040|faune sauvage|Tierwelt|satwa liar
+3041|élémentaire|grundlegend|dasar
+3042|simple, uni|schlicht|polos
+3043|sortie|Ausgang|pintu keluar
+3044|lancer; lancement|starten; Start|meluncurkan; peluncuran
+3045|saint|heilig|suci
+3046|autoroute|Autobahn|jalan raya
+3047|réservation|Buchung|pemesanan
+3048|lien; obligation|Bindung; Anleihe|ikatan; obligasi
+3049|portion|Portion|porsi
+3050|exigence|Anforderung|persyaratan
+3051|border|grenzen|berbatasan
+3052|débat; débattre|Debatte; debattieren|debat; memperdebatkan
+3053|carnet|Notizbuch|buku catatan
+3054|handicapé|behindert|penyandang disabilitas
+3055|retraite|Ruhestand|masa pensiun
+3056|efficace|effizient|efisien
+3057|engagement|Verpflichtung|komitmen
+3058|constant|ständig|konstan
+3059|visa|Visum|visa
+3060|pur|rein|murni
+3061|enfer|Hölle|neraka
+3062|lentille, objectif|Linse|lensa
+3063|supposer|annehmen|berasumsi
+3064|confiance|Vertrauen|kepercayaan diri
+3065|cohérent|beständig|konsisten
+3066|objectif|Ziel; objektiv|tujuan; objektif
+3067|équipage|Besatzung|awak
+3068|genre|Genre|genre
+3069|glisser; diapositive|gleiten; Folie|meluncur; slide
+3070|démocratique|demokratisch|demokratis
+3071|améliorer|verbessern|meningkatkan
+3072|lié, obligé|gebunden|terikat
+3073|contribuer|beitragen|berkontribusi
+3074|reconnaissance|Anerkennung|pengakuan
+3075|réservoir; char|Tank; Panzer|tangki; tank
+3076|estimer; estimation|schätzen; Schätzung|memperkirakan; perkiraan
+3077|annuler|absagen|membatalkan
+3078|territoire|Gebiet|wilayah
+3079|retarder; retard|verzögern; Verspätung|menunda; penundaan
+3080|initiative|Initiative|inisiatif
+3081|handicap|Behinderung|disabilitas
+3082|examen|Prüfung; Untersuchung|ujian; pemeriksaan
+3083|modifier|ändern|mengubah
+3084|vraiment|wirklich|benar-benar
+3085|étendu|umfangreich|luas
+3086|abordable|erschwinglich|terjangkau
+3087|univers|Universum|alam semesta
+3088|exceptionnel|hervorragend|luar biasa
+3089|perspective|Perspektive|perspektif
+3090|tournoi|Turnier|turnamen
+3091|considération|Überlegung|pertimbangan
+3092|large|breit|luas
+3093|travail|Arbeit|tenaga kerja
+3094|terminal|Terminal|terminal
+3095|économie, épargne|Ersparnis|tabungan
+3096|empire|Reich|kekaisaran
+3097|nouvellement|neu|baru
+3098|expansion|Erweiterung|ekspansi
+3099|varier|variieren|bervariasi
+3100|centre-ville|Innenstadt|pusat kota

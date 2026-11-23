@@ -1,5 +1,6 @@
 package com.oxford5000.learn.logic
 
+import com.oxford5000.learn.data.Lang
 import com.oxford5000.learn.data.Word
 import kotlin.random.Random
 
@@ -13,10 +14,15 @@ data class Question(
     val word: Word,
     val direction: Direction,
     val options: List<Word>,
+    val lang: Lang = Lang.RU,
 ) {
     val correctIndex: Int get() = options.indexOfFirst { it.id == word.id }
 
-    fun optionText(i: Int): String = if (direction == Direction.EN_RU) options[i].ru else options[i].en
+    /** Текст варианта: перевод на язык интерфейса (EN→перевод) или английское слово. */
+    fun optionText(i: Int): String = if (direction == Direction.EN_RU) options[i].tr(lang) else options[i].en
+
+    /** Текст задания. */
+    val promptText: String get() = if (direction == Direction.EN_RU) word.en else word.tr(lang)
 }
 
 /** Подбор неправильных вариантов по правилам 5.3. */
@@ -25,8 +31,10 @@ class OptionPicker(private val all: List<Word>) {
     private val byStagePg = all.groupBy { it.stage to it.pg }
     private val byPg = all.groupBy { it.pg }
 
-    fun build(word: Word, direction: Direction, rnd: Random): Question {
-        fun text(w: Word) = (if (direction == Direction.EN_RU) w.ru else w.en).trim().lowercase()
+    fun build(word: Word, direction: Direction, rnd: Random, lang: Lang = Lang.RU): Question {
+        // Артикли всегда спрашиваются с английского.
+        val dir = if (word.isArticle) Direction.EN_RU else direction
+        fun text(w: Word) = (if (dir == Direction.EN_RU) w.tr(lang) else w.en).trim().lowercase()
 
         val used = mutableSetOf(text(word))
         val picked = mutableListOf<Word>()
@@ -47,6 +55,6 @@ class OptionPicker(private val all: List<Word>) {
             }
         }
         val options = (picked + word).shuffled(rnd)
-        return Question(word, direction, options)
+        return Question(word, dir, options, lang)
     }
 }

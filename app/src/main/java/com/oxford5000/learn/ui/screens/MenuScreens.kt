@@ -17,16 +17,16 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.HelpOutline
 import androidx.compose.material.icons.automirrored.filled.MenuBook
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.DirectionsRun
 import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material3.Button
@@ -41,80 +41,131 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.oxford5000.learn.data.STAGES
+import com.oxford5000.learn.logic.MarathonState
 import com.oxford5000.learn.tts.Speaker
 import com.oxford5000.learn.ui.AppViewModel
+import com.oxford5000.learn.ui.S
 import com.oxford5000.learn.ui.Screen
 import com.oxford5000.learn.ui.theme.Marks
 
 // ---------------- Главный ----------------
 
+private enum class HelpTopic { LEARN, MARATHON, ERRORS }
+
 @Composable
 fun HomeScreen(vm: AppViewModel) {
     val repo = vm.repo ?: return
+    val s = vm.s
     val passed = STAGES.sumOf { vm.passedCount(it) }
     val m = vm.progress.marathon(vm.dark)
-    AppScaffold(vm, title = "", showBack = false) { p ->
-        Column(
-            Modifier.fillMaxSize().padding(p).padding(horizontal = 20.dp).verticalScroll(rememberScrollState()),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-        ) {
-            Spacer(Modifier.height(8.dp))
-            Text("Oxford 5000", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
+    val errCount = vm.progress.errors(vm.dark).size
+    var showLang by remember { mutableStateOf(false) }
+    var help by remember { mutableStateOf<HelpTopic?>(null) }
+
+    AppScaffold(vm, title = "", navigationIcon = { LanguageButton(vm) { showLang = true } }) { p ->
+        Column(Modifier.fillMaxSize().padding(p)) {
+            Column(
+                Modifier.weight(1f).fillMaxWidth().padding(horizontal = 20.dp).verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+            ) {
+                Spacer(Modifier.height(8.dp))
+                Text("Oxford 5000", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
+                Text(if (vm.dark) s.subtitleDark else s.subtitleLight, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Spacer(Modifier.height(8.dp))
+                BigCard(
+                    icon = Icons.AutoMirrored.Filled.MenuBook,
+                    title = s.learn,
+                    subtitle = s.learnSub(passed, repo.totalLevels),
+                    helpLabel = s.help,
+                    onHelp = { help = HelpTopic.LEARN },
+                    onClick = { vm.push(Screen.Stages) },
+                )
+                BigCard(
+                    icon = Icons.Filled.DirectionsRun,
+                    title = s.marathon,
+                    subtitle = if (m != null) s.marathonContinue(marathonPosition(s, m)) else s.marathonNew,
+                    helpLabel = s.help,
+                    onHelp = { help = HelpTopic.MARATHON },
+                    onClick = { vm.push(Screen.Marathon) },
+                )
+                BigCard(
+                    icon = Icons.Filled.ErrorOutline,
+                    title = s.errors,
+                    subtitle = if (errCount > 0) s.errorsSub(errCount) else s.errorsNone,
+                    helpLabel = s.help,
+                    onHelp = { help = HelpTopic.ERRORS },
+                    onClick = { vm.push(Screen.Errors) },
+                )
+                Spacer(Modifier.height(8.dp))
+            }
             Text(
-                if (vm.dark) "Тёмный режим: смешанные вопросы EN ⇄ RU" else "Светлый режим: английское слово → перевод",
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            Spacer(Modifier.height(8.dp))
-            BigCard(
-                icon = Icons.AutoMirrored.Filled.MenuBook,
-                title = "Обучение",
-                subtitle = "Пройдено уровней: $passed из ${repo.totalLevels}",
-                onClick = { vm.push(Screen.Stages) },
-            )
-            BigCard(
-                icon = Icons.Filled.DirectionsRun,
-                title = "Марафон",
-                subtitle = if (m != null) "Продолжить: ${marathonPosition(m)}" else "Все слова выбранных этапов подряд",
-                onClick = { vm.push(Screen.Marathon) },
-            )
-            val errCount = vm.progress.errors(vm.dark).size
-            BigCard(
-                icon = Icons.Filled.ErrorOutline,
-                title = "Ошибки",
-                subtitle = if (errCount > 0) "Слов на повторение: $errCount" else "Пока ошибок нет",
-                onClick = { vm.push(Screen.Errors) },
+                "${s.madeBy} Maksim Kulinich",
+                fontSize = 12.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.45f),
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth().navigationBarsPadding().padding(vertical = 12.dp),
             )
         }
     }
+
+    if (showLang) LanguageDialog(vm) { showLang = false }
+    help?.let { topic ->
+        val (title, text) = when (topic) {
+            HelpTopic.LEARN -> s.helpLearnTitle to s.helpLearn
+            HelpTopic.MARATHON -> s.marathon to s.helpMarathon
+            HelpTopic.ERRORS -> s.errors to s.helpErrors
+        }
+        InfoDialog(title = title, text = text, button = s.gotIt, onConfirm = { help = null })
+    }
 }
 
-fun marathonPosition(m: com.oxford5000.learn.logic.MarathonState): String =
-    if (m.round == 1) "вопрос ${m.pos + 1} из ${m.order.size}"
-    else "работа над ошибками, круг ${m.round}, ${m.pos + 1} из ${m.order.size}"
+fun marathonPosition(s: S, m: MarathonState): String =
+    if (m.round == 1) s.posRound1(m.pos + 1, m.order.size)
+    else s.posReview(m.round, m.pos + 1, m.order.size)
 
 @Composable
-private fun BigCard(icon: ImageVector, title: String, subtitle: String, onClick: () -> Unit) {
+private fun BigCard(
+    icon: ImageVector,
+    title: String,
+    subtitle: String,
+    helpLabel: String,
+    onHelp: () -> Unit,
+    onClick: () -> Unit,
+) {
     Card(
         onClick = onClick,
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(24.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
     ) {
-        Row(Modifier.padding(24.dp), verticalAlignment = Alignment.CenterVertically) {
-            Icon(icon, null, Modifier.size(44.dp), tint = MaterialTheme.colorScheme.onPrimaryContainer)
-            Spacer(Modifier.width(20.dp))
-            Column {
-                Text(title, fontSize = 24.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onPrimaryContainer)
+        Row(Modifier.padding(start = 24.dp, top = 20.dp, bottom = 20.dp, end = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Icon(icon, null, Modifier.size(40.dp), tint = MaterialTheme.colorScheme.onPrimaryContainer)
+            Spacer(Modifier.width(18.dp))
+            Column(Modifier.weight(1f)) {
+                Text(title, fontSize = 23.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onPrimaryContainer)
                 Text(subtitle, color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.8f))
+            }
+            IconButton(onClick = onHelp) {
+                Icon(
+                    Icons.AutoMirrored.Filled.HelpOutline,
+                    contentDescription = helpLabel,
+                    tint = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.8f),
+                    modifier = Modifier.size(26.dp),
+                )
             }
         }
     }
@@ -125,7 +176,8 @@ private fun BigCard(icon: ImageVector, title: String, subtitle: String, onClick:
 @Composable
 fun StagesScreen(vm: AppViewModel) {
     val repo = vm.repo ?: return
-    AppScaffold(vm, title = "Обучение") { p ->
+    val s = vm.s
+    AppScaffold(vm, title = s.learn) { p ->
         LazyColumn(
             Modifier.fillMaxSize().padding(p),
             contentPadding = PaddingValues(16.dp),
@@ -151,8 +203,8 @@ fun StagesScreen(vm: AppViewModel) {
                         }
                         Spacer(Modifier.width(16.dp))
                         Column(Modifier.weight(1f)) {
-                            Text("${repo.stageWords(stage).size} слов · $total уровней", fontWeight = FontWeight.Medium)
-                            Text("Пройдено: $done из $total", color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 14.sp)
+                            Text(s.stageInfo(repo.stageWords(stage).size, total), fontWeight = FontWeight.Medium)
+                            Text(s.passedOf(done, total), color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 14.sp)
                             Spacer(Modifier.height(8.dp))
                             LinearProgressIndicator(
                                 progress = { if (total == 0) 0f else done.toFloat() / total },
@@ -174,7 +226,7 @@ fun StagesScreen(vm: AppViewModel) {
 fun LevelsScreen(vm: AppViewModel, stage: String) {
     val repo = vm.repo ?: return
     val n = repo.levelCount(stage)
-    AppScaffold(vm, title = "Этап $stage · ${vm.passedCount(stage)}/$n") { p ->
+    AppScaffold(vm, title = vm.s.stageTitle(stage, vm.passedCount(stage), n)) { p ->
         LazyVerticalGrid(
             columns = GridCells.Fixed(5),
             modifier = Modifier.fillMaxSize().padding(p),
@@ -208,25 +260,26 @@ fun LevelsScreen(vm: AppViewModel, stage: String) {
 @Composable
 fun PreviewScreen(vm: AppViewModel, speaker: Speaker, stage: String, level: Int) {
     val repo = vm.repo ?: return
+    val s = vm.s
     val words = repo.levelWords(stage, level)
     val passed = vm.isPassed(stage, level)
     AppScaffold(
         vm,
-        title = "$stage · Уровень $level" + if (passed) "  ✓" else "",
+        title = s.levelTitle(stage, level) + if (passed) "  ✓" else "",
         bottomBar = {
             Row(
                 Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.background).navigationBarsPadding().padding(16.dp),
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
             ) {
-                OutlinedButton(onClick = { vm.back() }, modifier = Modifier.weight(1f).height(52.dp)) { Text("Назад") }
-                Button(onClick = { vm.startLevel(stage, level) }, modifier = Modifier.weight(1f).height(52.dp)) { Text("Начать") }
+                OutlinedButton(onClick = { vm.back() }, modifier = Modifier.weight(1f).height(52.dp)) { Text(s.back) }
+                Button(onClick = { vm.startLevel(stage, level) }, modifier = Modifier.weight(1f).height(52.dp)) { Text(s.start) }
             }
         },
     ) { p ->
         LazyColumn(Modifier.fillMaxSize().padding(p), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)) {
             item {
                 Text(
-                    if (passed) "Уровень пройден в ${if (vm.dark) "тёмном" else "светлом"} режиме. Слова уровня:" else "Слова этого уровня:",
+                    if (passed) s.previewPassed(vm.dark) else s.previewWords,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(bottom = 8.dp),
                 )
@@ -240,7 +293,7 @@ fun PreviewScreen(vm: AppViewModel, speaker: Speaker, stage: String, level: Int)
                             Text(w.pos, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         if (w.hint.isNotBlank()) Text("(${w.hint})", fontSize = 13.sp, fontStyle = FontStyle.Italic, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(w.ru, fontSize = 16.sp, color = MaterialTheme.colorScheme.primary)
+                        Text(w.tr(vm.lang), fontSize = 16.sp, color = MaterialTheme.colorScheme.primary)
                     }
                     SpeakButton(speaker, w.en)
                 }

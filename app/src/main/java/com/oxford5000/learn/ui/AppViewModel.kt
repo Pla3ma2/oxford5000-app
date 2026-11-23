@@ -12,6 +12,8 @@ import com.oxford5000.learn.data.ProgressStore
 import com.oxford5000.learn.data.Word
 import com.oxford5000.learn.data.WordRepository
 import com.oxford5000.learn.data.levelKey
+import com.oxford5000.learn.data.Lang
+import com.oxford5000.learn.data.slot
 import com.oxford5000.learn.logic.Direction
 import com.oxford5000.learn.logic.LearningSession
 import com.oxford5000.learn.logic.MarathonEngine
@@ -50,6 +52,8 @@ data class QuizUi(
     val progress: Float,
     /** Сколько «жизней» осталось (только в Обучении). */
     val livesLeft: Int?,
+    /** Пояснение под шапкой (например, «уровень уже не пройден»). */
+    val note: String? = null,
 )
 
 class AppViewModel(app: Application) : AndroidViewModel(app) {
@@ -62,6 +66,14 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     var progress by mutableStateOf(Progress()); private set
     val dark: Boolean get() = progress.darkMode
+    val lang: Lang get() = progress.lang
+    /** Тексты интерфейса на текущем языке. */
+    val s: S get() = strings(lang)
+    /** Ключ набора прогресса для текущих языка и темы. */
+    private val curSlot: String get() = slot(lang, dark)
+
+    /** Показать окно-объяснение тёмного режима (при первом нажатии на переключатель). */
+    var showDarkIntro by mutableStateOf(false); private set
 
     val stack = mutableStateListOf<Screen>(Screen.Home)
     val screen: Screen get() = stack.last()
@@ -108,7 +120,24 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         else { while (stack.size > 1) stack.removeAt(stack.lastIndex); stack.add(fallback) }
     }
 
-    fun toggleDark() { viewModelScope.launch { store.setDarkMode(!dark) } }
+    fun toggleDark() {
+        if (!progress.darkIntroShown) { showDarkIntro = true; return }
+        viewModelScope.launch { store.setDarkMode(!dark) }
+    }
+
+    /** «Дальше» в окне про тёмный режим: запоминаем, что окно показано, и переключаем тему. */
+    fun confirmDarkIntro() {
+        showDarkIntro = false
+        val target = !dark
+        viewModelScope.launch {
+            store.setDarkIntroShown()
+            store.setDarkMode(target)
+        }
+    }
+
+    fun dismissDarkIntro() { showDarkIntro = false }
+
+    fun setLang(l: Lang) { viewModelScope.launch { store.setLang(l) } }
 
     fun isPassed(stage: String, level: Int) = levelKey(stage, level) in progress.passed(dark)
 
@@ -122,7 +151,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun startLevel(stage: String, level: Int) {
         val r = repo ?: return
         val p = picker ?: return
-        session = LearningSession(r.levelWords(stage, level), r.reviewPool(stage, level), dark, p, rnd)
+        session = LearningSession(r.levelWords(stage, level), r.reviewPool(stage, level), dark, p, rnd, lang)
         val target = Screen.LearnQuiz(stage, level)
         if (screen is Screen.Preview || screen is Screen.LearnResult) replace(target) else push(target)
         refreshLearnUi()
@@ -134,9 +163,10 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             question = s.current,
             answered = s.answered,
             selected = s.selectedIndex,
-            header = "Вопрос ${s.index + 1} / ${s.total}",
+            header = this.s.questionOf(s.index + 1, s.total),
             progress = (s.index + if (s.answered) 1 else 0).toFloat() / s.total,
-            livesLeft = LearningSession.MAX_ERRORS - s.errors,
+            livesLeft = (LearningSession.MAX_ERRORS - s.errors).coerceAtLeast(0),
+            note = if (s.doomed) this.s.levelFailedNote else null,
         )
     }
 
@@ -156,7 +186,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         when (s.status) {
             SessionStatus.IN_PROGRESS -> refreshLearnUi()
             SessionStatus.PASSED -> {
-                viewModelScope.launch { store.markPassed(dark, levelKey(sc.stage, sc.level)) }
+                val sl = curSlot
+                viewModelScope.launch { store.markPassed(sl, levelKey(sc.stage, sc.level)) }
                 finishLearn(sc, true, s)
             }
             SessionStatus.FAILED -> finishLearn(sc, false, s)
@@ -183,8 +214,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun startMarathon(stages: List<String>) {
         val r = repo ?: return
         val st = MarathonEngine.start(stages, r.words, rnd)
-        val d = dark
-        viewModelScope.launch { store.saveMarathon(d, st) }
+        val sl = curSlot
+        viewModelScope.launch { store.saveMarathon(sl, st) }
         openMarathon(st)
     }
 
@@ -193,8 +224,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     fun resetMarathon() {
-        val d = dark
-        viewModelScope.launch { store.saveMarathon(d, null) }
+        val sl = curSlot
+        viewModelScope.launch { store.saveMarathon(sl, null) }
     }
 
     private fun openMarathon(st: MarathonState) {
@@ -208,7 +239,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         val st = marathon ?: return
         val w = st.currentId?.let { repo?.byId?.get(it) } ?: return
         val dir = if (dark && rnd.nextBoolean()) Direction.RU_EN else Direction.EN_RU
-        marathonQuestion = picker!!.build(w, dir, rnd)
+        marathonQuestion = picker!!.build(w, dir, rnd, lang)
         marathonAnswered = false
         marathonSelected = -1
     }
@@ -216,8 +247,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     private fun refreshMarathonUi() {
         val st = marathon ?: return
         val q = marathonQuestion ?: return
-        val header = if (st.round == 1) "Вопрос ${st.pos + 1} / ${st.order.size}"
-        else "Работа над ошибками · круг ${st.round} · ${st.pos + 1} / ${st.order.size}"
+        val header = if (st.round == 1) s.questionOf(st.pos + 1, st.order.size)
+        else s.reviewHeader(st.round, st.pos + 1, st.order.size)
         quiz = QuizUi(
             question = q, answered = marathonAnswered, selected = marathonSelected, header = header,
             progress = (st.pos + if (marathonAnswered) 1 else 0).toFloat() / st.order.size, livesLeft = null,
@@ -237,8 +268,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         if (!correct) recordError(q.word.id)
         val newState = MarathonEngine.answer(st, correct, rnd)
         marathonAfter = newState
-        val d = dark
-        viewModelScope.launch { store.saveMarathon(d, newState) }
+        val sl = curSlot
+        viewModelScope.launch { store.saveMarathon(sl, newState) }
         refreshMarathonUi()
         if (correct) scheduleAutoNext()
     }
@@ -260,12 +291,12 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     // ---------- Ошибки ----------
 
     /** Слова, убранные в этом запуске (DataStore пишет асинхронно — чтобы они не всплыли в «Ещё круг»). */
-    private val errRemovedIds = mutableSetOf<Int>()
+    private val errRemovedIds = mutableMapOf<String, MutableSet<Int>>()
 
     private fun recordError(id: Int) {
-        errRemovedIds -= id
-        val d = dark
-        viewModelScope.launch { store.addError(d, id) }
+        val sl = curSlot
+        errRemovedIds[sl]?.remove(id)
+        viewModelScope.launch { store.addError(sl, id) }
     }
 
     private var errOrder: List<Int> = emptyList()
@@ -277,7 +308,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     fun startErrors() {
         val r = repo ?: return
-        errOrder = progress.errors(dark).filter { it in r.byId && it !in errRemovedIds }.shuffled(rnd)
+        val removed = errRemovedIds[curSlot].orEmpty()
+        errOrder = progress.errors(dark).filter { it in r.byId && it !in removed }.shuffled(rnd)
         if (errOrder.isEmpty()) return
         errPos = 0
         errRemoved = 0
@@ -289,7 +321,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     private fun buildErrQuestion() {
         val w = repo?.byId?.get(errOrder[errPos]) ?: return
         val dir = if (dark && rnd.nextBoolean()) Direction.RU_EN else Direction.EN_RU
-        errQuestion = picker!!.build(w, dir, rnd)
+        errQuestion = picker!!.build(w, dir, rnd, lang)
         errAnswered = false
         errSelected = -1
     }
@@ -298,7 +330,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         val q = errQuestion ?: return
         quiz = QuizUi(
             question = q, answered = errAnswered, selected = errSelected,
-            header = "Вопрос ${errPos + 1} / ${errOrder.size} · убрано: $errRemoved",
+            header = s.errorsHeader(errPos + 1, errOrder.size, errRemoved),
             progress = (errPos + if (errAnswered) 1 else 0).toFloat() / errOrder.size, livesLeft = null,
         )
     }
@@ -309,11 +341,11 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         errAnswered = true
         errSelected = i
         val correct = i == q.correctIndex
-        val d = dark
+        val sl = curSlot
         if (correct) {
             errRemoved++
-            errRemovedIds += q.word.id
-            viewModelScope.launch { store.removeError(d, q.word.id) }
+            errRemovedIds.getOrPut(sl) { mutableSetOf() } += q.word.id
+            viewModelScope.launch { store.removeError(sl, q.word.id) }
             scheduleAutoNext()
         }
         refreshErrUi()

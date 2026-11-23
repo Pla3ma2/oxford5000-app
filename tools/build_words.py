@@ -81,5 +81,14 @@ for f in sorted(glob.glob(os.path.join(TR, '*.txt'))):
 missing = [o['id'] for o in final if o['id'] not in tr]
 assert not missing, f'нет перевода для id: {missing[:20]}'
 for o in final: o['ru'] = tr[o['id']]
+# Переводы на французский, немецкий, индонезийский: tools/tr_multi/*.txt, строки "id|fr|de|id"
+multi = {}
+for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tr_multi', '*.txt'))):
+    for l in open(f, encoding='utf-8'):
+        if l.count('|') == 3:
+            a = l.strip().split('|'); multi[int(a[0])] = a[1:]
+for o in final:
+    if o['id'] in multi:
+        o['fr'], o['de'], o['idn'] = [x.strip() for x in multi[o['id']]]
 json.dump(final, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 print('OK', len(final), 'слов ->', OUT)

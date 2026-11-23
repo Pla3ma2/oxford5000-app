@@ -51,13 +51,18 @@ class LogicTest {
         assertTrue(s.queue.all { it.word.id in levelIds })
     }
 
-    @Test fun errorsAddExtraQuestions_thirdErrorFails() {
+    @Test fun errorsAddExtraQuestions_thirdErrorFailsAtTheEnd() {
         val s = session("B1", 5)
         answerWrong(s); assertEquals(30, s.total)
         answerWrong(s); assertEquals(35, s.total)
-        assertEquals(SessionStatus.IN_PROGRESS, s.status)
-        s.answer((s.current.correctIndex + 1) % 4)
+        answerWrong(s); assertEquals(35, s.total)          // 3-я ошибка: вопросов не добавляется
+        assertEquals(SessionStatus.IN_PROGRESS, s.status)  // но уровень доигрывается
+        answerWrong(s); answerWrong(s)
+        while (s.status == SessionStatus.IN_PROGRESS) answerCorrect(s)
         assertEquals(SessionStatus.FAILED, s.status)
+        assertEquals(35, s.total)
+        assertEquals(5, s.errors)
+        assertTrue(s.wrongWords.isNotEmpty())
     }
 
     @Test fun errorInExtraQuestionCounts() {
@@ -100,12 +105,35 @@ class LogicTest {
     @Test fun darkModeMixesDirections() {
         repeat(20) { seed ->
             val s = session("A2", 4, mixed = true, seed = seed)
-            val en = s.queue.count { it.direction == Direction.EN_RU }
-            val ru = s.queue.count { it.direction == Direction.RU_EN }
-            assertTrue(en in 12..13 && ru in 12..13)
+            val q = s.queue.filter { !it.word.isArticle }
+            val en = q.count { it.direction == Direction.EN_RU }
+            val ru = q.count { it.direction == Direction.RU_EN }
+            assertTrue(kotlin.math.abs(en - ru) <= 1)
         }
         val light = session("A2", 4, mixed = false)
         assertTrue(light.queue.all { it.direction == Direction.EN_RU })
+    }
+
+    @Test fun articlesAlwaysFromEnglish() {
+        repeat(50) { seed ->
+            for (lvl in 1..2) {
+                val s = session("A1", lvl, mixed = true, seed = seed)
+                assertTrue(s.queue.filter { it.word.isArticle }.all { it.direction == Direction.EN_RU })
+            }
+        }
+        val the = repo.words.first { it.en == "the" }
+        repeat(20) { assertEquals(Direction.EN_RU, picker.build(the, Direction.RU_EN, Random(it)).direction) }
+    }
+
+    @Test fun allLanguagesHaveTranslations_andUniqueOptions() {
+        for (lang in com.oxford5000.learn.data.Lang.values()) {
+            assertTrue(repo.words.all { it.tr(lang).isNotBlank() })
+            val rnd = Random(11)
+            for (w in repo.words.shuffled(rnd).take(800)) {
+                val q = picker.build(w, Direction.EN_RU, rnd, lang)
+                assertEquals(4, (0 until 4).map { q.optionText(it).lowercase() }.toSet().size)
+            }
+        }
     }
 
     @Test fun marathonRepeatsWrongWordsUntilClean() {

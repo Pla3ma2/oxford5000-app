@@ -27,11 +27,19 @@ import com.oxford5000.learn.ui.screens.MarathonScreen
 import com.oxford5000.learn.ui.screens.PreviewScreen
 import com.oxford5000.learn.ui.screens.QuizScreen
 import com.oxford5000.learn.ui.screens.StagesScreen
+import com.oxford5000.learn.ui.screens.InfoDialog
 import com.oxford5000.learn.ui.theme.Oxford5000Theme
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
+import com.oxford5000.learn.data.Lang
+
+/** Тексты интерфейса для вложенных компонентов (кнопка озвучки и т. п.). */
+val LocalS = staticCompositionLocalOf { strings(Lang.RU) }
 
 @Composable
 fun App(vm: AppViewModel, speaker: Speaker) {
     Oxford5000Theme(dark = vm.dark) {
+      CompositionLocalProvider(LocalS provides vm.s) {
         Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
             val repo = vm.repo
             if (repo == null) {
@@ -46,30 +54,42 @@ fun App(vm: AppViewModel, speaker: Speaker) {
                 if (screen is Screen.LearnQuiz) confirmExit = true else vm.back()
             }
 
+            val t = vm.s
             when (screen) {
                 Screen.Home -> HomeScreen(vm)
                 Screen.Stages -> StagesScreen(vm)
                 is Screen.Levels -> LevelsScreen(vm, screen.stage)
                 is Screen.Preview -> PreviewScreen(vm, speaker, screen.stage, screen.level)
-                is Screen.LearnQuiz -> QuizScreen(vm, speaker, title = "${screen.stage} · Уровень ${screen.level}", onClose = { confirmExit = true })
+                is Screen.LearnQuiz -> QuizScreen(vm, speaker, title = t.levelTitle(screen.stage, screen.level), onClose = { confirmExit = true })
                 is Screen.LearnResult -> LearnResultScreen(vm, screen)
                 Screen.Marathon -> MarathonScreen(vm)
-                Screen.MarathonQuiz -> QuizScreen(vm, speaker, title = "Марафон", onClose = { vm.back() })
+                Screen.MarathonQuiz -> QuizScreen(vm, speaker, title = t.marathon, onClose = { vm.back() })
                 is Screen.MarathonResult -> MarathonResultScreen(vm, screen)
                 Screen.Errors -> ErrorsScreen(vm)
-                Screen.ErrorsQuiz -> QuizScreen(vm, speaker, title = "Ошибки", onClose = { vm.back() })
+                Screen.ErrorsQuiz -> QuizScreen(vm, speaker, title = t.errors, onClose = { vm.back() })
                 is Screen.ErrorsResult -> ErrorsResultScreen(vm, screen)
             }
 
             if (confirmExit) {
                 AlertDialog(
                     onDismissRequest = { confirmExit = false },
-                    title = { Text("Выйти из уровня?") },
-                    text = { Text("Прогресс этого прохождения будет потерян.") },
-                    confirmButton = { TextButton(onClick = { confirmExit = false; vm.back() }) { Text("Выйти") } },
-                    dismissButton = { TextButton(onClick = { confirmExit = false }) { Text("Остаться") } },
+                    title = { Text(t.exitTitle) },
+                    text = { Text(t.exitText) },
+                    confirmButton = { TextButton(onClick = { confirmExit = false; vm.back() }) { Text(t.exitConfirm) } },
+                    dismissButton = { TextButton(onClick = { confirmExit = false }) { Text(t.stay) } },
+                )
+            }
+
+            if (vm.showDarkIntro) {
+                InfoDialog(
+                    title = t.darkIntroTitle,
+                    text = t.darkIntro,
+                    button = t.next,
+                    onConfirm = { vm.confirmDarkIntro() },
+                    onDismiss = { vm.dismissDarkIntro() },
                 )
             }
         }
+      }
     }
 }

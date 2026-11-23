@@ -1,6 +1,7 @@
 package com.oxford5000.learn.data
 
 import android.content.Context
+import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -13,19 +14,26 @@ import kotlinx.serialization.json.Json
 
 private val Context.dataStore by preferencesDataStore(name = "progress")
 
+/**
+ * Прогресс хранится отдельно для каждого языка и каждой темы (4 × 2 набора).
+ * Суффикс ключа: "light"/"dark" + "_fr"/"_de"/"_id" (для русского без суффикса —
+ * так сохраняется прогресс из первых версий приложения).
+ */
+fun slot(lang: Lang, dark: Boolean): String =
+    (if (dark) "dark" else "light") + if (lang == Lang.RU) "" else "_${lang.code}"
+
 /** Снимок всего сохранённого прогресса. */
 data class Progress(
+    val lang: Lang = Lang.RU,
     val darkMode: Boolean = false,
-    val passedLight: Set<String> = emptySet(),
-    val passedDark: Set<String> = emptySet(),
-    val marathonLight: MarathonState? = null,
-    val marathonDark: MarathonState? = null,
-    val errorsLight: Set<Int> = emptySet(),
-    val errorsDark: Set<Int> = emptySet(),
+    val darkIntroShown: Boolean = false,
+    private val passedBySlot: Map<String, Set<String>> = emptyMap(),
+    private val marathonBySlot: Map<String, MarathonState> = emptyMap(),
+    private val errorsBySlot: Map<String, Set<Int>> = emptyMap(),
 ) {
-    fun errors(dark: Boolean) = if (dark) errorsDark else errorsLight
-    fun passed(dark: Boolean) = if (dark) passedDark else passedLight
-    fun marathon(dark: Boolean) = if (dark) marathonDark else marathonLight
+    fun passed(dark: Boolean): Set<String> = passedBySlot[slot(lang, dark)].orEmpty()
+    fun marathon(dark: Boolean): MarathonState? = marathonBySlot[slot(lang, dark)]
+    fun errors(dark: Boolean): Set<Int> = errorsBySlot[slot(lang, dark)].orEmpty()
 }
 
 class ProgressStore(private val context: Context) {
@@ -33,27 +41,26 @@ class ProgressStore(private val context: Context) {
     private val json = Json { ignoreUnknownKeys = true }
 
     private val DARK = booleanPreferencesKey("dark_mode")
-    private val PASSED_LIGHT = stringSetPreferencesKey("passed_light")
-    private val PASSED_DARK = stringSetPreferencesKey("passed_dark")
-    private val MARATHON_LIGHT = stringPreferencesKey("marathon_light")
-    private val MARATHON_DARK = stringPreferencesKey("marathon_dark")
-    private val ERRORS_LIGHT = stringSetPreferencesKey("errors_light")
-    private val ERRORS_DARK = stringSetPreferencesKey("errors_dark")
+    private val DARK_INTRO = booleanPreferencesKey("dark_intro_shown")
+    private val LANG = stringPreferencesKey("lang")
 
-    private fun ids(set: Set<String>?): Set<Int> = set.orEmpty().mapNotNull { it.toIntOrNull() }.toSet()
+    private fun passedKey(s: String) = stringSetPreferencesKey("passed_$s")
+    private fun marathonKey(s: String) = stringPreferencesKey("marathon_$s")
+    private fun errorsKey(s: String) = stringSetPreferencesKey("errors_$s")
+
+    private val allSlots: List<String> = Lang.values().flatMap { l -> listOf(slot(l, false), slot(l, true)) }
 
     private fun decode(s: String?): MarathonState? =
         s?.let { runCatching { json.decodeFromString<MarathonState>(it) }.getOrNull() }
 
-    val progress: Flow<Progress> = context.dataStore.data.map { p ->
+    val progress: Flow<Progress> = context.dataStore.data.map { p: Preferences ->
         Progress(
+            lang = Lang.of(p[LANG]),
             darkMode = p[DARK] ?: false,
-            passedLight = p[PASSED_LIGHT] ?: emptySet(),
-            passedDark = p[PASSED_DARK] ?: emptySet(),
-            marathonLight = decode(p[MARATHON_LIGHT]),
-            marathonDark = decode(p[MARATHON_DARK]),
-            errorsLight = ids(p[ERRORS_LIGHT]),
-            errorsDark = ids(p[ERRORS_DARK]),
+            darkIntroShown = p[DARK_INTRO] ?: false,
+            passedBySlot = allSlots.associateWith { p[passedKey(it)].orEmpty() },
+            marathonBySlot = allSlots.mapNotNull { s -> decode(p[marathonKey(s)])?.let { s to it } }.toMap(),
+            errorsBySlot = allSlots.associateWith { s -> p[errorsKey(s)].orEmpty().mapNotNull { it.toIntOrNull() }.toSet() },
         )
     }
 
@@ -61,27 +68,35 @@ class ProgressStore(private val context: Context) {
         context.dataStore.edit { it[DARK] = dark }
     }
 
-    suspend fun markPassed(dark: Boolean, key: String) {
-        val k = if (dark) PASSED_DARK else PASSED_LIGHT
+    suspend fun setDarkIntroShown() {
+        context.dataStore.edit { it[DARK_INTRO] = true }
+    }
+
+    suspend fun setLang(lang: Lang) {
+        context.dataStore.edit { it[LANG] = lang.code }
+    }
+
+    suspend fun markPassed(slot: String, key: String) {
+        val k = passedKey(slot)
         context.dataStore.edit { it[k] = (it[k] ?: emptySet()) + key }
     }
 
-    suspend fun saveMarathon(dark: Boolean, state: MarathonState?) {
-        val k = if (dark) MARATHON_DARK else MARATHON_LIGHT
+    suspend fun saveMarathon(slot: String, state: MarathonState?) {
+        val k = marathonKey(slot)
         context.dataStore.edit {
             if (state == null || state.finished) it.remove(k) else it[k] = json.encodeToString(MarathonState.serializer(), state)
         }
     }
 
     /** Добавить слово в режим «Ошибки». */
-    suspend fun addError(dark: Boolean, id: Int) {
-        val k = if (dark) ERRORS_DARK else ERRORS_LIGHT
+    suspend fun addError(slot: String, id: Int) {
+        val k = errorsKey(slot)
         context.dataStore.edit { it[k] = (it[k] ?: emptySet()) + id.toString() }
     }
 
     /** Убрать слово из режима «Ошибки» (ответили правильно). */
-    suspend fun removeError(dark: Boolean, id: Int) {
-        val k = if (dark) ERRORS_DARK else ERRORS_LIGHT
+    suspend fun removeError(slot: String, id: Int) {
+        val k = errorsKey(slot)
         context.dataStore.edit { it[k] = (it[k] ?: emptySet()) - id.toString() }
     }
 }

@@ -1,5 +1,6 @@
 package com.oxford5000.learn.logic
 
+import com.oxford5000.learn.data.Lang
 import com.oxford5000.learn.data.Word
 import kotlin.random.Random
 
@@ -18,6 +19,7 @@ class LearningSession(
     private val mixed: Boolean,
     private val picker: OptionPicker,
     private val rnd: Random = Random.Default,
+    private val lang: Lang = Lang.RU,
 ) {
     companion object {
         const val BASE_REVIEW = 5
@@ -40,18 +42,25 @@ class LearningSession(
     init {
         val review = pickReview(BASE_REVIEW)
         val base = (levelWords + review).shuffled(rnd)
-        val directions: List<Direction> = if (mixed) {
-            val half = base.size / 2
-            val firstEn = rnd.nextBoolean()
-            val a = if (firstEn) base.size - half else half
-            (List(a) { Direction.EN_RU } + List(base.size - a) { Direction.RU_EN }).shuffled(rnd)
-        } else List(base.size) { Direction.EN_RU }
-        base.forEachIndexed { i, w -> queue += picker.build(w, directions[i], rnd) }
+        // Тёмный режим: среди слов (кроме артиклей) половина EN→перевод, половина перевод→EN.
+        val mixable = base.count { !it.isArticle }
+        val dirs: ArrayDeque<Direction> = if (mixed) {
+            val half = mixable / 2
+            val a = if (rnd.nextBoolean()) mixable - half else half
+            ArrayDeque((List(a) { Direction.EN_RU } + List(mixable - a) { Direction.RU_EN }).shuffled(rnd))
+        } else ArrayDeque(List(mixable) { Direction.EN_RU })
+        base.forEach { w ->
+            val d = if (w.isArticle) Direction.EN_RU else dirs.removeFirst()
+            queue += picker.build(w, d, rnd, lang)
+        }
         usedIds += base.map { it.id }
     }
 
     val current: Question get() = queue[index]
     val total: Int get() = queue.size
+
+    /** Уже не пройден (3+ ошибки), но доигрывается до конца. */
+    val doomed: Boolean get() = errors >= MAX_ERRORS
 
     /** Ответ на текущий вопрос. Возвращает true, если ответ правильный. */
     fun answer(optionIndex: Int): Boolean {
@@ -64,11 +73,9 @@ class LearningSession(
         if (!correct) {
             errors++
             if (wrongWords.none { it.id == q.word.id }) wrongWords += q.word
-            if (errors >= MAX_ERRORS) {
-                status = SessionStatus.FAILED
-            } else {
-                addExtra(EXTRA_PER_ERROR)
-            }
+            // 1-я и 2-я ошибка добавляют по 5 вопросов. С 3-й ошибки уровень уже не пройден,
+            // но прохождение продолжается до конца очереди (новые вопросы не добавляются).
+            if (errors < MAX_ERRORS) addExtra(EXTRA_PER_ERROR)
         }
         return correct
     }
@@ -80,7 +87,7 @@ class LearningSession(
         answered = false
         selectedIndex = -1
         if (index + 1 >= queue.size) {
-            status = SessionStatus.PASSED
+            status = if (errors >= MAX_ERRORS) SessionStatus.FAILED else SessionStatus.PASSED
         } else {
             index++
         }
@@ -89,7 +96,7 @@ class LearningSession(
     private fun addExtra(n: Int) {
         pickReview(n).forEach { w ->
             val dir = if (mixed && rnd.nextBoolean()) Direction.RU_EN else Direction.EN_RU
-            queue += picker.build(w, dir, rnd)
+            queue += picker.build(w, dir, rnd, lang)
             usedIds += w.id
         }
     }

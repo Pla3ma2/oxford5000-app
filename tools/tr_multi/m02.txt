@@ -1,0 +1,800 @@
+701|cuisiner|kochen|memasak
+702|chapeau|Hut|topi
+703|vélo|Fahrrad|sepeda
+704|blond|blond|pirang
+705|préféré|Lieblings-|favorit
+706|perdre|verlieren|kehilangan; kalah
+707|cuisine (activité)|Kochen|memasak
+708|bras|Arm|lengan
+709|chocolat|Schokolade|cokelat
+710|mari|Ehemann|suami
+711|concert|Konzert|konser
+712|bouche|Mund|mulut
+713|fruit|Obst|buah
+714|dessiner|zeichnen|menggambar
+715|chaud (tiède)|warm|hangat
+716|sucre|Zucker|gula
+717|mille (distance)|Meile|mil
+718|peindre; peinture|malen; Farbe|mengecat; cat
+719|plat|Gericht|hidangan
+720|peinture, tableau|Gemälde|lukisan
+721|détester|hassen|membenci
+722|riz|Reis|nasi, beras
+723|vingt|zwanzig|dua puluh
+724|préparer|vorbereiten|menyiapkan
+725|demain|morgen|besok
+726|lait|Milch|susu
+727|décider|entscheiden|memutuskan
+728|botte|Stiefel|sepatu bot
+729|déjeuner|Mittagessen|makan siang
+730|poulet|Huhn|ayam
+731|douche|Dusche|pancuran
+732|ce soir|heute Abend|malam ini
+733|cher (aimé)|lieb|tersayang
+734|bière|Bier|bir
+735|natation|Schwimmen|renang
+736|salle de classe|Klassenzimmer|ruang kelas
+737|visiteur|Besucher|pengunjung
+738|deux fois|zweimal|dua kali
+739|s'asseoir|sitzen|duduk
+740|piano|Klavier|piano
+741|voyage, trajet|Reise|perjalanan
+742|enseigner|unterrichten|mengajar
+743|après-midi|Nachmittag|sore
+744|examen|Prüfung|ujian
+745|cent|hundert|seratus
+746|gris|grau|abu-abu
+747|salle de bain|Badezimmer|kamar mandi
+748|leçon|Lektion|pelajaran
+749|cinéma|Kino|bioskop
+750|cher (prix)|teuer|mahal
+751|avion|Flugzeug|pesawat
+752|bouteille|Flasche|botol
+753|mille|tausend|seribu
+754|viande|Fleisch|daging
+755|occupé|beschäftigt|sibuk
+756|fantastique|fantastisch|fantastis
+757|imaginer|sich vorstellen|membayangkan
+758|jambe|Bein|kaki
+759|veste|Jacke|jaket
+760|dangereux|gefährlich|berbahaya
+761|passionnant|spannend|mengasyikkan
+762|infirmière|Krankenschwester|perawat
+763|calme|ruhig|tenang
+764|fromage|Käse|keju
+765|gâteau|Kuchen|kue
+766|café (lieu)|Café|kafe
+767|stylo|Stift|pena
+768|chaussure|Schuh|sepatu
+769|acteur|Schauspieler|aktor
+770|cinquième|fünfte|kelima
+771|sale|schmutzig|kotor
+772|travailleur|Arbeiter|pekerja
+773|préférer|bevorzugen|lebih suka
+774|malade|krank|sakit
+775|violet|lila|ungu
+776|compétence|Fähigkeit|keterampilan
+777|papa|Papa|ayah
+778|touriste|Tourist|turis
+779|oreille|Ohr|telinga
+780|tout le monde|jeder|semua orang
+781|personne|niemand|tak seorang pun
+782|phrase|Satz|kalimat
+783|grand (taille)|groß|tinggi
+784|danse|Tanzen|menari
+785|se réveiller|aufwachen|bangun
+786|répéter|wiederholen|mengulangi
+787|livre (monnaie)|Pfund|pound
+788|pain|Brot|roti
+789|être allongé|liegen|berbaring
+790|conversation|Gespräch|percakapan
+791|géographie|Geografie|geografi
+792|expression|Ausdruck|frasa
+793|présenter|vorstellen|memperkenalkan
+794|triste|traurig|sedih
+795|repas|Mahlzeit|makanan
+796|œuf|Ei|telur
+797|laver|waschen|mencuci
+798|routine|Routine|rutinitas
+799|manteau|Mantel|mantel
+800|chanteur|Sänger|penyanyi
+801|trente|dreißig|tiga puluh
+802|opposé|gegenüber|berlawanan
+803|jean|Jeans|celana jins
+804|arriver|ankommen|tiba
+805|dialogue|Dialog|dialog
+806|minuit|Mitternacht|tengah malam
+807|lion|Löwe|singa
+808|douze|zwölf|dua belas
+809|fatigué|müde|lelah
+810|chanter|singen|bernyanyi
+811|quelqu'un|jemand|seseorang
+812|photographie|Fotografie|foto
+813|jus|Saft|jus
+814|effrayé|ängstlich|takut
+815|erreur|Fehler|kesalahan
+816|agriculteur|Bauer|petani
+817|soupe|Suppe|sup
+818|nez|Nase|hidung
+819|jupe|Rock|rok
+820|salle de sport|Fitnessstudio|pusat kebugaran
+821|rire|lachen; Lachen|tertawa; tawa
+822|beurre|Butter|mentega
+823|poivre|Pfeffer|merica
+824|automne|Herbst|musim gugur
+825|toilettes|Toilette|toilet
+826|excité|aufgeregt|bersemangat
+827|en colère|wütend|marah
+828|passeport|Reisepass|paspor
+829|devoirs|Hausaufgaben|pekerjaan rumah
+830|mouton|Schaf|domba
+831|salade|Salat|salad
+832|se détendre|entspannen|bersantai
+833|nager|schwimmen|berenang
+834|terrible|schrecklich|mengerikan
+835|scientifique|Wissenschaftler|ilmuwan
+836|épeler|buchstabieren|mengeja
+837|bicyclette|Fahrrad|sepeda
+838|vache|Kuh|sapi
+839|loisir|Hobby|hobi
+840|cinquante|fünfzig|lima puluh
+841|oncle|Onkel|paman
+842|serpent|Schlange|ular
+843|délicieux|lecker|lezat
+844|légume|Gemüse|sayuran
+845|quarante|vierzig|empat puluh
+846|orthographe|Rechtschreibung|ejaan
+847|taxi|Taxi|taksi
+848|cochon|Schwein|babi
+849|actrice|Schauspielerin|aktris
+850|ennuyeux|langweilig|membosankan
+851|au revoir|tschüss|dah
+852|pomme de terre|Kartoffel|kentang
+853|oignon|Zwiebel|bawang
+854|sandwich|Sandwich|roti lapis
+855|petite amie|Freundin|pacar (perempuan)
+856|quinze|fünfzehn|lima belas
+857|affamé|hungrig|lapar
+858|éléphant|Elefant|gajah
+859|onze|elf|sebelas
+860|grimper|klettern|memanjat
+861|tomate|Tomate|tomat
+862|banane|Banane|pisang
+863|dent|Zahn|gigi
+864|crayon|Bleistift|pensil
+865|qui s'ennuie|gelangweilt|bosan
+866|soixante|sechzig|enam puluh
+867|petit ami|Freund|pacar (laki-laki)
+868|au revoir|auf Wiedersehen|selamat tinggal
+869|tante|Tante|bibi
+870|cousin|Cousin|sepupu
+871|parapluie|Regenschirm|payung
+872|danseur|Tänzer|penari
+873|grand-père|Großvater|kakek
+874|pantalon|Hose|celana panjang
+875|pull|Pullover|sweter
+876|maman|Mama|ibu
+877|grand-mère|Großmutter|nenek
+878|seize|sechzehn|enam belas
+879|treize|dreizehn|tiga belas
+880|dix-huit|achtzehn|delapan belas
+881|quatorze|vierzehn|empat belas
+882|adolescent|Teenager|remaja
+883|supermarché|Supermarkt|supermarket
+884|soixante-dix|siebzig|tujuh puluh
+885|quatre-vingt-dix|neunzig|sembilan puluh
+886|en haut (à l'étage)|oben|di lantai atas
+887|quatre-vingts|achtzig|delapan puluh
+888|mètre|Meter|meter
+889|dix-sept|siebzehn|tujuh belas
+890|carotte|Karotte|wortel
+891|voisin|Nachbar|tetangga
+892|en bas (à l'étage inférieur)|unten|di lantai bawah
+893|s'entraîner|üben|berlatih
+894|dix-neuf|neunzehn|sembilan belas
+895|serveur|Kellner|pelayan
+896|policier|Polizist|polisi
+897|assoiffé|durstig|haus
+898|grand-parent|Großelternteil|kakek atau nenek
+899|kilomètre|Kilometer|kilometer
+900|ne pas pouvoir|nicht können|tidak bisa
+901|aussi; comme|so; als|sama; ketika
+902|tout à fait|ganz|sepenuhnya
+903|auxiliaire (parfait)|Hilfsverb haben|kata kerja bantu
+904|domestique|Heim-|rumah, dalam negeri
+905|boîte de conserve|Dose|kaleng
+906|recherche; chercher|Suche; suchen|pencarian; mencari
+907|gratuitement|kostenlos|gratis
+908|site|Ort; Website|situs
+909|pouvoir (permission)|dürfen|boleh
+910|usage|Gebrauch|penggunaan
+911|un peu (plus)|etwas|sedikit pun
+912|ne… plus|nicht mehr|tidak lagi
+913|le sien|seiner|miliknya (laki-laki)
+914|web|Netz|web
+915|vue|Aussicht; Ansicht|pemandangan; pandangan
+916|premier (le)|Erste|yang pertama
+917|service|Dienst|layanan
+918|arrière|hinter-|belakang
+919|haut; supérieur|Spitze; oberste|puncak; teratas
+920|état|Zustand; Staat|keadaan; negara bagian
+921|avoir l'habitude de|früher (pflegte)|dulu biasa
+922|en dernier; le dernier|zuletzt|terakhir kali
+923|durer|dauern|berlangsung
+924|données|Daten|data
+925|système|System|sistem
+926|numéroter|nummerieren|memberi nomor
+927|tel|solche|seperti itu
+928|plaire|gefallen|menyenangkan
+929|disponible|verfügbar|tersedia
+930|soutenir; soutien|unterstützen; Unterstützung|mendukung; dukungan
+931|après que|nachdem|setelah
+932|le mieux|am besten|paling baik
+933|bien (le)|Gute|kebaikan
+934|public|öffentlich; Öffentlichkeit|umum; publik
+935|haut (adv.)|hoch|tinggi
+936|critique; examiner|Rezension; überprüfen|ulasan; meninjau
+937|réserver|buchen|memesan
+938|besoin|Bedarf|kebutuhan
+939|utilisateur|Benutzer|pengguna
+940|général|allgemein|umum
+941|recherche|Forschung|penelitian
+942|courrier|Post|surat; mengirim
+943|programme (informatique)|Programm|program komputer
+944|uni|vereint|bersatu
+945|article, élément|Artikel|barang
+946|international|international|internasional
+947|magasin; stocker|Laden; lagern|toko; menyimpan
+948|signaler|berichten|melaporkan
+949|avant que; avant|bevor; vorher|sebelum
+950|d'accord|in Ordnung|baik-baik saja
+951|éducation|Bildung|pendidikan
+952|national|national|nasional
+953|communauté|Gemeinschaft|komunitas
+954|entre (adv.)|dazwischen|di antaranya
+955|basé|basiert|berbasis
+956|code|Code|kode
+957|vérification|Prüfung|pemeriksaan
+958|signe; signer|Zeichen; unterschreiben|tanda; menandatangani
+959|lien; relier|Link; verbinden|tautan; menghubungkan
+960|technologie|Technologie|teknologi
+961|cas|Fall|kasus
+962|posséder|besitzen|memiliki
+963|pouvoir, énergie|Macht; Kraft|kekuatan
+964|pendant que|während|sementara
+965|soin; se soucier|Pflege; sich kümmern|perawatan; peduli
+966|réseau|Netzwerk|jaringan
+967|suivant|folgend|berikut
+968|télécharger|herunterladen|mengunduh
+969|par|pro|per
+970|médias|Medien|media
+971|loi, droit|Gesetz, Recht|hukum
+972|contrôle; contrôler|Kontrolle; steuern|kendali; mengendalikan
+973|taille|Größe|ukuran
+974|depuis|seit|sejak
+975|y compris|einschließlich|termasuk
+976|guide; guider|Führer; führen|pemandu; memandu
+977|tableau; conseil|Tafel; Vorstand|papan; dewan
+978|envoyer un SMS|simsen|mengirim SMS
+979|taux|Rate|tingkat
+980|gouvernement|Regierung|pemerintah
+981|niveau|Niveau|tingkat
+982|numérique|digital|digital
+983|profil|Profil|profil
+984|image|Bild|gambar
+985|département|Abteilung|departemen
+986|futur (shall)|sollen, werden|akan
+987|qualité|Qualität|kualitas
+988|peu|wenig|sedikit
+989|sauver; enregistrer|retten; speichern|menyelamatkan; menyimpan
+990|bas|niedrig|rendah
+991|répondre; réponse|antworten; Antwort|membalas; balasan
+992|fournir|bereitstellen|menyediakan
+993|source|Quelle|sumber
+994|auteur|Autor|penulis
+995|vente|Verkauf|penjualan
+996|imprimer|drucken|mencetak
+997|processus|Prozess|proses
+998|formation|Ausbildung|pelatihan
+999|crédit|Kredit|kredit
+1000|regard; apparence|Blick; Aussehen|pandangan; penampilan
+1001|galerie|Galerie|galeri
+1002|début|Anfang|awal
+1003|série|Serie|seri
+1004|industrie|Industrie|industri
+1005|humain|menschlich; Mensch|manusiawi; manusia
+1006|deuxièmement|zweitens|kedua
+1007|mieux|besser|lebih baik
+1008|médical|medizinisch|medis
+1009|commentaire|Kommentar|komentar
+1010|qui travaille|arbeitend|bekerja
+1011|contre|gegen|melawan
+1012|mobile|mobil; Handy|seluler
+1013|moins|weniger|kurang
+1014|équipement|Ausrüstung|peralatan
+1015|récent|neu, jüngst|baru-baru ini
+1016|côté|Seite|sisi
+1017|agir|handeln|bertindak
+1018|mémoire|Gedächtnis|ingatan
+1019|social|sozial|sosial
+1020|expérience|Erfahrung|pengalaman
+1021|champ; domaine|Feld; Bereich|ladang; bidang
+1022|unique; célibataire|einzeln; ledig|tunggal; lajang
+1023|cadeau|Geschenk|hadiah
+1024|interroger|befragen|mempertanyakan
+1025|salaire|Bezahlung|gaji
+1026|allumer, éclairer|anzünden|menyalakan
+1027|léger|leicht|ringan
+1028|guerre|Krieg|perang
+1029|offrir; offre|anbieten; Angebot|menawarkan; tawaran
+1030|demande|Anfrage|permintaan
+1031|pourrait|könnte|mungkin
+1032|professionnel|beruflich|profesional
+1033|encore; déjà|noch; schon|belum; sudah
+1034|majeur|bedeutend|utama
+1035|jouer le rôle principal|die Hauptrolle spielen|membintangi
+1036|futur|zukünftig|masa depan
+1037|entrer|eintreten|masuk
+1038|apprentissage|Lernen|pembelajaran
+1039|énergie|Energie|energi
+1040|course|Lauf|lari
+1041|terme; trimestre|Begriff; Semester|istilah; semester
+1042|filmer|filmen|merekam
+1043|accueil|Empfang|sambutan
+1044|président|Präsident|presiden
+1045|remarquer; avis|bemerken; Hinweis|memperhatikan; pemberitahuan
+1046|dieu|Gott|tuhan
+1047|original|ursprünglich|asli
+1048|piste|Spur; Track|jalur; lagu
+1049|discussion|Diskussion|diskusi
+1050|le moins|am wenigsten|paling sedikit
+1051|société|Gesellschaft|masyarakat
+1052|bien sûr|sicher|tentu
+1053|supplémentaire|weiter|lebih lanjut
+1054|capable|fähig|mampu
+1055|amusant|lustig|menyenangkan
+1056|déjà|schon|sudah
+1057|proche|nah|dekat
+1058|trajet en voiture|Fahrt|perjalanan mobil
+1059|spécifique|spezifisch|spesifik
+1060|plusieurs|mehrere|beberapa
+1061|or|Gold; golden|emas
+1062|directeur; réalisateur|Direktor; Regisseur|direktur; sutradara
+1063|quotidien|täglich|harian
+1064|devant (passer)|vorbei|melewati
+1065|atterrir|landen|mendarat
+1066|moyen|durchschnittlich|rata-rata
+1067|région|Region|wilayah
+1068|enregistrement; enregistrer|Aufzeichnung; aufnehmen|catatan; merekam
+1069|direct|direkt|langsung
+1070|conférence|Konferenz|konferensi
+1071|environnement|Umwelt|lingkungan
+1072|présenter|präsentieren|menyajikan
+1073|l'un ou l'autre|jeder (von zwei)|salah satu
+1074|document|Dokument|dokumen
+1075|matériel|Material|bahan
+1076|conversation; exposé|Gespräch; Vortrag|pembicaraan; ceramah
+1077|finale|Finale|final
+1078|adulte (adj.)|erwachsen|dewasa
+1079|marquer; note|markieren; Note|menandai; nilai
+1080|tiers|Drittel|sepertiga
+1081|roche, pierre|Fels|batu
+1082|rock (musique)|Rock(musik)|musik rock
+1083|individu; individuel|Individuum; einzeln|individu
+1084|couvrir|bedecken|menutupi
+1085|unité|Einheit|unit
+1086|quantité, montant|Menge, Betrag|jumlah
+1087|inclus|inbegriffen|termasuk
+1088|poids|Gewicht|berat
+1089|cœur|Herz|jantung, hati
+1090|publicité|Werbung|periklanan
+1091|connaissance|Wissen|pengetahuan
+1092|erreur|Fehler|kesalahan
+1093|clair|klar|jelas
+1094|golf|Golf|golf
+1095|recevoir|erhalten|menerima
+1096|large|breit|lebar
+1097|directeur, gérant|Manager|manajer
+1098|position|Position|posisi
+1099|sorte|Sorte|macam
+1100|à moitié|halb|setengah
+1101|pas, étape|Schritt|langkah
+1102|simple|einfach|sederhana
+1103|aucun|keiner|tidak ada
+1104|lac|See|danau
+1105|entier|ganz|seluruh
+1106|ultérieur|später|kemudian
+1107|église|Kirche|gereja
+1108|méthode|Methode|metode
+1109|actif|aktiv|aktif
+1110|réponse, réaction|Antwort, Reaktion|tanggapan
+1111|chiffre; silhouette|Zahl; Figur|angka; sosok
+1112|discuter; chat|plaudern; Chat|mengobrol; obrolan
+1113|le long de|entlang|sepanjang
+1114|parmi|unter (mehreren)|di antara
+1115|mort|Tod|kematian
+1116|vitesse|Geschwindigkeit|kecepatan
+1117|huile, pétrole|Öl|minyak
+1118|morceau, un peu|Stück, bisschen|sedikit
+1119|augmenter; hausse|steigen; Anstieg|meningkat; kenaikan
+1120|faire de la publicité|werben|mengiklankan
+1121|pensée|Gedanke|pikiran
+1122|séjour|Aufenthalt|masa tinggal
+1123|nature|Natur|alam
+1124|roi|König|raja
+1125|copie; copier|Kopie; kopieren|salinan; menyalin
+1126|bien que|obwohl|walaupun
+1127|médicament; drogue|Medikament; Droge|obat; narkoba
+1128|espèces, liquide|Bargeld|uang tunai
+1129|moteur|Motor|mesin
+1130|bar; barre|Bar; Stange|bar; batang
+1131|double; doubler|doppelt; verdoppeln|ganda; menggandakan
+1132|écran|Bildschirm|layar
+1133|électronique|elektronisch|elektronik
+1134|continuer|fortsetzen|melanjutkan
+1135|saison|Jahreszeit, Saison|musim
+1136|postuler; appliquer|sich bewerben; anwenden|melamar; menerapkan
+1137|imprimante|Drucker|printer
+1138|condition, état|Bedingung, Zustand|kondisi
+1139|organisation|Organisation|organisasi
+1140|effet|Wirkung|efek
+1141|esprit; déranger|Verstand; etwas dagegen haben|pikiran; keberatan
+1142|perdu|verloren|hilang
+1143|visite guidée|Tour|tur
+1144|traverser; croix|überqueren; Kreuz|menyeberang; salib
+1145|espoir|Hoffnung|harapan
+1146|argent (métal)|Silber|perak
+1147|souhaiter; souhait|wünschen; Wunsch|berharap; keinginan
+1148|à l'intérieur|innen|di dalam
+1149|solution|Lösung|solusi
+1150|rôle|Rolle|peran
+1151|plutôt|eher|agak
+1152|certain|sicher, gewiss|pasti
+1153|course à pied|Laufen|lari
+1154|nécessaire|notwendig|perlu
+1155|selon|laut|menurut
+1156|vêtements|Kleidung|pakaian
+1157|particulier|bestimmt|khusus
+1158|gaz; essence|Gas; Benzin|gas; bensin
+1159|décision|Entscheidung|keputusan
+1160|énorme|riesig|sangat besar
+1161|milieu|Mitte; mittlere|tengah
+1162|en fait|eigentlich|sebenarnya
+1163|marquer; score|punkten; Punktestand|mencetak skor; skor
+1164|mener, diriger|führen|memimpin
+1165|choix|Wahl|pilihan
+1166|étranger|ausländisch|asing
+1167|extérieur|außerhalb; Außen-|luar
+1168|meubles|Möbel|perabot
+1169|structure|Struktur|struktur
+1170|permettre|erlauben|mengizinkan
+1171|degré; diplôme|Grad; Abschluss|derajat; gelar
+1172|bouton|Knopf|tombol
+1173|masculin; homme|männlich; Mann|laki-laki
+1174|affaire; importer|Angelegenheit; wichtig sein|urusan; penting
+1175|presque|fast|hampir
+1176|cause; causer|Ursache; verursachen|penyebab; menyebabkan
+1177|se concentrer; point focal|sich konzentrieren; Fokus|fokus
+1178|chute; automne (US)|Fall; Herbst (US)|jatuh; musim gugur
+1179|féminin; femme|weiblich; Frau|perempuan
+1180|outil|Werkzeug|alat
+1181|voix|Stimme|suara
+1182|emploi du temps|Zeitplan|jadwal
+1183|but|Zweck|tujuan
+1184|caractéristique|Merkmal|fitur
+1185|indépendant|unabhängig|mandiri
+1186|physique|körperlich|fisik
+1187|colline|Hügel|bukit
+1188|médecine; médicament|Medizin; Arznei|kedokteran; obat
+1189|traiter (avec)|umgehen mit|menangani
+1190|tenir|halten|memegang
+1191|sûr|sicher|aman
+1192|enquête, sondage|Umfrage|survei
+1193|nourrir|füttern|memberi makan
+1194|population|Bevölkerung|populasi
+1195|régulier|regelmäßig|teratur
+1196|preuve|Beweis|bukti
+1197|rond; autour|rund; herum|bulat; berkeliling
+1198|option|Option|pilihan
+1199|vallée|Tal|lembah
+1200|récemment|kürzlich|baru-baru ini
+1201|sang|Blut|darah
+1202|salle; couloir|Halle; Flur|aula; lorong
+1203|terre, Terre|Erde|bumi
+1204|introduction|Einleitung|pendahuluan
+1205|mariage|Hochzeit|pernikahan
+1206|sol|Boden|tanah
+1207|navire|Schiff|kapal
+1208|maladie|Krankheit|penyakit
+1209|excellent|ausgezeichnet|sangat bagus
+1210|occasion|Gelegenheit|kesempatan
+1211|exprimer|ausdrücken|mengungkapkan
+1212|prix, récompense|Auszeichnung|penghargaan
+1213|distance|Entfernung|jarak
+1214|surtout|besonders|terutama
+1215|en avant|vorwärts|maju
+1216|propriétaire|Besitzer|pemilik
+1217|stratégie|Strategie|strategi
+1218|poubelle|Mülleimer|tempat sampah
+1219|enseignement|Unterrichten|pengajaran
+1220|à la place|stattdessen|sebagai gantinya
+1221|normal|normal|normal
+1222|métal|Metall|logam
+1223|probable|wahrscheinlich|mungkin
+1224|développer|entwickeln|mengembangkan
+1225|alternative|Alternative|alternatif
+1226|invité|Gast|tamu
+1227|passer; réussir|vorbeigehen; bestehen|lewat; lulus
+1228|camionnette|Lieferwagen|mobil van
+1229|peau|Haut|kulit
+1230|bague; sonnerie|Ring; Klingeln|cincin; dering
+1231|sonner|klingeln|berdering
+1232|pop; populaire|Pop; Pop-|pop
+1233|véhicule|Fahrzeug|kendaraan
+1234|considérer|betrachten|mempertimbangkan
+1235|profond|tief|dalam
+1236|reste|Rest|sisa
+1237|repos; se reposer|Ruhe; sich ausruhen|istirahat
+1238|planter|pflanzen|menanam
+1239|frapper; coup|schlagen; Schlag|memukul; pukulan
+1240|pêcher|angeln|memancing
+1241|sens|Sinn|indra; makna
+1242|faire ses bagages|packen|mengemas
+1243|scène; étape|Bühne; Phase|panggung; tahap
+1244|course; courir|Rennen; um die Wette laufen|balapan; berlomba
+1245|arrière-plan; origine|Hintergrund|latar belakang
+1246|cible|Ziel|sasaran
+1247|sauf|außer|kecuali
+1248|personnage; caractère|Figur; Charakter|tokoh; karakter
+1249|capacité|Fähigkeit|kemampuan
+1250|bois|Holz; Wald|kayu; hutan
+1251|lui-même|sich selbst|dirinya sendiri
+1252|appareil|Gerät|perangkat
+1253|obscurité|Dunkelheit|kegelapan
+1254|enlever|entfernen|menghapus
+1255|variété|Vielfalt|keragaman
+1256|réparer|reparieren|memperbaiki
+1257|juste|fair|adil
+1258|compréhension|Verständnis|pemahaman
+1259|enfin|endlich|akhirnya
+1260|graisse|Fett|lemak
+1261|électrique|elektrisch|listrik
+1262|officier, agent|Beamter, Offizier|petugas
+1263|mort|tot|mati
+1264|relation|Beziehung|hubungan
+1265|cultiver|Landwirtschaft betreiben|bertani
+1266|paix|Frieden|perdamaian
+1267|traditionnel|traditionell|tradisional
+1268|créatif|kreativ|kreatif
+1269|côte|Küste|pantai
+1270|avantage|Vorteil|manfaat
+1271|progrès|Fortschritt|kemajuan
+1272|fiction|Belletristik|fiksi
+1273|eux-mêmes|sich selbst|mereka sendiri
+1274|fan; ventilateur|Fan; Ventilator|penggemar; kipas
+1275|transport|Verkehr|transportasi
+1276|plat|flach|datar
+1277|serviable|hilfreich|membantu
+1278|musical|musikalisch|musikal
+1279|secrétaire|Sekretär|sekretaris
+1280|employé|Angestellter|karyawan
+1281|fond; inférieur|Boden; untere|dasar; bawah
+1282|animal de compagnie|Haustier|hewan peliharaan
+1283|type, mec|Typ, Kerl|pria, cowok
+1284|connecter|verbinden|menghubungkan
+1285|carré; place|quadratisch; Platz|persegi; alun-alun
+1286|attention|Aufmerksamkeit|perhatian
+1287|armée|Armee|tentara
+1288|feuille; drap|Blatt; Laken|lembar; seprai
+1289|sauter; saut|springen; Sprung|melompat; lompatan
+1290|mode|Mode|mode
+1291|forêt|Wald|hutan
+1292|dont, à qui|wessen|milik siapa
+1293|couple|Paar|pasangan
+1294|chance|Chance|kesempatan
+1295|fin|Ende|akhir
+1296|accepter|annehmen|menerima
+1297|but, objectif|Ziel; Tor|tujuan; gol
+1298|réussi|erfolgreich|sukses
+1299|vent|Wind|angin
+1300|apparaître|erscheinen|muncul
+1301|température|Temperatur|suhu
+1302|patient|Patient|pasien
+1303|pierre|Stein|batu
+1304|peut-être|vielleicht|mungkin
+1305|aller (taille); en forme|passen; fit|cocok; bugar
+1306|douleur|Schmerz|rasa sakit
+1307|facilement|leicht|dengan mudah
+1308|affiche|Poster|poster
+1309|fermé|geschlossen|tertutup
+1310|architecture|Architektur|arsitektur
+1311|réflexion|Denken|pemikiran
+1312|recommander|empfehlen|merekomendasikan
+1313|pêche|Angeln|memancing
+1314|professeur|Professor|profesor
+1315|contexte|Kontext|konteks
+1316|crime|Verbrechen|kejahatan
+1317|compter|zählen|menghitung
+1318|conduite|Fahren|mengemudi
+1319|permission|Erlaubnis|izin
+1320|chaleur; chauffer|Hitze; erhitzen|panas; memanaskan
+1321|sauvage|wild|liar
+1322|tâche|Aufgabe|tugas
+1323|réduire|reduzieren|mengurangi
+1324|lui-même|sich selbst|dirinya sendiri
+1325|chef, leader|Anführer|pemimpin
+1326|doux|weich|lembut
+1327|seul|allein|sendirian
+1328|attente|Warten|penantian
+1329|poche|Tasche|saku
+1330|dispute; argument|Streit; Argument|pertengkaran; argumen
+1331|concours|Wettbewerb|kompetisi
+1332|frais|frisch|segar
+1333|facteur|Faktor|faktor
+1334|choisir; cueillir|auswählen; pflücken|memilih; memetik
+1335|sérieux|ernst|serius
+1336|quantité|Menge|kuantitas
+1337|moi-même|mich selbst|diri saya sendiri
+1338|plateforme; quai|Plattform; Bahnsteig|platform; peron
+1339|immédiatement|sofort|segera
+1340|lourd|schwer|berat
+1341|expert|Experte|ahli
+1342|protéger|schützen|melindungi
+1343|laisser tomber|fallen lassen|menjatuhkan
+1344|empêcher|verhindern|mencegah
+1345|sembler|scheinen|tampaknya
+1346|toucher|berühren|menyentuh
+1347|vers|in Richtung|ke arah
+1348|suggérer|vorschlagen|menyarankan
+1349|servir|servieren|melayani
+1350|éviter|vermeiden|menghindari
+1351|gérer|bewältigen; leiten|mengelola
+1352|coin|Ecke|sudut
+1353|naissance|Geburt|kelahiran
+1354|virus|Virus|virus
+1355|séparé|getrennt|terpisah
+1356|colonne|Spalte|kolom
+1357|identifier|identifizieren|mengidentifikasi
+1358|disparu, manquant|vermisst, fehlend|hilang
+1359|atteindre|erreichen|mencapai
+1360|attaque; attaquer|Angriff; angreifen|serangan; menyerang
+1361|labo|Labor|lab
+1362|plastique|Plastik|plastik
+1363|produire|produzieren|memproduksi
+1364|camp; camper|Lager; zelten|kemah; berkemah
+1365|pont|Brücke|jembatan
+1366|mouvement|Bewegung|gerakan
+1367|baseball|Baseball|bisbol
+1368|aventure|Abenteuer|petualangan
+1369|assistant|Assistent|asisten
+1370|annonce publicitaire|Anzeige|iklan
+1371|s'attendre à|erwarten|mengharapkan
+1372|stationnement|Parken|parkir
+1373|complètement|völlig|sepenuhnya
+1374|électrique (appareil)|elektrisch|kelistrikan
+1375|motif|Muster|pola
+1376|classique|klassisch|klasik
+1377|direction|Richtung|arah
+1378|basket|Basketball|bola basket
+1379|criminel|Verbrecher|penjahat
+1380|cerveau|Gehirn|otak
+1381|rêve; rêver|Traum; träumen|mimpi; bermimpi
+1382|avantage|Vorteil|keuntungan
+1383|tourisme|Tourismus|pariwisata
+1384|droit, tout droit|gerade(aus)|lurus
+1385|reine|Königin|ratu
+1386|clairement|klar|dengan jelas
+1387|réparer|reparieren|memperbaiki
+1388|sucré; bonbon|süß; Bonbon|manis; permen
+1389|camion|Lastwagen|truk
+1390|ours|Bär|beruang
+1391|océan|Ozean|samudra
+1392|ordinateur portable|Laptop|laptop
+1393|s'entraîner, former|trainieren|berlatih; melatih
+1394|exactement|genau|tepat
+1395|sec; sécher|trocken; trocknen|kering; mengeringkan
+1396|presque|fast|hampir
+1397|milliard|Milliarde|miliar
+1398|itinéraire|Route|rute
+1399|cassé|kaputt|rusak
+1400|souffler|blasen|meniup
+1401|expression|Ausdruck|ungkapan
+1402|discours|Rede|pidato
+1403|pour cent|Prozent|persen
+1404|se battre; combat|kämpfen; Kampf|berkelahi; perkelahian
+1405|hauteur|Höhe|tinggi
+1406|zéro|null|nol
+1407|orateur; haut-parleur|Sprecher; Lautsprecher|pembicara; pengeras suara
+1408|designer|Designer|perancang
+1409|secret|geheim; Geheimnis|rahasia
+1410|interpréter, jouer|aufführen|tampil
+1411|blessure|Verletzung|cedera
+1412|avocat|Anwalt|pengacara
+1413|échouer|scheitern|gagal
+1414|jazz|Jazz|jaz
+1415|arrivée (fin)|Ziel, Ende|garis akhir
+1416|physique|Physik|fisika
+1417|extrême|extrem|ekstrem
+1418|cycle; faire du vélo|Zyklus; Rad fahren|siklus; bersepeda
+1419|contenir|enthalten|berisi
+1420|monter|steigen|naik
+1421|sommeil|Schlaf|tidur
+1422|scène|Szene|adegan
+1423|dame|Dame|nyonya
+1424|siège|Sitz|kursi
+1425|enregistrement|Aufnahme|rekaman
+1426|conseil; pourboire|Tipp; Trinkgeld|tip; uang tip
+1427|le mien|meiner|milikku
+1428|ski; skier|Ski; Ski fahren|ski; bermain ski
+1429|football (US)|Fußball (US)|sepak bola
+1430|connecté|verbunden|terhubung
+1431|lune|Mond|bulan
+1432|mouche|Fliege|lalat
+1433|manière|Art und Weise|cara
+1434|peur|Angst|ketakutan
+1435|battre|schlagen|mengalahkan
+1436|tabagisme|Rauchen|merokok
+1437|accomplir|erreichen|mencapai
+1438|ciel|Himmel|langit
+1439|cacher|verstecken|menyembunyikan
+1440|faire référence à|sich beziehen auf|merujuk
+1441|certainement|sicherlich|tentu saja
+1442|jouet|Spielzeug|mainan
+1443|surtout|meistens|kebanyakan
+1444|usine|Fabrik|pabrik
+1445|sur (vers)|auf (hinauf)|ke atas
+1446|planète|Planet|planet
+1447|recette|Rezept|resep
+1448|vide|leer|kosong
+1449|trou|Loch|lubang
+1450|tour, trajet|Fahrt|tumpangan
+1451|idéal|ideal|ideal
+1452|stress; souligner|Stress; betonen|stres; menekankan
+1453|découvrir|entdecken|menemukan
+1454|forme|Form|bentuk
+1455|exister|existieren|ada
+1456|roue|Rad|roda
+1457|bruit|Lärm|kebisingan
+1458|climat|Klima|iklim
+1459|instruction|Anweisung|instruksi
+1460|tuer|töten|membunuh
+1461|mathématiques|Mathematik|matematika
+1462|employeur|Arbeitgeber|majikan
+1463|ennui, problème|Ärger|masalah
+1464|entraîneur; car|Trainer; Reisebus|pelatih; bus
+1465|public|Publikum|penonton
+1466|cuisinier|Koch|juru masak
+1467|affecter|beeinflussen|memengaruhi
+1468|assiette|Teller|piring
+1469|extrêmement|äußerst|sangat
+1470|chimie|Chemie|kimia
+1471|de toute façon|sowieso|bagaimanapun
+1472|cercle; tourner|Kreis; kreisen|lingkaran; berputar
+1473|n'importe où|irgendwo|di mana saja
+1474|mouillé|nass|basah
+1475|répondre, réagir|reagieren|menanggapi
+1476|vague|Welle|ombak
+1477|symbole|Symbol|simbol
+1478|célébrité|Berühmtheit|selebritas
+1479|pub|Kneipe|pub
+1480|biologie|Biologie|biologi
+1481|ancien|antik|kuno
+1482|fou|verrückt|gila
+1483|comédie|Komödie|komedi
+1484|arme à feu|Waffe|senapan
+1485|découverte|Entdeckung|penemuan
+1486|aucun des deux|keiner von beiden|tidak keduanya
+1487|ingénieur|Ingenieur|insinyur
+1488|mode de vie|Lebensstil|gaya hidup
+1489|remplacer|ersetzen|mengganti
+1490|exact|genau|tepat
+1491|formel|formell|resmi
+1492|verrouiller; serrure|abschließen; Schloss|mengunci; kunci
+1493|hockey|Hockey|hoki
+1494|tempête|Sturm|badai
+1495|bol|Schüssel|mangkuk
+1496|enfant, gamin|Kind|anak
+1497|pilote|Pilot|pilot
+1498|roman|Roman|novel
+1499|gagnant|Gewinner|pemenang
+1500|miroir|Spiegel|cermin

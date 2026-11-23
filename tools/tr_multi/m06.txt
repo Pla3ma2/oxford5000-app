@@ -1,0 +1,750 @@
+3901|joue|Wange|pipi
+3902|psychologue|Psychologe|psikolog
+3903|prévisible|vorhersehbar|dapat diprediksi
+3904|pitié; dommage|Mitleid; schade|kasihan
+3905|accidentellement|versehentlich|tidak sengaja
+3906|régulièrement|stetig|terus-menerus
+3907|subir|durchmachen|menjalani
+3908|supplier|betteln|memohon
+3909|troupe|Truppe|pasukan
+3910|inévitablement|unvermeidlich|pasti
+3911|de nos jours|heutzutage|dewasa ini
+3912|percevoir|wahrnehmen|memahami
+3913|sincère|aufrichtig|tulus
+3914|déception|Enttäuschung|kekecewaan
+3915|vol (braquage)|Raub|perampokan
+3916|congédier; rejeter|entlassen; abtun|memecat; menepis
+3917|délibéré|absichtlich|disengaja
+3918|amusant|amüsant|lucu
+3919|risqué|riskant|berisiko
+3920|désespérément|verzweifelt|mati-matian
+3921|renforcer|verstärken|memperkuat
+3922|émotionnellement|emotional|secara emosional
+3923|absorber|aufnehmen|menyerap
+3924|occuper|besetzen|menempati
+3925|hacher|hacken|mencincang
+3926|composer|komponieren|menyusun
+3927|impressionner|beeindrucken|mengesankan
+3928|mineur (ouvrier)|Bergarbeiter|penambang
+3929|spectateur|Zuschauer|penonton
+3930|circonstance|Umstand|keadaan
+3931|obstacle|Hindernis|rintangan
+3932|geste|Geste|isyarat
+3933|litre|Liter|liter
+3934|fondamentalement|grundlegend|secara mendasar
+3935|métaphore|Metapher|metafora
+3936|chuchoter; murmure|flüstern; Flüstern|berbisik; bisikan
+3937|furieux|wütend|sangat marah
+3938|compatissant|mitfühlend|simpatik
+3939|isoler|isolieren|mengisolasi
+3940|inconscient|bewusstlos|tidak sadar
+3941|remarquablement|bemerkenswert|sangat
+3942|stand, étal|Stand|kios
+3943|malheureux, misérable|elend|sengsara
+3944|billion|Billion|triliun
+3945|excuses|Entschuldigung|permintaan maaf
+3946|maladroit, gênant|unbeholfen|canggung
+3947|errer|wandern|berkeliaran
+3948|soulagé|erleichtert|lega
+3949|ancêtre|Vorfahr|leluhur
+3950|mosquée|Moschee|masjid
+3951|terriblement|schrecklich|sangat
+3952|implication|Folgerung|implikasi
+3953|frère ou sœur|Geschwister|saudara kandung
+3954|honteux|beschämt|malu
+3955|fixer du regard|starren|menatap
+3956|sincèrement|aufrichtig|sungguh-sungguh
+3957|saveur|Geschmack|rasa
+3958|motiver|motivieren|memotivasi
+3959|coïncidence|Zufall|kebetulan
+3960|avouer|gestehen|mengaku
+3961|accomplir|erfüllen|memenuhi
+3962|désaccord|Meinungsverschiedenheit|ketidaksepakatan
+3963|vers le haut|aufwärts|ke atas
+3964|pompier|Feuerwehrmann|pemadam kebakaran
+3965|slogan|Slogan|slogan
+3966|classer|klassifizieren|mengklasifikasikan
+3967|dépliant|Flugblatt|selebaran
+3968|trait|Eigenschaft|sifat
+3969|porte-parole|Sprecher(in)|juru bicara
+3970|démissionner|zurücktreten|mengundurkan diri
+3971|récession|Rezession|resesi
+3972|étonnant|erstaunlich|menakjubkan
+3973|consacrer|widmen|mengabdikan
+3974|décourager|entmutigen|mencegah
+3975|coloré|farbenfroh|berwarna-warni
+3976|déprimant|deprimierend|menyedihkan
+3977|romancier|Romanautor|novelis
+3978|hériter|erben|mewarisi
+3979|gâcher|verderben|merusak
+3980|envahir|einfallen|menyerbu
+3981|éthique|Ethik|etika
+3982|porte-parole (femme)|Sprecherin|juru bicara wanita
+3983|diffuseur|Sender|penyiar
+3984|offenser|beleidigen|menyinggung
+3985|déranger|stören|mengganggu
+3986|critiquer|kritisieren|mengkritik
+3987|interdire|verbieten|melarang
+3988|estimer, penser|meinen|mengira
+3989|déduire|folgern|menyimpulkan
+3990|accuser|beschuldigen|menuduh
+3991|se dérouler|sich entfalten|terungkap
+3992|spéculer|spekulieren|berspekulasi
+3993|malhonnête|unehrlich|tidak jujur
+3994|tonne|Tonne|ton
+3995|impatient|ungeduldig|tidak sabar
+3996|distraire|ablenken|mengalihkan perhatian
+3997|décevoir|enttäuschen|mengecewakan
+3998|précéder|vorausgehen|mendahului
+3999|vers le bas|abwärts|ke bawah
+4000|colon|Siedler|pemukim
+4001|mourir de faim|hungern|kelaparan
+4002|feu d'artifice|Feuerwerk|kembang api
+4003|entrer en éruption|ausbrechen|meletus
+4004|habitant|Einwohner|penghuni
+4005|manifestant|Demonstrant|pengunjuk rasa
+4006|terrifier|erschrecken|menakutkan
+4007|surpasser; être en tête|übertreffen|melampaui
+4008|juste|gerecht|adil
+4009|droit d'auteur|Urheberrecht|hak cipta
+4010|puits|Brunnen|sumur
+4011|organisation, installation|Aufbau|pengaturan
+4012|alignement, programme|Aufstellung|susunan
+4013|expédition|Versand|pengiriman
+4014|de longue date|langjährig|lama
+4015|bien-être|Wohlbefinden|kesejahteraan
+4016|totaliser|sich belaufen auf|berjumlah
+4017|annuaire|Verzeichnis|direktori
+4018|médiatisé|prominent|terkenal
+4019|liste|Liste|daftar
+4020|content|zufrieden|puas
+4021|fil|Faden|benang; utas
+4022|marche; marcher|Marsch; marschieren|pawai; berbaris
+4023|mot à dire|Mitspracherecht|hak bicara
+4024|d'après-guerre|Nachkriegs-|pascaperang
+4025|net|netto|bersih
+4026|archives|Archiv|arsip
+4027|bûche; journal|Holzscheit; Protokoll|batang kayu; log
+4028|sain, solide|solide|sehat, kokoh
+4029|bercer, balancer|schaukeln|mengayun
+4030|auto|Auto|mobil
+4031|bulletin d'information|Newsletter|buletin
+4032|domaine|Domäne|domain
+4033|autoriser (licence)|lizenzieren|melisensikan
+4034|matériel informatique|Hardware|perangkat keras
+4035|royaume|Königreich|kerajaan
+4036|stockage|Speicherung|penyimpanan
+4037|disponibilité|Verfügbarkeit|ketersediaan
+4038|baie|Bucht|teluk
+4039|casino|Kasino|kasino
+4040|mûr; mûrir|reif; reifen|dewasa; matang
+4041|amende; mettre une amende|Geldstrafe; bestrafen|denda; mendenda
+4042|location|Vermietung|penyewaan
+4043|prise de décision|Entscheidungsfindung|pengambilan keputusan
+4044|lesbienne|lesbisch|lesbian
+4045|navigateur|Browser|peramban
+4046|interface|Schnittstelle|antarmuka
+4047|entreprise|Unternehmen|perusahaan
+4048|traitement|Verarbeitung|pemrosesan
+4049|république|Republik|republik
+4050|éclater; passer|platzen; vorbeischauen|meletus; mampir
+4051|filtre; filtrer|Filter; filtern|filter; menyaring
+4052|par défaut|Standard|bawaan
+4053|faculté|Fakultät|fakultas
+4054|entretien|Wartung|pemeliharaan
+4055|viol|Vergewaltigung|pemerkosaan
+4056|bureau (ordinateur)|Desktop|desktop
+4057|mise en œuvre|Umsetzung|implementasi
+4058|respectif|jeweilig|masing-masing
+4059|à grande échelle|groß angelegt|berskala besar
+4060|suite|Suite|suite
+4061|sauter, passer|überspringen|melewatkan
+4062|équipement; vitesse|Ausrüstung; Gang|perlengkapan; gigi
+4063|documentation|Dokumentation|dokumentasi
+4064|clinique|klinisch|klinis
+4065|commerce|Handel|perdagangan
+4066|crise; coupe|Anfall; Passform|serangan; ukuran pas
+4067|amateur|Amateur|amatir
+4068|oral|mündlich|lisan
+4069|fonctionnel|funktional|fungsional
+4070|minuscule|winzig|sangat kecil
+4071|moteur (adj.)|treibend|pendorong
+4072|parcelle; patch|Flicken; Stück|tambalan; petak
+4073|saint|Heiliger|santo
+4074|prime|Prämie|premi
+4075|avocat (US)|Anwalt|pengacara
+4076|mettre à niveau; mise à niveau|aufrüsten; Upgrade|meningkatkan; peningkatan
+4077|administratif|Verwaltungs-|administratif
+4078|intégré|integriert|terpadu
+4079|configuration|Konfiguration|konfigurasi
+4080|marchand|Händler|pedagang
+4081|conformité|Einhaltung|kepatuhan
+4082|marin|Meeres-|laut
+4083|acceptation|Akzeptanz|penerimaan
+4084|abus; abuser|Missbrauch; missbrauchen|penyalahgunaan
+4085|interactif|interaktiv|interaktif
+4086|contrer|kontern|melawan
+4087|offre|Angebot|penawaran
+4088|à but non lucratif|gemeinnützig|nirlaba
+4089|variable|Variable; variabel|variabel
+4090|applicable|anwendbar|berlaku
+4091|laser|Laser|laser
+4092|dévoué; dédié|engagiert; eigens|berdedikasi; khusus
+4093|assemblée; montage|Versammlung; Montage|majelis; perakitan
+4094|personnel|Personal|personel
+4095|anonyme|anonym|anonim
+4096|alerter; alerte|warnen; Alarm|memperingatkan; siaga
+4097|intégration|Integration|integrasi
+4098|vice|Laster|kejahatan
+4099|rayon|Strahl|sinar
+4100|éligible|berechtigt|memenuhi syarat
+4101|manipulation, gestion|Handhabung|penanganan
+4102|résidentiel|Wohn-|perumahan
+4103|protocole|Protokoll|protokol
+4104|requête|Anfrage|kueri
+4105|remplacement|Ersatz|penggantian
+4106|stratégique|strategisch|strategis
+4107|spam|Spam|spam
+4108|acide|sauer|asam
+4109|ministère|Ministerium|kementerian
+4110|législation|Gesetzgebung|perundang-undangan
+4111|administrateur|Administrator|administrator
+4112|double|doppelt|ganda
+4113|cristal|Kristall|kristal
+4114|académie|Akademie|akademi
+4115|dynamique|Dynamik|dinamika
+4116|portefeuille|Portfolio|portofolio
+4117|exclusif|exklusiv|eksklusif
+4118|péage; bilan|Maut; Opferzahl|tol; jumlah korban
+4119|prévention|Vorbeugung|pencegahan
+4120|service public|Versorgung|utilitas
+4121|amendement|Änderung|amandemen
+4122|directeur d'école|Schulleiter|kepala sekolah
+4123|de longue date|langjährig|lama
+4124|permanent|ständig|tetap
+4125|prime|Bonus|bonus
+4126|abonnement|Abonnement|langganan
+4127|jeux d'argent|Glücksspiel|perjudian
+4128|disposition|Bereitstellung|ketentuan
+4129|enlèvement|Entfernung|pemindahan
+4130|marque déposée|Marke|merek dagang
+4131|intérieur|Innen-; Innere|interior
+4132|optique|optisch|optik
+4133|conversion|Umwandlung|konversi
+4134|en série|Serien-|serial
+4135|haut débit|Breitband|pita lebar
+4136|ratio|Verhältnis|rasio
+4137|basse|Bass|bas
+4138|ordonnance|Rezept|resep dokter
+4139|place de marché|Marktplatz|pasar
+4140|restes|Überreste|sisa-sisa
+4141|générique|generisch|generik
+4142|sommet, pic|Gipfel|puncak
+4143|transit|Durchgang|transit
+4144|ange|Engel|malaikat
+4145|conformité|Übereinstimmung|kesesuaian
+4146|largeur|Breite|lebar
+4147|ensemble, gamme|Reihe|deretan
+4148|compensation|Entschädigung|kompensasi
+4149|sauvegarde|Sicherung|cadangan
+4150|patrimoine|Erbe|warisan
+4151|agricole|landwirtschaftlich|pertanian
+4152|brancher; prise|einstecken; Stecker|mencolokkan; steker
+4153|procédure judiciaire|Verfahren|proses hukum
+4154|transmission|Übertragung|transmisi
+4155|logique|Logik|logika
+4156|identification|Identifizierung|identifikasi
+4157|sortir|verlassen|keluar
+4158|armer|bewaffnen|mempersenjatai
+4159|orientation|Anleitung|bimbingan
+4160|piste; traîner|Pfad; nachziehen|jejak; tertinggal
+4161|application (de la loi)|Durchsetzung|penegakan
+4162|copain|Kumpel|kawan
+4163|sondage|Umfrage|jajak pendapat
+4164|notifier|benachrichtigen|memberitahukan
+4165|portée|Umfang|cakupan
+4166|grossesse|Schwangerschaft|kehamilan
+4167|biographie|Biografie|biografi
+4168|à venir|bevorstehend|mendatang
+4169|efficacité|Effizienz|efisiensi
+4170|linéaire|linear|linier
+4171|réforme; réformer|Reform; reformieren|reformasi
+4172|alliance|Bündnis|aliansi
+4173|sucer|saugen|mengisap
+4174|arrière|hinter; Rückseite|belakang
+4175|paramètre|Parameter|parameter
+4176|processeur|Prozessor|prosesor
+4177|suprême|höchst|tertinggi
+4178|soumission|Einreichung|pengajuan
+4179|réglementaire|regulatorisch|pengatur
+4180|inspection|Inspektion|inspeksi
+4181|transaction|Transaktion|transaksi
+4182|prise; point de vente|Steckdose; Verkaufsstelle|stopkontak; gerai
+4183|nouveau, original|neuartig|baru
+4184|exécution|Ausführung; Hinrichtung|pelaksanaan; eksekusi
+4185|entrepreneur|Auftragnehmer|kontraktor
+4186|brevet|Patent|paten
+4187|fente; créneau|Schlitz; Zeitfenster|slot
+4188|catalogue|Katalog|katalog
+4189|terminal (en phase)|unheilbar|stadium akhir
+4190|au nom de|im Namen von|atas nama
+4191|boucle|Schleife|putaran
+4192|reprendre|fortsetzen|melanjutkan
+4193|premier ministre|Premier|perdana menteri
+4194|consentement; consentir|Zustimmung; zustimmen|persetujuan; menyetujui
+4195|audit|Prüfung|audit
+4196|chambre|Kammer|ruang
+4197|province|Provinz|provinsi
+4198|formule|Formel|rumus
+4199|constitution|Verfassung|konstitusi
+4200|consultation|Beratung|konsultasi
+4201|résistance|Widerstand|perlawanan
+4202|mémorial|Denkmal|tugu peringatan
+4203|en avant|weiter|seterusnya
+4204|espion; espionner|Spion; spionieren|mata-mata; memata-matai
+4205|classification|Einstufung|klasifikasi
+4206|médecin|Arzt|dokter
+4207|bouture; coupure|Steckling; Ausschnitt|stek; guntingan
+4208|supérieur|überlegen|unggul
+4209|intellectuel (un)|Intellektueller|intelektual
+4210|magnétique|magnetisch|magnetik
+4211|perspectives|Aussicht|pandangan
+4212|écho; faire écho|Echo; widerhallen|gema; menggema
+4213|grille|Gitter|kisi-kisi
+4214|expérimental|experimentell|eksperimental
+4215|revenus|Einkünfte|penghasilan
+4216|bannière|Banner|spanduk
+4217|charte|Charta|piagam
+4218|acquisition|Erwerb|akuisisi
+4219|inverser; inverse|umkehren; umgekehrt|membalik; kebalikan
+4220|déposer|einzahlen|menyetorkan
+4221|pouls|Puls|denyut nadi
+4222|bande|Streifen|strip
+4223|se déshabiller; dépouiller|ausziehen; abziehen|menelanjangi; mengupas
+4224|spécification|Spezifikation|spesifikasi
+4225|accessible|zugänglich|dapat diakses
+4226|représentation|Darstellung|representasi
+4227|pomper; pompe|pumpen; Pumpe|memompa; pompa
+4228|législatif|gesetzgebend|legislatif
+4229|remorque; bande-annonce|Anhänger; Trailer|trailer
+4230|résidence|Wohnsitz|kediaman
+4231|densité|Dichte|kepadatan
+4232|statistique|statistisch|statistik
+4233|masse, volume|Großteil|sebagian besar
+4234|péché|Sünde|dosa
+4235|adoption|Annahme; Adoption|adopsi
+4236|grâce|Anmut; Gnade|keanggunan; rahmat
+4237|collaboration|Zusammenarbeit|kolaborasi
+4238|détection|Erkennung|deteksi
+4239|entité|Einheit|entitas
+4240|colonie; règlement|Siedlung; Vergleich|permukiman; penyelesaian
+4241|opérationnel|betrieblich|operasional
+4242|libéral|liberal|liberal
+4243|correspondant|entsprechend|yang sesuai
+4244|excès|Überschuss|kelebihan
+4245|exploitation minière|Bergbau|pertambangan
+4246|liberté|Freiheit|kebebasan
+4247|commissaire|Kommissar|komisaris
+4248|fiabilité|Zuverlässigkeit|keandalan
+4249|respectivement|beziehungsweise|masing-masing
+4250|productivité|Produktivität|produktivitas
+4251|couronne|Krone|mahkota
+4252|diagnostic|Diagnose|diagnosis
+4253|cinéaste|Filmemacher|pembuat film
+4254|fabriquer (artisanalement)|anfertigen|membuat
+4255|brut; dégoûtant|brutto; eklig|kotor; menjijikkan
+4256|admission; aveu|Zulassung; Eingeständnis|penerimaan; pengakuan
+4257|sceller; phoque|versiegeln; Robbe|menyegel; anjing laut
+4258|structurel|strukturell|struktural
+4259|municipal|städtisch|kota
+4260|simulation|Simulation|simulasi
+4261|disposition, mise en page|Layout|tata letak
+4262|placard; gouvernement|Schrank; Kabinett|lemari; kabinet
+4263|dose|Dosis|dosis
+4264|composition|Zusammensetzung|komposisi
+4265|national|landesweit|nasional
+4266|tampon|Puffer|penyangga
+4267|commentaire|Kommentar|komentar
+4268|mutuel|gegenseitig|saling
+4269|pipeline|Pipeline|pipa saluran
+4270|attribuer; attribut|zuschreiben; Eigenschaft|menghubungkan; atribut
+4271|coordinateur|Koordinator|koordinator
+4272|sommet|Gipfel|puncak; KTT
+4273|substantiel|beträchtlich|substansial
+4274|coup d'œil; jeter un œil|Blick; blicken|lirikan; melirik
+4275|favoriser; accueillir|fördern; pflegen|memupuk; mengasuh
+4276|décès; passage|Tod; Vorbeigehen|kematian; berlalunya
+4277|spectre|Spektrum|spektrum
+4278|entreprise; s'aventurer|Unternehmen; wagen|usaha; berani
+4279|implication|Beteiligung|keterlibatan
+4280|divulgation|Offenlegung|pengungkapan
+4281|établissement|Einrichtung|pendirian
+4282|sénateur|Senator|senator
+4283|rendement; céder|Ertrag; nachgeben|hasil; menyerah
+4284|radar|Radar|radar
+4285|étudiant de premier cycle|Student (Bachelor)|mahasiswa S1
+4286|combat; combattre|Kampf; bekämpfen|pertempuran; melawan
+4287|efficacité|Wirksamkeit|efektivitas
+4288|service (hôpital)|Station|bangsal
+4289|bête|Bestie|binatang buas
+4290|absence|Abwesenheit|ketidakhadiran
+4291|groupe, amas|Cluster|kelompok
+4292|partiel|teilweise|sebagian
+4293|classement|Rangliste|peringkat
+4294|vérifier|überprüfen|memverifikasi
+4295|cuivre|Kupfer|tembaga
+4296|entrepôt|Lager|gudang
+4297|violation|Verletzung|pelanggaran
+4298|stabilité|Stabilität|stabilitas
+4299|institutionnel|institutionell|institusional
+4300|solo|Solo-; Solo|solo
+4301|excellence|Exzellenz|keunggulan
+4302|vide; aspirateur|Vakuum; Staubsauger|vakum; penyedot debu
+4303|quête|Suche|pencarian
+4304|pionnier|Pionier|pelopor
+4305|côtier|Küsten-|pesisir
+4306|segment|Segment|segmen
+4307|malgré tout|trotzdem|bagaimanapun juga
+4308|dernier (des deux)|letzterer|yang terakhir
+4309|syndrome|Syndrom|sindrom
+4310|fréquentation|Besuch|kehadiran
+4311|aisance; soulager|Leichtigkeit; lindern|kemudahan; meringankan
+4312|arène|Arena|arena
+4313|adjoint|Stellvertreter|wakil
+4314|gouvernance|Führung|tata kelola
+4315|moulin|Mühle|penggilingan
+4316|chronique|chronisch|kronis
+4317|tabac|Tabak|tembakau
+4318|culte; adorer|Anbetung; anbeten|ibadah; menyembah
+4319|capacité|Fähigkeit|kemampuan
+4320|précision|Präzision|presisi
+4321|reproduction|Wiedergabe; Fortpflanzung|reproduksi
+4322|seul, unique|einzig|satu-satunya
+4323|franchise|Franchise|waralaba
+4324|réhabilitation|Rehabilitation|rehabilitasi
+4325|chances|Chancen|peluang
+4326|initié|Insider|orang dalam
+4327|intégrité|Integrität|integritas
+4328|discrimination|Diskriminierung|diskriminasi
+4329|héritage|Vermächtnis|warisan
+4330|intermédiaire|mittelstufig|menengah
+4331|coussinet; bloc|Polster; Block|bantalan; blok
+4332|gloire|Ruhm|kejayaan
+4333|contre|gegen|lawan
+4334|tige, canne|Stange, Rute|batang; joran
+4335|préliminaire|vorläufig|pendahuluan
+4336|suspension|Aussetzung; Federung|penangguhan; suspensi
+4337|correction|Korrektur|koreksi
+4338|complément; compléter|Ergänzung; ergänzen|suplemen; melengkapi
+4339|nourrisson|Säugling|bayi
+4340|fluide|Flüssigkeit|cairan
+4341|machines|Maschinen|mesin-mesin
+4342|équation|Gleichung|persamaan
+4343|dimension|Dimension|dimensi
+4344|diable|Teufel|iblis
+4345|se conformer|einhalten|mematuhi
+4346|funérailles|Beerdigung|pemakaman
+4347|orientation|Ausrichtung|orientasi
+4348|balancer; balançoire|schwingen; Schaukel|mengayun; ayunan
+4349|flexibilité|Flexibilität|fleksibilitas
+4350|pousse; séance photo|Trieb; Shooting|tunas; pemotretan
+4351|limite|Grenze|batas
+4352|élite|Elite|elit
+4353|tourner|drehen|berputar
+4354|juridiction|Zuständigkeit|yurisdiksi
+4355|déclaration|Erklärung|deklarasi
+4356|noble|edel|mulia
+4357|destinataire|Empfänger|penerima
+4358|migration|Migration|migrasi
+4359|judiciaire|gerichtlich|yudisial
+4360|ajustement|Anpassung|penyesuaian
+4361|collectif|kollektiv|kolektif
+4362|coalition|Koalition|koalisi
+4363|aube|Morgendämmerung|fajar
+4364|torture; torturer|Folter; foltern|penyiksaan; menyiksa
+4365|restauration|Wiederherstellung|restorasi
+4366|confirmation|Bestätigung|konfirmasi
+4367|superviseur|Vorgesetzter|penyelia
+4368|foie|Leber|hati
+4369|responsable (juridiquement)|haftbar|bertanggung jawab
+4370|pétition|Petition|petisi
+4371|alphabétisation|Lese- und Schreibfähigkeit|literasi
+4372|intervention|Eingriff|intervensi
+4373|modification|Änderung|modifikasi
+4374|modéré|gemäßigt|moderat
+4375|assurance|Zusicherung|jaminan
+4376|rayon; poutre|Strahl; Balken|sinar; balok
+4377|minimal|minimal|minimal
+4378|allocation|Zuteilung|alokasi
+4379|trace|Spur|jejak
+4380|élimination|Entsorgung|pembuangan
+4381|masque|Maske|masker
+4382|intention|Absicht|maksud
+4383|fiançailles; engagement|Verlobung; Engagement|pertunangan; keterlibatan
+4384|lame|Klinge|bilah
+4385|simplement|lediglich|hanya
+4386|coopératif|kooperativ|kooperatif
+4387|transformation|Verwandlung|transformasi
+4388|accrocher|einhaken|mengaitkan
+4389|faciliter|erleichtern|memfasilitasi
+4390|abonné|Abonnent|pelanggan
+4391|organisationnel|organisatorisch|organisasi
+4392|litige; contester|Streit; bestreiten|sengketa; membantah
+4393|défavorable|ungünstig|merugikan
+4394|libérer; décharger|entlassen; entladen|memulangkan; mengeluarkan
+4395|aigu|akut|akut
+4396|méthodologie|Methodik|metodologi
+4397|poursuivre en justice|verklagen|menuntut
+4398|créateur|Schöpfer|pencipta
+4399|sous-jacent|zugrunde liegend|mendasari
+4400|suicide|Selbstmord|bunuh diri
+4401|rassemblement|Versammlung|pertemuan
+4402|projection|Projektion|proyeksi
+4403|mathématique|mathematisch|matematis
+4404|extraire|extrahieren|mengekstrak
+4405|spécialisé|spezialisiert|khusus
+4406|courtoisie|Höflichkeit|kesopanan
+4407|injection|Spritze|suntikan
+4408|protecteur|schützend|pelindung
+4409|indicateur|Indikator|indikator
+4410|toile|Leinwand|kanvas
+4411|seuil|Schwelle|ambang
+4412|paroisse|Gemeinde|paroki
+4413|cimetière|Friedhof|pemakaman
+4414|tige; découler|Stiel; herrühren|batang; berasal
+4415|opter|sich entscheiden|memilih
+4416|évêque|Bischof|uskup
+4417|constitutionnel|verfassungsmäßig|konstitusional
+4418|mobilité|Mobilität|mobilitas
+4419|potentiel, futur|künftig|calon
+4420|coordination|Koordination|koordinasi
+4421|activation|Aktivierung|aktivasi
+4422|charme|Charme|pesona
+4423|pelouse|Rasen|halaman rumput
+4424|étranger, étrange|fremd|asing
+4425|complexité|Komplexität|kompleksitas
+4426|présidentiel|Präsidentschafts-|kepresidenan
+4427|législature|Gesetzgeber|badan legislatif
+4428|flotte|Flotte|armada
+4429|théorique|theoretisch|teoretis
+4430|surveillance|Überwachung|pengawasan
+4431|substitut; remplacer|Ersatz; ersetzen|pengganti; mengganti
+4432|inclusion|Einbeziehung|inklusi
+4433|civique|bürgerlich|kewarganegaraan
+4434|authentique|authentisch|autentik
+4435|régime|Regime|rezim
+4436|architectural|architektonisch|arsitektural
+4437|situé|gelegen|terletak
+4438|dépenses|Ausgaben|pengeluaran
+4439|uniquement|ausschließlich|semata-mata
+4440|projecteur; vedette|Scheinwerfer; Rampenlicht|lampu sorot; sorotan
+4441|agression; agresser|Angriff; angreifen|penyerangan; menyerang
+4442|épargner; consacrer|verschonen; erübrigen|menyisihkan
+4443|carrefour|Kreuzung|persimpangan
+4444|intensif|intensiv|intensif
+4445|midi|Mittag|tengah hari
+4446|correspondance|Korrespondenz|korespondensi
+4447|supervision|Aufsicht|pengawasan
+4448|séparation|Trennung|pemisahan
+4449|témoignage|Zeugenaussage|kesaksian
+4450|obligatoire|verpflichtend|wajib
+4451|adjacent|angrenzend|berdekatan
+4452|cours; frais de scolarité|Unterricht; Studiengebühr|bimbingan; biaya kuliah
+4453|conjoint|Ehepartner|pasangan
+4454|chirurgical|chirurgisch|bedah
+4455|déploiement|Einsatz|penyebaran
+4456|cargaison|Fracht|kargo
+4457|fardeau|Last|beban
+4458|mélanger; mélange|mischen; Mischung|memadukan; campuran
+4459|s'incliner; arc|sich verbeugen; Bogen|membungkuk; busur
+4460|sonde; sonder|Sonde; untersuchen|wahana; menyelidiki
+4461|opportun|rechtzeitig|tepat waktu
+4462|explicite|ausdrücklich|eksplisit
+4463|calcul|Berechnung|perhitungan
+4464|exceptionnel|außergewöhnlich|luar biasa
+4465|tandis que|während|sementara
+4466|sensibilité|Empfindlichkeit|kepekaan
+4467|préservation|Erhaltung|pelestarian
+4468|intérimaire|vorläufig|sementara
+4469|divin|göttlich|ilahi
+4470|intensité|Intensität|intensitas
+4471|avortement|Abtreibung|aborsi
+4472|explosion; faire exploser|Explosion; sprengen|ledakan; meledakkan
+4473|poteau; pôle|Stange; Pol|tiang; kutub
+4474|récolte; récolter|Ernte; ernten|panen; memanen
+4475|constituer|darstellen|merupakan
+4476|sacré|heilig|sakral
+4477|synthèse|Synthese|sintesis
+4478|étang|Teich|kolam
+4479|barrage|Damm|bendungan
+4480|mandat; justifier|Haftbefehl; rechtfertigen|surat perintah; membenarkan
+4481|rassemblement; rallier|Kundgebung; sammeln|unjuk rasa; menggalang
+4482|tension; souche|Belastung; Stamm|tekanan; strain
+4483|provincial|Provinz-|provinsi
+4484|traité|Vertrag|perjanjian
+4485|vocal; virulent|stimmlich; lautstark|vokal; lantang
+4486|toxique|giftig|beracun
+4487|couvrir; durée|umspannen; Spanne|membentang; rentang
+4488|vulnérabilité|Verwundbarkeit|kerentanan
+4489|responsabilité|Rechenschaftspflicht|akuntabilitas
+4490|banc|Bank|bangku
+4491|en conséquence|entsprechend|oleh karena itu
+4492|crèche; pépinière|Kinderzimmer; Gärtnerei|kamar bayi; persemaian
+4493|cendre|Asche|abu
+4494|tendre|zart|lembut
+4495|discrétion|Ermessen|kebijaksanaan
+4496|vétéran|Veteran|veteran
+4497|intégral|wesentlich|integral
+4498|du Congrès|Kongress-|kongres
+4499|épée|Schwert|pedang
+4500|absent|abwesend|tidak hadir
+4501|contraire|gegenteilig; Gegenteil|berlawanan; kebalikan
+4502|navire; récipient|Schiff; Gefäß|kapal; wadah
+4503|égalité|Gleichheit|kesetaraan
+4504|compagnon|Begleiter|teman
+4505|escouade, équipe|Trupp|regu
+4506|exécuter|ausführen; hinrichten|melaksanakan; mengeksekusi
+4507|chaos|Chaos|kekacauan
+4508|accusé|Angeklagter|terdakwa
+4509|indigène|einheimisch|pribumi
+4510|ancre; présentateur|Anker; Moderator|jangkar; pembawa acara
+4511|corruption|Korruption|korupsi
+4512|gâchette|Abzug|pelatuk
+4513|transcription|Abschrift|transkrip
+4514|nu|nackt|telanjang
+4515|bétail|Vieh|ternak
+4516|radical|radikal|radikal
+4517|fosse|Grube|lubang
+4518|sort; période|Zauber; Phase|mantra; periode
+4519|coordonner|koordinieren|mengoordinasikan
+4520|exclusivement|ausschließlich|secara eksklusif
+4521|compiler|zusammenstellen|menyusun
+4522|inspiration|Inspiration|inspirasi
+4523|tribal|Stammes-|kesukuan
+4524|hommage|Tribut|penghormatan
+4525|ainsi|dadurch|dengan demikian
+4526|circulation; tirage|Kreislauf; Auflage|sirkulasi; oplah
+4527|cognitif|kognitiv|kognitif
+4528|fermeture|Schließung|penutupan
+4529|raid; faire un raid|Razzia; überfallen|razia; menyerbu
+4530|bois (matériau)|Holz|kayu
+4531|décision (juridique)|Urteil|putusan
+4532|retrait|Abhebung; Rückzug|penarikan
+4533|visser; vis|schrauben; Schraube|mengencangkan; sekrup
+4534|apport|Aufnahme|asupan
+4535|pertinence|Relevanz|relevansi
+4536|reflet; réflexion|Spiegelung; Überlegung|pantulan; renungan
+4537|prise; saisir|Griff; greifen|genggaman; mencengkeram
+4538|naval|Marine-|angkatan laut
+4539|médiéval|mittelalterlich|abad pertengahan
+4540|guerrier|Krieger|prajurit
+4541|consensus|Konsens|konsensus
+4542|corne; klaxon|Horn; Hupe|tanduk; klakson
+4543|danger|Gefahr|bahaya
+4544|continent|Festland|daratan utama
+4545|casser net|zerbrechen|patah
+4546|considérablement|wesentlich|secara substansial
+4547|bizarre|bizarr|aneh
+4548|pratique|praktisch|praktis
+4549|corrélation|Korrelation|korelasi
+4550|superbe|hervorragend|hebat
+4551|transparent|transparent|transparan
+4552|boom|Boom|ledakan
+4553|inapproprié|unangemessen|tidak pantas
+4554|harmonie|Harmonie|harmoni
+4555|déchirer|reißen|merobek
+4556|modifier|ändern|mengubah
+4557|hydrogène|Wasserstoff|hidrogen
+4558|comparable|vergleichbar|sebanding
+4559|défenseur; préconiser|Befürworter; befürworten|pendukung; menganjurkan
+4560|vulnérable|verwundbar|rentan
+4561|frapper (avec une batte)|schlagen|memukul
+4562|élever; race|züchten; Rasse|membiakkan; ras
+4563|courant dominant|Mainstream|arus utama
+4564|colonial|kolonial|kolonial
+4565|ambassade|Botschaft|kedutaan
+4566|recettes|Erlös|hasil
+4567|horizon|Horizont|cakrawala
+4568|tolérance|Toleranz|toleransi
+4569|rappel|Erinnerung|pengingat
+4570|simultanément|gleichzeitig|secara bersamaan
+4571|rein|Niere|ginjal
+4572|vers; couplet|Vers; Strophe|ayat; bait
+4573|garde; détention|Sorgerecht; Haft|hak asuh; tahanan
+4574|alignement|Ausrichtung|keselarasan
+4575|conscience|Bewusstsein|kesadaran
+4576|sous|unter|di bawah
+4577|simple, seul|bloß|hanya
+4578|excédent|Überschuss|surplus
+4579|appréciation|Wertschätzung|apresiasi
+4580|gravité|Schwerkraft|gravitasi
+4581|essence|Wesen|esensi
+4582|humanité|Menschheit|kemanusiaan
+4583|tordre; rebondissement|drehen; Wendung|memutar; tikungan
+4584|partiellement|teilweise|sebagian
+4585|minimiser|minimieren|meminimalkan
+4586|débuts|Debüt|debut
+4587|trio|Trio|trio
+4588|panne; ventilation|Panne; Aufschlüsselung|kerusakan; rincian
+4589|reconstruction|Wiederaufbau|rekonstruksi
+4590|clarté|Klarheit|kejelasan
+4591|encourageant|ermutigend|menggembirakan
+4592|destin|Schicksal|nasib
+4593|robuste|robust|kokoh
+4594|champ de bataille|Schlachtfeld|medan perang
+4595|écologique|ökologisch|ekologis
+4596|donneur|Spender|donor
+4597|patrie|Heimat|tanah air
+4598|éternel|ewig|abadi
+4599|rotation|Drehung|rotasi
+4600|productif|produktiv|produktif
+4601|varié|abwechslungsreich|beragam
+4602|isolement|Isolation|isolasi
+4603|rationnel|rational|rasional
+4604|tombe|Grab|kuburan
+4605|grave|ernst|serius
+4606|légitime|legitim|sah
+4607|enquêteur|Ermittler|penyidik
+4608|séquences, images|Filmmaterial|rekaman
+4609|digne|würdig|layak
+4610|duo|Duo|duo
+4611|hall; faire du lobbying|Lobby; Lobbyarbeit machen|lobi; melobi
+4612|coup de poing; frapper|Schlag; schlagen|pukulan; meninju
+4613|distinction|Unterscheidung|perbedaan
+4614|locataire|Mieter|penyewa
+4615|pitié, miséricorde|Gnade|belas kasihan
+4616|facilement|bereitwillig|dengan mudah
+4617|révolutionnaire|revolutionär|revolusioner
+4618|civil|Zivilist; zivil|warga sipil
+4619|mortel|tödlich|fatal
+4620|remède|Heilmittel|obat
+4621|significatif|bedeutungsvoll|bermakna
+4622|chair|Fleisch|daging
+4623|retraite; reculer|Rückzug; zurückweichen|mundur; retret
+4624|méditation|Meditation|meditasi
+4625|instrumental; déterminant|instrumental; maßgeblich|instrumental; berperan
+4626|perdre; verser|verlieren; vergießen|melepaskan; menumpahkan
+4627|note de service|Notiz|memo
+4628|marée|Gezeiten|pasang surut
+4629|invisible|unsichtbar|tak terlihat
+4630|pur, total|rein|semata-mata
+4631|marchandise|Rohstoff|komoditas
+4632|lier|binden|mengikat
+4633|dollar (fam.)|Dollar (ugs.)|dolar
+4634|acre|Acre|ekar
+4635|vengeance|Rache|balas dendam
+4636|patrouille|Patrouille|patroli
+4637|consécutif|aufeinanderfolgend|berturut-turut
+4638|parlementaire|parlamentarisch|parlementer
+4639|tonneau, baril|Fass|tong
+4640|déficit|Defizit|defisit
+4641|renouveler|erneuern|memperbarui
+4642|texture|Textur|tekstur
+4643|prudence|Vorsicht|kehati-hatian
+4644|à savoir|nämlich|yaitu
+4645|rebelle|Rebell|pemberontak
+4646|systématique|systematisch|sistematis
+4647|ampleur|Größenordnung|besarnya
+4648|collecte de fonds|Spendensammlung|penggalangan dana
+4649|théologie|Theologie|teologi
+4650|égard (pour l'amour de)|willen (um… willen)|demi

@@ -12,24 +12,68 @@ data class Word(
     val level: Int,
     val pg: String,
     val ru: String,
-)
+    val fr: String = "",
+    val de: String = "",
+    val idn: String = "",
+) {
+    /** Перевод на язык интерфейса (если перевода нет — русский). */
+    fun tr(lang: Lang): String = when (lang) {
+        Lang.RU -> ru
+        Lang.FR -> fr
+        Lang.DE -> de
+        Lang.ID -> idn
+    }.ifBlank { ru }
+
+    /** Артикли (the, a/an) всегда спрашиваются с английского. */
+    val isArticle: Boolean get() = pos.contains("article")
+}
+
+/** Язык приложения. code — для ключей хранения. */
+enum class Lang(val code: String, val flag: String, val title: String) {
+    RU("ru", "🇷🇺", "Русский"),
+    FR("fr", "🇫🇷", "Français"),
+    DE("de", "🇩🇪", "Deutsch"),
+    ID("id", "🇮🇩", "Bahasa Indonesia");
+
+    companion object {
+        fun of(code: String?): Lang = values().firstOrNull { it.code == code } ?: RU
+    }
+}
 
 val STAGES = listOf("A1", "A2", "B1", "B2", "C1", "C2")
 
 /** Ключ уровня для хранения прогресса: "A1:6". */
 fun levelKey(stage: String, level: Int) = "$stage:$level"
 
-/** Часть речи по-русски (для вопросов RU→EN). */
-fun posRu(pos: String): String {
-    val map = mapOf(
-        "n." to "сущ.", "v." to "гл.", "adj." to "прил.", "adv." to "нар.",
-        "prep." to "предл.", "conj." to "союз", "pron." to "мест.", "det." to "опред.",
-        "exclam." to "межд.", "number" to "числ.", "modal v." to "модальный гл.",
-        "auxiliary v." to "вспом. гл.", "linking v." to "гл.-связка",
-        "indefinite article" to "артикль", "definite article" to "артикль",
-        "infinitive marker" to "частица", "ordinal number" to "порядк. числ.",
+/** Часть речи на языке интерфейса (для вопросов «перевод → английский»). */
+fun posLocal(pos: String, lang: Lang): String {
+    val keys = listOf(
+        "modal v.", "auxiliary v.", "linking v.", "indefinite article", "definite article",
+        "infinitive marker", "ordinal number", "n.", "v.", "adj.", "adv.", "prep.", "conj.",
+        "pron.", "det.", "exclam.", "number",
     )
-    val parts = Regex("""modal v\.|auxiliary v\.|linking v\.|indefinite article|definite article|infinitive marker|ordinal number|n\.|v\.|adj\.|adv\.|prep\.|conj\.|pron\.|det\.|exclam\.|number""")
-        .findAll(pos).map { map[it.value] ?: it.value }.distinct().toList()
+    val names: Map<String, List<String>> = mapOf(
+        // ru, fr, de, id
+        "n." to listOf("сущ.", "nom", "Subst.", "kb. benda"),
+        "v." to listOf("гл.", "verbe", "Verb", "kk."),
+        "adj." to listOf("прил.", "adj.", "Adj.", "ks."),
+        "adv." to listOf("нар.", "adv.", "Adv.", "kk. ket."),
+        "prep." to listOf("предл.", "prép.", "Präp.", "kd."),
+        "conj." to listOf("союз", "conj.", "Konj.", "kata sambung"),
+        "pron." to listOf("мест.", "pron.", "Pron.", "kg."),
+        "det." to listOf("опред.", "dét.", "Det.", "penentu"),
+        "exclam." to listOf("межд.", "interj.", "Interj.", "kata seru"),
+        "number" to listOf("числ.", "nombre", "Zahlw.", "bilangan"),
+        "modal v." to listOf("модальный гл.", "verbe modal", "Modalverb", "kk. modal"),
+        "auxiliary v." to listOf("вспом. гл.", "auxiliaire", "Hilfsverb", "kk. bantu"),
+        "linking v." to listOf("гл.-связка", "verbe d'état", "Kopula", "kk. penghubung"),
+        "indefinite article" to listOf("артикль", "article", "Artikel", "kata sandang"),
+        "definite article" to listOf("артикль", "article", "Artikel", "kata sandang"),
+        "infinitive marker" to listOf("частица", "particule", "Partikel", "partikel"),
+        "ordinal number" to listOf("порядк. числ.", "ordinal", "Ordinalzahl", "bil. tingkat"),
+    )
+    val re = Regex(keys.joinToString("|") { Regex.escape(it) })
+    val i = lang.ordinal
+    val parts = re.findAll(pos).map { names[it.value]?.get(i) ?: it.value }.distinct().toList()
     return if (parts.isEmpty()) pos else parts.joinToString(", ")
 }

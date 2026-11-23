@@ -1,0 +1,700 @@
+1|article défini|bestimmter Artikel|kata sandang tentu
+2|de|von|dari
+3|et|und|dan
+4|à, vers|zu|ke, untuk
+5|dans|in|di dalam
+6|pour|für|untuk
+7|sur|auf|di atas
+8|ce, que|das, dass|itu, bahwa
+9|par|von, durch|oleh
+10|ce, ceci|dies, das|ini
+11|avec|mit|dengan
+12|je|ich|saya
+13|tu, vous|du, Sie|kamu, Anda
+14|il, ça|es|itu, ia
+15|ne… pas|nicht|tidak
+16|ou|oder|atau
+17|être|sein|adalah, menjadi
+18|de, depuis|aus, von|dari
+19|à|an, bei|di
+20|comme|als, wie|sebagai
+21|ton, votre|dein, Ihr|-mu, Anda
+22|tout, tous|alle|semua
+23|avoir|haben|punya
+24|devoir|müssen|harus
+25|nouveau|neu|baru
+26|plus|mehr|lebih
+27|article indéfini|unbestimmter Artikel|kata sandang tak tentu
+28|nous|wir|kami, kita
+29|futur (will)|werden|akan
+30|maison; à la maison|Zuhause; nach Hause|rumah; pulang
+31|pouvoir|können|bisa
+32|nous (complément)|uns|kami (objek)
+33|à propos de|über|tentang
+34|si|wenn, ob|jika
+35|page|Seite|halaman
+36|mon|mein|saya (milik)
+37|libre; gratuit|frei; kostenlos|bebas; gratis
+38|mais|aber|tetapi
+39|notre|unser|kami (milik)
+40|un|eins|satu
+41|autre|andere|lain
+42|faire|tun, machen|melakukan
+43|non; aucun|nein; kein|tidak; tak ada
+44|personne|niemand|tidak seorang pun
+45|information|Information|informasi
+46|temps; fois|Zeit; Mal|waktu; kali
+47|ils, elles|sie|mereka
+48|il|er|dia (laki-laki)
+49|en haut|hinauf, oben|ke atas
+50|mai|Mai|Mei
+51|quoi, quel|was, welche|apa
+52|lequel, qui|welche, der|yang
+53|leur|ihr|mereka (milik)
+54|nouvelles|Nachrichten|berita
+55|dehors|hinaus|keluar
+56|utiliser|benutzen|menggunakan
+57|n'importe quel|irgendein|apa saja
+58|là|dort|di sana
+59|voir|sehen|melihat
+60|seul; seulement|einzig; nur|satu-satunya; hanya
+61|si; donc|so; also|begitu; jadi
+62|son, sa|sein|dia (milik laki-laki)
+63|quand|wann, wenn|kapan
+64|ici|hier|di sini
+65|affaires, entreprise|Geschäft|bisnis
+66|qui|wer|siapa
+67|aussi|auch|juga
+68|maintenant|jetzt|sekarang
+69|aider; aide|helfen; Hilfe|membantu; bantuan
+70|obtenir|bekommen|mendapat
+71|en ligne|online|daring
+72|premier; d'abord|erste; zuerst|pertama; dulu
+73|conditionnel (would)|würde|akan (bersyarat)
+74|comment|wie|bagaimana
+75|me, moi|mich, mir|saya (objek)
+76|quelques|einige|beberapa
+77|son, sa (chose)|sein, ihr (Sache)|-nya
+78|comme|wie|seperti
+79|aimer|mögen|suka
+80|que (comparaison)|als|daripada
+81|trouver|finden|menemukan
+82|prix|Preis|harga
+83|date|Datum|tanggal
+84|dos; en arrière|Rücken; zurück|punggung; kembali
+85|gens|Leute|orang-orang
+86|liste; lister|Liste; auflisten|daftar; mendaftar
+87|nom; nommer|Name; nennen|nama; menamai
+88|juste|gerade, nur|hanya, baru saja
+89|au-dessus de|über|di atas
+90|année|Jahr|tahun
+91|jour|Tag|hari
+92|dans (vers)|in (hinein)|ke dalam
+93|e-mail|E-Mail|surel
+94|deux|zwei|dua
+95|santé|Gesundheit|kesehatan
+96|monde|Welt|dunia
+97|prochain|nächste|berikutnya
+98|à côté de|neben|di sebelah
+99|aller|gehen|pergi
+100|travailler; travail|arbeiten; Arbeit|bekerja; pekerjaan
+101|dernier|letzte|terakhir
+102|le plus|meiste|paling
+103|musique|Musik|musik
+104|acheter|kaufen|membeli
+105|faire, fabriquer|machen|membuat
+106|les, leur|sie, ihnen|mereka (objek)
+107|devrait|sollte|sebaiknya
+108|produit|Produkt|produk
+109|courrier; publier|Post; posten|pos; mengunggah
+110|elle, la, son|sie, ihr|dia (perempuan)
+111|ville|Stadt|kota
+112|ajouter|hinzufügen|menambahkan
+113|numéro, nombre|Nummer, Zahl|nomor, angka
+114|s'il vous plaît|bitte|tolong
+115|message|Nachricht|pesan
+116|après|nach|setelah
+117|meilleur|beste|terbaik
+118|alors, ensuite|dann|lalu
+119|bon|gut|baik
+120|vidéo|Video|video
+121|bien|gut|baik, dengan baik
+122|où|wo|di mana
+123|haut|hoch|tinggi
+124|école|Schule|sekolah
+125|à travers|durch|melalui
+126|chaque|jeder|setiap
+127|elle|sie|dia (perempuan)
+128|ordre; commander|Ordnung; bestellen|urutan; memesan
+129|très|sehr|sangat
+130|livre|Buch|buku
+131|entreprise|Firma|perusahaan
+132|lire|lesen|membaca
+133|groupe|Gruppe|kelompok
+134|avoir besoin de|brauchen|membutuhkan
+135|beaucoup de|viele|banyak
+136|sous|unter|di bawah
+137|université|Universität|universitas
+138|janvier|Januar|Januari
+139|plein|voll|penuh
+140|carte|Landkarte|peta
+141|vie|Leben|kehidupan
+142|savoir|wissen|tahu
+143|chemin, manière|Weg, Art|jalan, cara
+144|partie|Teil|bagian
+145|pourrait|könnte|bisa (lampau)
+146|grand, génial|großartig|hebat
+147|hôtel|Hotel|hotel
+148|réel|echt|nyata
+149|devoir|müssen|harus
+150|voyager|reisen|bepergian
+151|rapport|Bericht|laporan
+152|éteint; loin|aus; weg|mati; pergi
+153|membre|Mitglied|anggota
+154|ligne|Linie, Zeile|garis
+155|avant|vor|sebelum
+156|envoyer|senden|mengirim
+157|droit; correct|rechts; richtig|kanan; benar
+158|type|Typ, Art|jenis
+159|parce que|weil|karena
+160|local|örtlich|lokal
+161|bureau|Büro|kantor
+162|voiture|Auto|mobil
+163|design; concevoir|Design; entwerfen|desain; merancang
+164|prendre|nehmen|mengambil
+165|internet|Internet|internet
+166|adresse|Adresse|alamat
+167|zone|Gebiet|area
+168|vouloir|wollen|ingin
+169|téléphone|Telefon|telepon
+170|DVD|DVD|DVD
+171|sujet; matière|Thema; Fach|topik; mata pelajaran
+172|entre|zwischen|di antara
+173|famille|Familie|keluarga
+174|long; longtemps|lang|panjang; lama
+175|montrer; spectacle|zeigen; Show|menunjukkan; acara
+176|même|sogar|bahkan
+177|noir|schwarz|hitam
+178|vérifier|prüfen|memeriksa
+179|spécial|besonders|khusus
+180|site web|Webseite|situs web
+181|beaucoup|viel|banyak
+182|ouvert; ouvrir|offen; öffnen|terbuka; membuka
+183|aujourd'hui|heute|hari ini
+184|sud|Süden|selatan
+185|projet|Projekt|proyek
+186|même|gleich|sama
+187|section|Abschnitt|bagian
+188|propre|eigen|sendiri
+189|maison|Haus|rumah
+190|les deux|beide|keduanya
+191|photo|Foto|foto
+192|jeu|Spiel|permainan
+193|en bas|hinunter|ke bawah
+194|ordinateur|Computer|komputer
+195|trois|drei|tiga
+196|endroit|Ort|tempat
+197|fin; finir|Ende; enden|akhir; berakhir
+198|le, lui|ihn, ihm|dia (objek)
+199|sans|ohne|tanpa
+200|penser|denken|berpikir
+201|nord|Norden|utara
+202|grand|groß|besar
+203|eau|Wasser|air
+204|histoire|Geschichte|sejarah
+205|art|Kunst|seni
+206|personnel|persönlich|pribadi
+207|magasin; faire du shopping|Laden; einkaufen|toko; berbelanja
+208|changer; changement|ändern; Änderung|mengubah; perubahan
+209|blanc|weiß|putih
+210|texte|Text|teks
+211|petit|klein|kecil
+212|pendant|während|selama
+213|revenir; retour|zurückkehren; Rückkehr|kembali; pengembalian
+214|shopping|Einkaufen|belanja
+215|forme; formulaire|Form; Formular|bentuk; formulir
+216|amour; aimer|Liebe; lieben|cinta; mencintai
+217|vieux|alt|tua
+218|principal|Haupt-|utama
+219|appeler; appel|anrufen; Anruf|menelepon; panggilan
+220|titre|Titel|judul
+221|description|Beschreibung|deskripsi
+222|un autre|ein anderer|yang lain
+223|pourquoi|warum|mengapa
+224|classe; cours|Klasse; Unterricht|kelas
+225|CD|CD|CD
+226|encore, toujours|noch|masih
+227|argent|Geld|uang
+228|chaque|jeder|setiap
+229|pays|Land|negara
+230|petit; peu|klein; wenig|kecil; sedikit
+231|visiter; visite|besuchen; Besuch|mengunjungi; kunjungan
+232|client|Kunde|pelanggan
+233|décembre|Dezember|Desember
+234|comparer|vergleichen|membandingkan
+235|inclure|enthalten|mencakup
+236|collège, faculté|College|perguruan tinggi
+237|article|Artikel|artikel
+238|homme|Mann|pria
+239|carte|Karte|kartu
+240|nourriture|Essen|makanan
+241|différent|verschieden|berbeda
+242|apprendre|lernen|belajar
+243|autour|um… herum|di sekitar
+244|cours|Kurs|kursus
+245|emploi|Job|pekerjaan
+246|pièce, chambre|Zimmer|ruangan
+247|trop; aussi|zu; auch|terlalu; juga
+248|point|Punkt|titik, poin
+249|rejoindre|beitreten|bergabung
+250|science|Wissenschaft|ilmu pengetahuan
+251|ouest|Westen|barat
+252|regarder|schauen|melihat
+253|gauche|links|kiri
+254|équipe|Team|tim
+255|boîte|Kiste|kotak
+256|semaine|Woche|minggu
+257|note|Notiz|catatan
+258|vivre|leben, wohnen|tinggal, hidup
+259|grand|groß|besar
+260|table; tableau|Tisch; Tabelle|meja; tabel
+261|cependant|jedoch|namun
+262|juin|Juni|Juni
+263|octobre|Oktober|Oktober
+264|novembre|November|November
+265|marché|Markt|pasar
+266|bibliothèque|Bibliothek|perpustakaan
+267|vraiment|wirklich|sungguh
+268|action|Handlung|tindakan
+269|commencer|anfangen|memulai
+270|modèle|Modell|model
+271|air|Luft|udara
+272|plan; planifier|Plan; planen|rencana; merencanakan
+273|télé|Fernseher|TV
+274|oui|ja|ya
+275|deuxième|zweite|kedua
+276|seconde|Sekunde|detik
+277|chaud|heiß|panas
+278|coût; coûter|Kosten; kosten|biaya; berharga
+279|film|Film|film
+280|mars|März|Maret
+281|septembre|September|September
+282|meilleur|besser|lebih baik
+283|dire|sagen|berkata
+284|juillet|Juli|Juli
+285|test; tester|Test; testen|tes; menguji
+286|ami|Freund|teman
+287|venir|kommen|datang
+288|études; étudier|Studium; studieren|studi; belajar
+289|encore|wieder|lagi
+290|jouer; pièce|spielen; Theaterstück|bermain; drama
+291|avril|April|April
+292|jamais|nie|tidak pernah
+293|complet; achever|vollständig; abschließen|lengkap; menyelesaikan
+294|rue|Straße|jalan
+295|sujet|Thema|topik
+296|personne|Person|orang
+297|en dessous|unten|di bawah
+298|blog|Blog|blog
+299|fête; parti|Party; Partei|pesta; partai
+300|étudiant|Student|mahasiswa
+301|laisser|lassen|membiarkan
+302|au-dessus|über|di atas
+303|parc; se garer|Park; parken|taman; parkir
+304|problème|Problem|masalah
+305|rouge|rot|merah
+306|donner|geben|memberi
+307|août|August|Agustus
+308|langue|Sprache|bahasa
+309|histoire, récit|Geschichte|cerita
+310|vendre|verkaufen|menjual
+311|créer|schaffen|menciptakan
+312|clé; clé (adj.)|Schlüssel; Schlüssel-|kunci; utama
+313|corps|Körper|tubuh
+314|jeune|jung|muda
+315|important|wichtig|penting
+316|peu de|wenige|sedikit
+317|est|Osten|timur
+318|papier|Papier|kertas
+319|âge|Alter|usia
+320|club|Verein|klub
+321|exemple|Beispiel|contoh
+322|quelque chose|etwas|sesuatu
+323|route|Straße|jalan
+324|question|Frage|pertanyaan
+325|nuit|Nacht|malam
+326|dur; difficile|hart; schwer|keras; sulit
+327|payer|bezahlen|membayar
+328|quatre|vier|empat
+329|bâtiment|Gebäude|gedung
+330|février|Februar|Februari
+331|toujours|immer|selalu
+332|résultat|Ergebnis|hasil
+333|lumière; clair|Licht; hell|cahaya; terang
+334|écrire|schreiben|menulis
+335|bleu|blau|biru
+336|facile|leicht|mudah
+337|événement|Ereignis|acara
+338|image|Bild|gambar
+339|possible|möglich|mungkin
+340|mois|Monat|bulan
+341|étoile|Stern|bintang
+342|avenir|Zukunft|masa depan
+343|espace|Raum, Weltraum|ruang, angkasa
+344|main|Hand|tangan
+345|soleil|Sonne|matahari
+346|réunion|Besprechung|rapat
+347|devenir|werden|menjadi
+348|intérêt; intéresser|Interesse; interessieren|minat; menarik minat
+349|enfant|Kind|anak
+350|garder|behalten|menyimpan
+351|partager|teilen|berbagi
+352|similaire|ähnlich|mirip
+353|jardin|Garten|kebun
+354|million|Million|juta
+355|bébé|Baby|bayi
+356|courir|laufen|berlari
+357|populaire|beliebt|populer
+358|film|Film|film
+359|mettre|legen, stellen|menaruh
+360|essayer|versuchen|mencoba
+361|bienvenue|willkommen|selamat datang
+362|tête|Kopf|kepala
+363|radio|Radio|radio
+364|jusqu'à|bis|sampai
+365|loin|weg|jauh
+366|une fois|einmal|sekali
+367|sûr|sicher|yakin
+368|dire, raconter|erzählen|memberi tahu
+369|amusement|Spaß|kesenangan
+370|vert|grün|hijau
+371|fermer|schließen|menutup
+372|commun|üblich|umum
+373|conduire|fahren|mengemudi
+374|court|kurz|pendek
+375|beaucoup|viel|banyak
+376|demander|fragen|bertanya
+377|plage|Strand|pantai
+378|passé|vergangen; Vergangenheit|lalu; masa lalu
+379|naturel|natürlich|alami
+380|cinq|fünf|lima
+381|période|Zeitraum|periode
+382|météo|Wetter|cuaca
+383|terre|Land|tanah, daratan
+384|fenêtre|Fenster|jendela
+385|île|Insel|pulau
+386|style|Stil|gaya
+387|devant; avant|Vorderseite; vorne|depan
+388|déclaration|Aussage|pernyataan
+389|jamais (déjà)|je|pernah
+390|tôt; précoce|früh|awal; pagi
+391|son; sonner|Klang; klingen|suara; terdengar
+392|présent; cadeau|anwesend; Geschenk|hadir; hadiah
+393|il y a|vor (zeitlich)|yang lalu
+394|mot|Wort|kata
+395|facture|Rechnung|tagihan
+396|parler|sprechen|berbicara
+397|final|letzte|terakhir
+398|adulte|Erwachsener|orang dewasa
+399|chose|Ding|benda
+400|centre|Zentrum|pusat
+401|bon marché|billig|murah
+402|vrai|wahr|benar
+403|d'autre|sonst|lagi, lain
+404|troisième|dritte|ketiga
+405|lecture|Lesen|membaca
+406|mauvais|schlecht|buruk
+407|habituellement|normalerweise|biasanya
+408|ensemble|zusammen|bersama
+409|rapide; vite|schnell|cepat
+410|fait|Tatsache|fakta
+411|rencontrer|treffen|bertemu
+412|loin|weit|jauh
+413|joueur|Spieler|pemain
+414|souvent|oft|sering
+415|regarder; montre|ansehen; Armbanduhr|menonton; jam tangan
+416|sentir|fühlen|merasa
+417|banque|Bank|bank
+418|merci|danke|terima kasih
+419|tout|alles|semuanya
+420|ville|Stadt|kota kecil
+421|choisir|wählen|memilih
+422|magazine|Zeitschrift|majalah
+423|appareil photo|Kamera|kamera
+424|fille|Mädchen|gadis
+425|moitié|Hälfte|setengah
+426|rapide|schnell|cepat
+427|vendredi|Freitag|Jumat
+428|plus tard|später|nanti
+429|pratique|Übung|latihan
+430|feu|Feuer|api
+431|vacances|Urlaub|liburan
+432|assez|genug|cukup
+433|écriture|Schreiben|tulisan
+434|visage|Gesicht|wajah
+435|se souvenir|sich erinnern|ingat
+436|jaune|gelb|kuning
+437|près|nahe|dekat
+438|oh|oh|oh
+439|rester|bleiben|tinggal
+440|tourner; tour|drehen; Reihe|berbelok; giliran
+441|signifier|bedeuten|berarti
+442|lundi|Montag|Senin
+443|activité|Aktivität|kegiatan
+444|rivière|Fluss|sungai
+445|arrêter|anhalten|berhenti
+446|chien|Hund|anjing
+447|construire|bauen|membangun
+448|bientôt|bald|segera
+449|à travers|über, quer|melintasi
+450|quelqu'un|jemand|seseorang
+451|quelque chose|irgendetwas|apa pun
+452|croire|glauben|percaya
+453|dimanche|Sonntag|Minggu
+454|menu|Speisekarte|menu
+455|quelqu'un|irgendjemand|siapa pun
+456|espérer|hoffen|berharap
+457|rien|nichts|tidak ada apa-apa
+458|bien; fin|gut; fein|baik-baik saja
+459|heure|Stunde|jam
+460|six|sechs|enam
+461|conseil|Rat|nasihat
+462|carrière|Karriere|karier
+463|partir|verlassen|pergi
+464|femme|Frau|wanita
+465|sorte, genre|Art|jenis
+466|bouger|bewegen|bergerak
+467|mardi|Dienstag|Selasa
+468|objet|Gegenstand|benda
+469|machine|Maschine|mesin
+470|gentil, agréable|nett|bagus, baik
+471|d'accord|okay|oke
+472|capitale; majuscule|Hauptstadt; Groß-|ibu kota; huruf besar
+473|suivre|folgen|mengikuti
+474|samedi|Samstag|Sabtu
+475|culture|Kultur|budaya
+476|groupe de musique|Band|grup musik
+477|jeudi|Donnerstag|Kamis
+478|salut|hallo|hai
+479|aéroport|Flughafen|bandara
+480|artiste|Künstler|seniman
+481|dehors|draußen|di luar
+482|lettre|Brief; Buchstabe|surat; huruf
+483|mercredi|Mittwoch|Rabu
+484|été|Sommer|musim panas
+485|chanson|Lied|lagu
+486|tard; en retard|spät|terlambat
+487|tomber|fallen|jatuh
+488|idée|Idee|ide
+489|gagner|gewinnen|menang
+490|raison|Grund|alasan
+491|printemps|Frühling|musim semi
+492|réponse; répondre|Antwort; antworten|jawaban; menjawab
+493|amical|freundlich|ramah
+494|lit|Bett|tempat tidur
+495|police|Polizei|polisi
+496|tout le monde|alle|semua orang
+497|marron|braun|cokelat
+498|verre|Glas|kaca; gelas
+499|heureux|glücklich|bahagia
+500|remercier|danken|berterima kasih
+501|téléphone|Telefon|telepon
+502|sport|Sport|olahraga
+503|prêt|bereit|siap
+504|animal|Tier|hewan
+505|gare, station|Bahnhof|stasiun
+506|comprendre|verstehen|mengerti
+507|probablement|wahrscheinlich|mungkin
+508|mer|Meer|laut
+509|couper|schneiden|memotong
+510|améliorer|verbessern|memperbaiki
+511|cuisine|Küche|dapur
+512|fort|stark|kuat
+513|hôpital|Krankenhaus|rumah sakit
+514|parfait|perfekt|sempurna
+515|cheveux|Haare|rambut
+516|arbre|Baum|pohon
+517|mur|Wand|dinding
+518|supplémentaire|zusätzlich|tambahan
+519|succès|Erfolg|kesuksesan
+520|assez, plutôt|ziemlich|cukup
+521|garçon|Junge|anak laki-laki
+522|beau|schön|cantik
+523|vin|Wein|anggur (minuman)
+524|cheval|Pferd|kuda
+525|utile|nützlich|berguna
+526|fils|Sohn|putra
+527|règle|Regel|aturan
+528|apporter|bringen|membawa
+529|mère|Mutter|ibu
+530|circulation|Verkehr|lalu lintas
+531|programme|Programm|program
+532|moderne|modern|modern
+533|porte|Tür|pintu
+534|frais; cool|kühl; cool|sejuk; keren
+535|positif|positiv|positif
+536|opinion|Meinung|pendapat
+537|football|Fußball|sepak bola
+538|vacances|Urlaub|liburan
+539|siècle|Jahrhundert|abad
+540|montagne|Berg|gunung
+541|derrière|hinter|di belakang
+542|sol; étage|Boden; Stockwerk|lantai
+543|match; correspondre|Spiel; passen|pertandingan; cocok
+544|matin|Morgen|pagi
+545|plante; planter|Pflanze; pflanzen|tanaman; menanam
+546|piscine|Schwimmbad|kolam renang
+547|partenaire|Partner|pasangan, mitra
+548|poisson|Fisch|ikan
+549|œil|Auge|mata
+550|né|geboren|lahir
+551|peut-être|vielleicht|mungkin
+552|joli; assez|hübsch; ziemlich|cantik; cukup
+553|toi-même|dich selbst|dirimu sendiri
+554|hiver|Winter|musim dingin
+555|télévision|Fernsehen|televisi
+556|intéressé|interessiert|tertarik
+557|casser; pause|brechen; Pause|mematahkan; istirahat
+558|danse; danser|Tanz; tanzen|tarian; menari
+559|lecteur|Leser|pembaca
+560|sombre|dunkel|gelap
+561|pomme|Apfel|apel
+562|apprécier|genießen|menikmati
+563|faux, incorrect|falsch|salah
+564|début|Anfang|awal
+565|gros|dick|gemuk
+566|père|Vater|ayah
+567|conducteur|Fahrer|pengemudi
+568|restaurant|Restaurant|restoran
+569|voyage|Reise|perjalanan
+570|pauvre|arm|miskin
+571|enseignant|Lehrer|guru
+572|ferme|Bauernhof|peternakan
+573|être d'accord|zustimmen|setuju
+574|entendre|hören|mendengar
+575|parfois|manchmal|kadang-kadang
+576|musée|Museum|museum
+577|intéressant|interessant|menarik
+578|épouse|Ehefrau|istri
+579|dix|zehn|sepuluh
+580|chat|Katze|kucing
+581|mourir|sterben|mati
+582|appartement; plat|Wohnung; flach|apartemen; datar
+583|parent|Elternteil|orang tua
+584|être debout|stehen|berdiri
+585|détail|Detail|detail
+586|commencer|beginnen|mulai
+587|propre; nettoyer|sauber; putzen|bersih; membersihkan
+588|tasse|Tasse|cangkir
+589|régime|Ernährung, Diät|diet
+590|différence|Unterschied|perbedaan
+591|correct; corriger|richtig; korrigieren|benar; memperbaiki
+592|morceau|Stück|potongan
+593|sept|sieben|tujuh
+594|balle|Ball|bola
+595|écouter|zuhören|mendengarkan
+596|discuter|besprechen|membahas
+597|situation|Situation|situasi
+598|difficile|schwierig|sulit
+599|village|Dorf|desa
+600|café|Kaffee|kopi
+601|glace|Eis|es
+602|rose|rosa|merah muda
+603|minute|Minute|menit
+604|bus|Bus|bus
+605|dictionnaire|Wörterbuch|kamus
+606|froid; rhume|kalt; Erkältung|dingin; pilek
+607|chaise|Stuhl|kursi
+608|sac|Tasche|tas
+609|t-shirt|T-Shirt|kaus
+610|chemise|Hemd|kemeja
+611|pied|Fuß|kaki
+612|vite|schnell|dengan cepat
+613|manquer; rater|vermissen; verpassen|merindukan; ketinggalan
+614|médecin|Arzt|dokter
+615|exercice|Übung|latihan
+616|vol|Flug|penerbangan
+617|marcher; promenade|gehen; Spaziergang|berjalan; jalan-jalan
+618|attendre|warten|menunggu
+619|orange|Orange; orange|jeruk; oranye
+620|riche|reich|kaya
+621|guitare|Gitarre|gitar
+622|quart|Viertel|seperempat
+623|petit-déjeuner|Frühstück|sarapan
+624|moment|Moment|saat
+625|désolé|Entschuldigung|maaf
+626|neige|Schnee|salju
+627|week-end|Wochenende|akhir pekan
+628|dollar|Dollar|dolar
+629|remplir|füllen|mengisi
+630|graphique|Diagramm|grafik
+631|hier|gestern|kemarin
+632|drôle|lustig|lucu
+633|frère|Bruder|saudara laki-laki
+634|bateau|Boot|perahu
+635|théâtre|Theater|teater
+636|soir|Abend|malam
+637|souris|Maus|tikus
+638|faux|falsch|salah
+639|fleur|Blume|bunga
+640|porter|tragen|membawa
+641|bonjour|hallo|halo
+642|huit|acht|delapan
+643|entretien|Interview|wawancara
+644|bureau (meuble)|Schreibtisch|meja tulis
+645|festival|Festival|festival
+646|train|Zug|kereta
+647|parler|sprechen|berbicara
+648|centime|Cent|sen
+649|appartement|Wohnung|apartemen
+650|bain|Bad|bak mandi
+651|négatif|negativ|negatif
+652|en bonne santé|gesund|sehat
+653|marié|verheiratet|menikah
+654|anniversaire|Geburtstag|ulang tahun
+655|porter (vêtement)|tragen|memakai
+656|finir|beenden|menyelesaikan
+657|dormir|schlafen|tidur
+658|oiseau|Vogel|burung
+659|célèbre|berühmt|terkenal
+660|écrivain|Schriftsteller|penulis
+661|boisson; boire|Getränk; trinken|minuman; minum
+662|manger|essen|makan
+663|couleur|Farbe|warna
+664|sens|Bedeutung|arti
+665|merveilleux|wunderbar|luar biasa
+666|billet|Fahrkarte|tiket
+667|deviner|raten|menebak
+668|voler|fliegen|terbang
+669|fille (enfant)|Tochter|putri
+670|hé|hey|hei
+671|thé|Tee|teh
+672|robe; s'habiller|Kleid; anziehen|gaun; berpakaian
+673|arriver, se passer|passieren|terjadi
+674|vêtements|Kleidung|pakaian
+675|journal|Zeitung|koran
+676|lent|langsam|lambat
+677|neuf|neun|sembilan
+678|dépenser; passer|ausgeben; verbringen|menghabiskan
+679|grandir|wachsen|tumbuh
+680|incroyable|erstaunlich|menakjubkan
+681|horloge|Uhr|jam dinding
+682|heure (à 5 heures)|Uhr (5 Uhr)|pukul
+683|sentiment|Gefühl|perasaan
+684|pluie|Regen|hujan
+685|tennis|Tennis|tenis
+686|chambre|Schlafzimmer|kamar tidur
+687|monter (à cheval)|reiten|naik, menunggang
+688|paire|Paar|pasang
+689|dîner|Abendessen|makan malam
+690|crème|Sahne|krim
+691|glace (dessert)|Eiscreme|es krim
+692|ouais|ja|ya
+693|quatrième|vierte|keempat
+694|euro|Euro|euro
+695|sel|Salz|garam
+696|oublier|vergessen|lupa
+697|sœur|Schwester|saudara perempuan
+698|expliquer|erklären|menjelaskan
+699|paragraphe|Absatz|paragraf
+700|décrire|beschreiben|menggambarkan

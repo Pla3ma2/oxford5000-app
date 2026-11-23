@@ -34,11 +34,19 @@ jobs:
           name: oxford5000-apk
           path: oxford5000.apk
 
+      # В Releases всегда лежит только одна, последняя версия: старые релизы и их теги удаляются.
+      - name: Remove old releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --repo "$GITHUB_REPOSITORY" --limit 200 --json tagName -q '.[].tagName' \
+            | xargs -r -n1 gh release delete --repo "$GITHUB_REPOSITORY" --cleanup-tag -y
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ github.run_number }}
-          name: Oxford 5000 · сборка ${{ github.run_number }}
+          tag_name: v1.0.${{ github.run_number }}
+          name: Oxford 5000
           body: Скачайте oxford5000.apk на телефон и установите. Новая версия ставится поверх старой, прогресс сохраняется.
           files: oxford5000.apk
           make_latest: true

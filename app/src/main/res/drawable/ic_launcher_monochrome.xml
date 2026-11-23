@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Одноцветный слой для «тематических» иконок Android 13+ (Material You) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M30,38 C38,34 46,34 52,38 L52,72 C46,68 38,68 30,72 Z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M56,38 C62,34 70,34 78,38 L78,72 C70,68 62,68 56,72 Z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M51,74 L57,74 L57,80 L54,78 L51,80 Z" />
+</vector>

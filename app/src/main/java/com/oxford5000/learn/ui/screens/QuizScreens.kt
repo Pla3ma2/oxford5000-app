@@ -138,10 +138,8 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
                     if (en && q.word.hint.isNotBlank()) {
                         Text("(${q.word.hint})", fontStyle = FontStyle.Italic, fontSize = 14.sp, color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.75f))
                     }
-                    if (en && speaker.isReady) {
-                        IconButton(onClick = { speaker.speak(q.word.en) }) {
-                            Icon(Icons.AutoMirrored.Filled.VolumeUp, "Произнести", tint = MaterialTheme.colorScheme.onPrimaryContainer)
-                        }
+                    if (en) {
+                        SpeakButton(speaker, q.word.en, tint = MaterialTheme.colorScheme.onPrimaryContainer)
                     }
                 }
             }
@@ -186,9 +184,7 @@ fun QuizScreen(vm: AppViewModel, speaker: Speaker, title: String, onClose: () ->
             if (wrongAnswered && q.direction == Direction.RU_EN) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text("Правильно: ${q.word.en} — ${q.word.pos}", fontWeight = FontWeight.Medium)
-                    if (speaker.isReady) IconButton(onClick = { speaker.speak(q.word.en) }) {
-                        Icon(Icons.AutoMirrored.Filled.VolumeUp, "Произнести")
-                    }
+                    SpeakButton(speaker, q.word.en)
                 }
             }
             Spacer(Modifier.height(16.dp))

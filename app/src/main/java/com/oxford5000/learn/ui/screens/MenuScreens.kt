@@ -232,9 +232,7 @@ fun PreviewScreen(vm: AppViewModel, speaker: Speaker, stage: String, level: Int)
                         if (w.hint.isNotBlank()) Text("(${w.hint})", fontSize = 13.sp, fontStyle = FontStyle.Italic, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         Text(w.ru, fontSize = 16.sp, color = MaterialTheme.colorScheme.primary)
                     }
-                    if (speaker.isReady) IconButton(onClick = { speaker.speak(w.en) }) {
-                        Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Произнести")
-                    }
+                    SpeakButton(speaker, w.en)
                 }
                 HorizontalDivider()
             }
